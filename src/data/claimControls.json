@@ -1,0 +1,85 @@
+{
+  "rules": [
+    {
+      "match": "2.3 Mt / 1.8% Cu preliminary estimate",
+      "pattern": "2\\.3\\s*(million tonnes|mt|m\\s*t)|1\\.8\\s*%?\\s*cu",
+      "status": "requires-validation",
+      "label": "Preliminary orientation estimate — requires validation",
+      "warning": "Not a certified reserve or proven resource."
+    },
+    {
+      "match": "9.65% Cu selected sample",
+      "pattern": "9\\.65\\s*%?\\s*cu|9\\.34\\s*%?\\s*cu|7\\.24\\s*%?\\s*cu|3\\.78\\s*%?\\s*cu",
+      "status": "assay-supported",
+      "label": "Selected sample assay — not average project grade",
+      "warning": "Selected-sample evidence does not define average grade."
+    },
+    {
+      "match": "124.4M MAD CAPEX",
+      "pattern": "124\\.4\\s*(m|million)?\\s*mad",
+      "status": "preliminary-base-case",
+      "label": "Preliminary CAPEX orientation — subject to engineering update",
+      "warning": "Not the final capital cost or development ceiling."
+    },
+    {
+      "match": "800 t/day processing scenario",
+      "pattern": "800\\s*t\\s*/?\\s*day|800\\s*t/d",
+      "status": "preliminary-base-case",
+      "label": "Preliminary processing scenario — not final plant decision",
+      "warning": "Not an immediate 800 t/day plant decision."
+    },
+    {
+      "match": "USD 150,000 entry fee",
+      "pattern": "150[,.]?000|usd\\s*150k?",
+      "status": "documented",
+      "label": "Non-refundable Entry & Validation Access fee",
+      "warning": "Paid to Atlas Mining. Not a license purchase, technology fee, equity, or refundable deposit."
+    },
+    {
+      "match": "annual gains / returns",
+      "pattern": "annual gains?|annual returns?|162m|406m|162.*406",
+      "status": "do-not-use-publicly",
+      "label": "Preliminary model output — not bankable cash flow",
+      "warning": "Requires financial model correction and update before any use."
+    }
+  ],
+  "documentedNumbers": [
+    { "label": "Exploitation License", "value": "No. 353294", "numberStatus": "documented", "note": "Document-supported license reference." },
+    { "label": "Surface Area", "value": "15.36 km²", "numberStatus": "documented", "note": "Document-supported, subject to legal review." },
+    { "label": "License Validity", "value": "03/10/2024 — 02/10/2034", "numberStatus": "documented" },
+    { "label": "Research Permit", "value": "No. 3535903", "numberStatus": "documented", "note": "Subject to legal review." },
+    { "label": "Environmental Approval", "value": "CRI/24/102", "numberStatus": "documented" },
+    { "label": "ONEE Grid Connection", "value": "22 kV", "numberStatus": "documented" },
+    { "label": "Transformer Reference", "value": "630–800 kVA", "numberStatus": "preliminary-base-case" },
+    { "label": "Entry Fee", "value": "USD 150,000", "numberStatus": "documented", "note": "Non-refundable Entry & Validation Access fee." }
+  ],
+  "prohibitedClaims": [
+    "confirmed reserve",
+    "proven resource",
+    "guaranteed production",
+    "guaranteed grade",
+    "bankable feasibility",
+    "final CAPEX",
+    "secured annual gains",
+    "immediate 800 t/day plant decision",
+    "guaranteed recovery",
+    "guaranteed operating agreement"
+  ],
+  "baseCaseLanguage": {
+    "use": [
+      "preliminary orientation case",
+      "base engineering hypothesis",
+      "initial industrial scenario",
+      "subject to feasibility upgrade"
+    ],
+    "avoid": ["final feasibility", "certified reserves", "proven economics"]
+  },
+  "upsideCaseLanguage": {
+    "use": [
+      "potential upside beyond the preliminary orientation case",
+      "larger mineralized system hypothesis",
+      "expansion potential subject to drilling and resource validation"
+    ],
+    "avoid": ["confirmed larger reserve", "guaranteed resource growth", "proven expansion"]
+  }
+}

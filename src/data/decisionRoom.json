@@ -1,0 +1,51 @@
+{
+  "decisionGates": [
+    { "id": "gate-1", "index": 1, "title": "License Confirmation", "status": "in-progress", "requiredEvidence": "Original legal documents, holder confirmation, boundaries by counsel.", "owner": "Legal review layer", "nextAction": "Confirm holder name and boundaries with legal counsel." },
+    { "id": "gate-2", "index": 2, "title": "Evidence Organization", "status": "in-progress", "requiredEvidence": "Field report, trench/sample register, AFRILAB reports digitized.", "owner": "Intelligent Validation System", "nextAction": "Complete evidence matrix and data-gap register." },
+    { "id": "gate-3", "index": 3, "title": "Sampling Upgrade", "status": "not-started", "requiredEvidence": "Channel sampling plan, QA/QC controls, multi-element assays.", "owner": "Geology team", "nextAction": "Design representative channel sampling program." },
+    { "id": "gate-4", "index": 4, "title": "Geophysics Plan", "status": "not-started", "requiredEvidence": "IP / Resistivity survey plan and target rationale.", "owner": "Geophysics contractor", "nextAction": "Scope and quote IP / Resistivity survey." },
+    { "id": "gate-5", "index": 5, "title": "Drilling Target Approval", "status": "not-started", "requiredEvidence": "Updated target model from geophysics and geochemistry.", "owner": "Technical advisor + Atlas", "nextAction": "Approve short drilling target list." },
+    { "id": "gate-6", "index": 6, "title": "Pilot Feed Approval", "status": "not-started", "requiredEvidence": "Ore-type classification, pilot feed definition memo.", "owner": "Geology + metallurgy", "nextAction": "Define and approve pilot feed material." },
+    { "id": "gate-7", "index": 7, "title": "Process Route Review", "status": "not-started", "requiredEvidence": "Flotation tests, oxide/sulfide/mixed route analysis.", "owner": "Process engineering", "nextAction": "Review 800 t/day vs modular pilot route." },
+    { "id": "gate-8", "index": 8, "title": "Water & Power Review", "status": "not-started", "requiredEvidence": "Water balance, hydrogeology, ONEE connection study.", "owner": "Infrastructure advisors", "nextAction": "Validate water availability and power connection." },
+    { "id": "gate-9", "index": 9, "title": "CAPEX Upgrade", "status": "not-started", "requiredEvidence": "Updated engineering quantities and current costs.", "owner": "Engineering + commercial", "nextAction": "Produce CAPEX sensitivity table from updated basis." },
+    { "id": "gate-10", "index": 10, "title": "Operating Entry Decision", "status": "not-started", "requiredEvidence": "Validated decision pack, term sheet, board memo.", "owner": "Atlas board", "nextAction": "Decide on pilot, staged production, or hold/redesign." }
+  ],
+  "nextDecisions": [
+    { "title": "Confirm license legal basis", "detail": "Validate holder name, boundaries and related permits with counsel before any disclosure beyond qualified review.", "owner": "Legal review layer" },
+    { "title": "Resolve material-balance review item (AIPS-014)", "detail": "Audit the 225,000 t/year × 1.8% Cu copper-metal calculation before any investor-grade financial use.", "owner": "Technical advisor" },
+    { "title": "Approve representative sampling program", "detail": "Move from selected-sample evidence to representative channel sampling with QA/QC.", "owner": "Geology team" }
+  ],
+  "riskControls": [
+    { "id": "risk-1", "category": "Legal", "risk": "License holder / boundary details not yet counsel-confirmed.", "control": "Restrict full legal documents to counsel; qualified tier sees summary only.", "severity": "High" },
+    { "id": "risk-2", "category": "Technical", "risk": "Material-balance inconsistency in orientation study (AIPS-014).", "control": "Flag as feasibility-upgrade requirement; exclude from financial claims until audited.", "severity": "High" },
+    { "id": "risk-3", "category": "Commercial", "risk": "Selected high-grade assays misread as average grade.", "control": "Label every assay as selected-sample evidence; show full grade variability.", "severity": "Medium" },
+    { "id": "risk-4", "category": "Financial", "risk": "Preliminary annual gains treated as bankable cash flow.", "control": "Mark as 'do-not-use-publicly'; require model correction.", "severity": "High" },
+    { "id": "risk-5", "category": "Environmental", "risk": "Water, tailings and power assumptions unverified.", "control": "Permits and studies required before pilot/operations.", "severity": "Medium" },
+    { "id": "risk-6", "category": "Commercial", "risk": "Entry fee misunderstood as license purchase or technology fee.", "control": "Consistently present as non-refundable Entry & Validation Access fee.", "severity": "Medium" }
+  ],
+  "claimControlsStatus": [
+    "All large numbers carry a maturity label (documented / preliminary / requires-validation).",
+    "Selected assays labelled as not-average-grade everywhere they appear.",
+    "CAPEX presented as preliminary orientation framework, not final.",
+    "Entry fee presented as non-refundable access fee, independent of technology.",
+    "Prohibited-claim vocabulary blocked across the platform."
+  ],
+  "feasibilityUpgradeStatus": {
+    "currentPhase": 1,
+    "label": "Phase 1 — Data Consolidation & Assumption Control",
+    "summary": "Registers and claims-control matrix are being assembled. Validation work plan in preparation."
+  },
+  "operatingEntryStatus": {
+    "stage": "Commercial draft",
+    "summary": "Structured Operating Entry offer drafted. Awaiting qualified-party engagement and NDA before technical disclosure."
+  },
+  "unresolvedValidationItems": [
+    "License holder / boundary confirmation (legal).",
+    "Material-balance audit AIPS-014 (technical).",
+    "Representative grade via channel sampling (geology).",
+    "Copper recovery confirmation via flotation tests (metallurgy).",
+    "Water availability and ONEE power connection (infrastructure).",
+    "CAPEX update to current costs (engineering)."
+  ]
+}

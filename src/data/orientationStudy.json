@@ -1,0 +1,125 @@
+{
+  "study": {
+    "title": "Etude d'orientation pour la construction du Projet de la Mine Isseksi — Licence d'exploitation N°353294",
+    "preparedBy": "Africa Industrial Power Systems (A.I.P.S.)",
+    "purpose": [
+      "Geological resources review",
+      "Optimal production capacity",
+      "Ore extraction method",
+      "Ore processing route",
+      "Investment estimate",
+      "Operating cost estimate",
+      "Gains and return on investment",
+      "Project implementation planning"
+    ],
+    "coreMessage": "The A.I.P.S orientation study gives Atlas Mining a preliminary mine-construction and processing scenario. It establishes a base case that can be upgraded, corrected, validated, and expanded through the 180-day feasibility process."
+  },
+  "productionScenario": [
+    { "label": "Proposed open pits", "value": "4", "numberStatus": "preliminary-base-case" },
+    { "label": "Average production per pit", "value": "200 t/day", "numberStatus": "preliminary-base-case" },
+    { "label": "Proposed sulfide plant capacity", "value": "800 t/day", "numberStatus": "preliminary-base-case" },
+    { "label": "Preliminary estimated resource", "value": "2.3 Mt", "numberStatus": "requires-validation" },
+    { "label": "Preliminary average grade", "value": "1.8% Cu", "numberStatus": "requires-validation" }
+  ],
+  "capex": {
+    "totalMad": 124.4,
+    "components": [
+      { "name": "Plant CAPEX", "valueMad": 96.06, "share": 0.7722 },
+      { "name": "Infrastructure CAPEX", "valueMad": 24.93, "share": 0.2004 },
+      { "name": "Mine CAPEX", "valueMad": 3.41, "share": 0.0274 }
+    ],
+    "note": "Preliminary CAPEX orientation — subject to engineering update. 124.4M MAD HT is the preliminary CAPEX framework stated in the A.I.P.S orientation study, not the final capital cost or development ceiling."
+  },
+  "processSteps": [
+    { "order": 1, "step": "Primary crushing" },
+    { "order": 2, "step": "Secondary and tertiary crushing to 10 mm" },
+    { "order": 3, "step": "Ball milling to d80 120 microns" },
+    { "order": 4, "step": "Flotation of sulfide ore" },
+    { "order": 5, "step": "Detalcage" },
+    { "order": 6, "step": "Roughing" },
+    { "order": 7, "step": "Scavenging" },
+    { "order": 8, "step": "Re-cleaning" },
+    { "order": 9, "step": "Concentrate thickening" },
+    { "order": 10, "step": "Concentrate filtration" },
+    { "order": 11, "step": "Tailings dam with water recovery" }
+  ],
+  "infrastructure": [
+    { "label": "Tailings storage dam", "value": "3 hectares", "numberStatus": "preliminary-base-case" },
+    { "label": "Tailings dam location", "value": "≈ 2 km from plant (study concept)", "numberStatus": "preliminary-base-case" },
+    { "label": "Process water supply", "value": "4 boreholes", "numberStatus": "preliminary-base-case" },
+    { "label": "Total water pumping", "value": "≈ 1,200 m³/day", "numberStatus": "preliminary-base-case" },
+    { "label": "Per borehole flow", "value": "≈ 4 L/s", "numberStatus": "preliminary-base-case" },
+    { "label": "Fresh water ratio", "value": "≈ 1.32 m³/t ROM", "numberStatus": "preliminary-base-case" },
+    { "label": "Water recycling from tailings", "value": "≈ 40%", "numberStatus": "preliminary-base-case" },
+    { "label": "Power connection", "value": "ONEE 22 kV", "numberStatus": "documented" },
+    { "label": "Transformer reference", "value": "630–800 kVA", "numberStatus": "preliminary-base-case" }
+  ],
+  "validationNeeds": [
+    "Ore type split: oxide / sulfide / mixed",
+    "Flotation test work",
+    "Water permits and sustainable water availability",
+    "Tailings design",
+    "Power connection study",
+    "Current cost update",
+    "Pilot versus full plant trade-off"
+  ],
+  "scenarios": [
+    {
+      "id": "base",
+      "title": "Base Case — Preliminary Orientation",
+      "language": "Initial industrial scenario from the A.I.P.S orientation study. Starting case, not the final project boundary.",
+      "points": [
+        "2.3 Mt preliminary estimate at 1.8% Cu",
+        "800 t/day sulfide ore processing scenario",
+        "124.4M MAD HT preliminary CAPEX",
+        "Flotation process route",
+        "Mine + plant + infrastructure development concept"
+      ],
+      "caveat": "Subject to feasibility upgrade — not a final feasibility study."
+    },
+    {
+      "id": "upside",
+      "title": "Upside Case — Beyond the Orientation Study",
+      "language": "Potential upside beyond the preliminary orientation case. The license may have broader potential than the preliminary study reflects.",
+      "points": [
+        "Larger mineralized system hypothesis",
+        "Possible extension of copper mineralization",
+        "Possible associated zinc or multi-metal value",
+        "Additional zones beyond initial study assumptions",
+        "Larger production scale after validation"
+      ],
+      "caveat": "Subject to geophysics, drilling, representative sampling, resource modeling, metallurgy, and engineering review. Not yet resource-classified."
+    },
+    {
+      "id": "expansion",
+      "title": "Expansion Case — After Validation",
+      "language": "Staged development pathway available after validation.",
+      "points": [
+        "Selective pilot extraction",
+        "Modular processing",
+        "Staged production",
+        "Full industrial plant decision",
+        "Multi-zone exploitation",
+        "Long-term operating agreement with digital governance continuity"
+      ],
+      "caveat": "Available only after the 180-day validation pathway and commercial discipline."
+    }
+  ],
+  "assumptions": [
+    { "id": "AIPS-001", "category": "Resource", "assumption": "Preliminary resource estimate", "value": "2.3 Mt", "status": "Preliminary", "validationRequired": "Drilling / resource modeling", "numberStatus": "requires-validation" },
+    { "id": "AIPS-002", "category": "Grade", "assumption": "Average copper grade", "value": "1.8% Cu", "status": "Preliminary", "validationRequired": "Representative sampling / drilling", "numberStatus": "requires-validation" },
+    { "id": "AIPS-003", "category": "Mining", "assumption": "Open pits", "value": "4 pits", "status": "Preliminary", "validationRequired": "Mine planning / geotech", "numberStatus": "preliminary-base-case" },
+    { "id": "AIPS-004", "category": "Production", "assumption": "Per pit production", "value": "200 t/day", "status": "Preliminary", "validationRequired": "Mine scheduling", "numberStatus": "preliminary-base-case" },
+    { "id": "AIPS-005", "category": "Processing", "assumption": "Sulfide plant capacity", "value": "800 t/day", "status": "Preliminary", "validationRequired": "Metallurgy / engineering", "numberStatus": "preliminary-base-case" },
+    { "id": "AIPS-006", "category": "Process", "assumption": "Grinding", "value": "d80 120 microns", "status": "Preliminary", "validationRequired": "Liberation tests", "numberStatus": "preliminary-base-case" },
+    { "id": "AIPS-007", "category": "Recovery", "assumption": "Copper recovery", "value": "≈ 90%", "status": "Preliminary", "validationRequired": "Flotation tests", "numberStatus": "requires-validation" },
+    { "id": "AIPS-008", "category": "CAPEX", "assumption": "Total CAPEX", "value": "124.4M MAD HT", "status": "Preliminary", "validationRequired": "Engineering update", "numberStatus": "preliminary-base-case" },
+    { "id": "AIPS-009", "category": "Water", "assumption": "Fresh water ratio", "value": "1.32 m³/t ROM", "status": "Preliminary", "validationRequired": "Water balance / hydrogeology", "numberStatus": "preliminary-base-case" },
+    { "id": "AIPS-010", "category": "Water", "assumption": "Recycled water", "value": "40%", "status": "Preliminary", "validationRequired": "Tailings / water tests", "numberStatus": "preliminary-base-case" },
+    { "id": "AIPS-011", "category": "Tailings", "assumption": "Tailings dam area", "value": "3 ha", "status": "Preliminary", "validationRequired": "Tailings engineering", "numberStatus": "preliminary-base-case" },
+    { "id": "AIPS-012", "category": "Power", "assumption": "ONEE 22kV connection", "value": "630–800 kVA references", "status": "Preliminary", "validationRequired": "Electrical study", "numberStatus": "preliminary-base-case" },
+    { "id": "AIPS-013", "category": "Financial", "assumption": "Annual gains", "value": "162M–406M MAD range", "status": "Preliminary", "validationRequired": "Financial model update", "numberStatus": "do-not-use-publicly" },
+    { "id": "AIPS-014", "category": "Arithmetic", "assumption": "225,000 t × 1.8% Cu material balance", "value": "Possible inconsistency", "status": "Requires correction", "validationRequired": "Technical audit", "numberStatus": "requires-validation" }
+  ],
+  "materialBalanceWarning": "The orientation study includes material balance assumptions requiring technical and arithmetic review before investor-grade financial use. Specifically, the calculation of copper metal from 225,000 t/year at 1.8% Cu appears to include an arithmetic or assumption inconsistency. This is treated as a validation item / feasibility upgrade requirement — not a defect in the strategic opportunity."
+}

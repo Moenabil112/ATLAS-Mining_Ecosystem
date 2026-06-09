@@ -1,0 +1,79 @@
+{
+  "coreStatement": "The Intelligent Validation System is a decision-support layer. It is designed to organize, connect, and interpret project data so Atlas Mining can make stronger technical and commercial decisions. It does not replace fieldwork, drilling, engineering, legal review, or financial due diligence.",
+  "businessQuestion": "Where should we spend money first, and where should we avoid wasting it?",
+  "independenceNote": "The ATLAS Intelligent Copper Targeting System is independent from the USD 150,000 Entry & Validation Access fee. It may be contracted separately if adopted by an operator or investor. It is not a substitute for geologists, engineers, labs, legal review, or feasibility studies.",
+  "concepts": [
+    {
+      "title": "Decision Room Concept",
+      "description": "A single, governed control room that connects license, field, assay and study data so the board and qualified operators see one organized view instead of scattered documents.",
+      "icon": "LayoutDashboard"
+    },
+    {
+      "title": "Target Priority Logic",
+      "description": "Ranks zones by copper potential using assay results, field observations and study assumptions — so capital is directed to the strongest targets first.",
+      "icon": "Target"
+    },
+    {
+      "title": "Blind-Zone Reduction",
+      "description": "Flags areas of low evidence before money is spent, reducing blind trenching, geophysics and drilling.",
+      "icon": "EyeOff"
+    },
+    {
+      "title": "Pilot Feed Selection",
+      "description": "Separates high-confidence material from low-confidence material to define what can credibly feed a pilot.",
+      "icon": "FlaskConical"
+    },
+    {
+      "title": "Waste Reduction",
+      "description": "Prevents processing weak material and premature CAPEX commitment by enforcing a pilot-first discipline.",
+      "icon": "Recycle"
+    },
+    {
+      "title": "Digital Governance",
+      "description": "Every document has an access level, every claim an evidence level, every number a maturity label, and every decision a gate.",
+      "icon": "ShieldCheck"
+    }
+  ],
+  "modules": [
+    { "title": "License map", "description": "Shows license position and review status.", "icon": "Map" },
+    { "title": "Sample and assay map", "description": "Displays sample results and confidence.", "icon": "MapPin" },
+    { "title": "Target priority map", "description": "Ranks zones by copper potential.", "icon": "Target" },
+    { "title": "Blind-zone map", "description": "Flags low-evidence zones before spend.", "icon": "EyeOff" },
+    { "title": "Ore-type classifier", "description": "Classifies oxide / sulfide / mixed ore.", "icon": "Layers" },
+    { "title": "Pilot feed selector", "description": "Selects high-confidence pilot feed material.", "icon": "FlaskConical" },
+    { "title": "A.I.P.S assumption tracker", "description": "Tracks study assumptions and validation status.", "icon": "ClipboardList" },
+    { "title": "Investor decision dashboard", "description": "Controls data-room access and decisions.", "icon": "Gauge" }
+  ],
+  "valueMechanisms": [
+    { "title": "Better targeting", "description": "Ranks areas before spending on trenching, geophysics, or drilling." },
+    { "title": "Less blind exploration", "description": "Blind zones are flagged before money is spent." },
+    { "title": "Selective pilot feed", "description": "High-confidence material is separated from low-confidence material." },
+    { "title": "CAPEX protection", "description": "Supports pilot-first decisions before industrial plant commitment." },
+    { "title": "Stronger investor confidence", "description": "Data is organized, traceable, and easier to review." },
+    { "title": "Operating discipline", "description": "The project becomes a controlled operating platform, not a random exploration campaign." }
+  ],
+  "decisionStates": [
+    "Go",
+    "Hold",
+    "Redesign",
+    "More data required",
+    "Internal only",
+    "Ready for operator review"
+  ],
+  "governanceRules": [
+    "Every document has an access level.",
+    "Every claim has an evidence level.",
+    "Every number has a maturity label.",
+    "Every investor view is controlled.",
+    "Every update must identify its source.",
+    "Every technical decision must have a decision gate.",
+    "The digital system remains separate from the entry fee."
+  ],
+  "approvalFlow": [
+    "Draft",
+    "Internal review",
+    "Technical review",
+    "Commercial review",
+    "Approved for controlled disclosure"
+  ]
+}
