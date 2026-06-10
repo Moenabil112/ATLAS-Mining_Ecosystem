@@ -1,4 +1,5 @@
 import { MapPinned, ScrollText, Leaf, ShieldAlert } from "lucide-react";
+import { useTranslation } from "react-i18next";
 import { LicenseCard } from "@/components/cards/LicenseCard";
 import { EvidenceStatusBadge } from "@/components/cards/EvidenceStatusBadge";
 import { AccessLevelBadge } from "@/components/cards/AccessLevelBadge";
@@ -14,6 +15,7 @@ import {
 } from "@/data";
 
 export function LicenseDashboard() {
+  const { t } = useTranslation();
   return (
     <div className="space-y-10">
       <div className="grid gap-5 lg:grid-cols-3">
@@ -22,7 +24,10 @@ export function LicenseDashboard() {
         </div>
         {/* Map placeholder */}
         <Panel className="flex flex-col">
-          <SectionHeader icon={MapPinned} title="License Perimeter" />
+          <SectionHeader
+            icon={MapPinned}
+            title={t("sections.licensePerimeter.title")}
+          />
           <div className="relative flex flex-1 items-center justify-center overflow-hidden rounded-md border border-dashed border-graphite-600 bg-graphite-950/60 py-10">
             <div
               className="absolute inset-0 opacity-20"
@@ -35,7 +40,7 @@ export function LicenseDashboard() {
             <div className="relative text-center">
               <MapPinned className="mx-auto h-7 w-7 text-copper-500/70" />
               <p className="mt-2 text-xs text-sand-300/60">
-                GIS map — restricted disclosure
+                {t("license.mapPlaceholder")}
               </p>
               <p className="mt-1 text-[10px] text-sand-300/40">
                 {licenseRegister.areaKm2} km² · {licenseRegister.region}
@@ -49,14 +54,20 @@ export function LicenseDashboard() {
       <section>
         <SectionHeader
           icon={ScrollText}
-          title="License Intelligence Register"
-          description="Each license field carries an evidence status and a disclosure level. Sensitive items are held at restricted tiers."
+          title={t("sections.licenseRegister.title")}
+          description={t("sections.licenseRegister.desc")}
         />
         <div className="panel overflow-x-auto">
           <table className="w-full min-w-[720px] text-sm">
             <thead>
-              <tr className="border-b border-graphite-700/70 text-left">
-                {["Field", "Value", "Evidence", "Disclosure", "Note"].map((h) => (
+              <tr className="border-b border-graphite-700/70 text-start">
+                {[
+                  t("license.table.field"),
+                  t("license.table.value"),
+                  t("license.table.evidence"),
+                  t("license.table.disclosure"),
+                  t("license.table.note"),
+                ].map((h) => (
                   <th
                     key={h}
                     className="px-4 py-3 text-xs font-medium uppercase tracking-wide text-sand-300/55"
@@ -97,8 +108,8 @@ export function LicenseDashboard() {
         <section>
           <SectionHeader
             icon={Leaf}
-            title="Regulatory & Environmental Reference"
-            description="Environmental Approval CRI/24/102 is a strategic strength — not a substitute for final operating compliance."
+            title={t("sections.regulatory.title")}
+            description={t("sections.regulatory.desc")}
           />
           <Panel>
             <ul className="grid gap-3 sm:grid-cols-2">
@@ -115,8 +126,8 @@ export function LicenseDashboard() {
         <section>
           <SectionHeader
             icon={ShieldAlert}
-            title="Disclosure Control"
-            description="License information is shared by audience tier."
+            title={t("sections.disclosureControl.title")}
+            description={t("sections.disclosureControl.desc")}
           />
           <Panel>
             <ul className="space-y-3">
@@ -139,7 +150,7 @@ export function LicenseDashboard() {
         </section>
       </div>
 
-      <Callout variant="warning" title="License risk notes">
+      <Callout variant="warning" title={t("license.riskNotes")}>
         <ul className="mt-1 space-y-1.5">
           {licenseRiskNotes.map((note) => (
             <li key={note} className="flex items-start gap-2">

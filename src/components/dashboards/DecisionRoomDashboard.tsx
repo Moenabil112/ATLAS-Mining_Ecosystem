@@ -7,6 +7,7 @@ import {
   Flag,
   CircleDot,
 } from "lucide-react";
+import { useTranslation } from "react-i18next";
 import { SectionHeader } from "@/components/layout/SectionHeader";
 import { Panel } from "@/components/shared/Panel";
 import { Badge } from "@/components/shared/Badge";
@@ -23,6 +24,7 @@ import {
 } from "@/data";
 
 export function DecisionRoomDashboard() {
+  const { t } = useTranslation();
   return (
     <div className="space-y-10">
       {/* Status strip */}
@@ -30,7 +32,7 @@ export function DecisionRoomDashboard() {
         <Panel>
           <div className="flex items-center gap-2">
             <Activity className="h-4 w-4 text-copper-400" />
-            <p className="eyebrow">Feasibility upgrade status</p>
+            <p className="eyebrow">{t("dataRoom.feasibilityStatus")}</p>
           </div>
           <p className="mt-2 text-sm font-medium text-sand-50">
             {feasibilityUpgradeStatus.label}
@@ -42,7 +44,7 @@ export function DecisionRoomDashboard() {
         <Panel>
           <div className="flex items-center gap-2">
             <Flag className="h-4 w-4 text-copper-400" />
-            <p className="eyebrow">Operating entry status</p>
+            <p className="eyebrow">{t("dataRoom.operatingStatus")}</p>
           </div>
           <p className="mt-2 text-sm font-medium text-sand-50">
             {operatingEntryStatus.stage}
@@ -57,8 +59,8 @@ export function DecisionRoomDashboard() {
       <section>
         <SectionHeader
           icon={ListTodo}
-          title="Next Decisions"
-          description="The immediate moves that unlock the rest of the pathway."
+          title={t("sections.nextDecisions.title")}
+          description={t("sections.nextDecisions.desc")}
         />
         <div className="grid gap-4 lg:grid-cols-3">
           {nextDecisions.map((d) => (
@@ -79,8 +81,8 @@ export function DecisionRoomDashboard() {
       <section>
         <SectionHeader
           icon={Gavel}
-          title="Decision Gates"
-          description="Ten gates from license confirmation to the operating entry decision. Each shows status, required evidence, owner and next action."
+          title={t("sections.decisionGates.title")}
+          description={t("sections.decisionGates.desc")}
         />
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {decisionGates.map((gate) => (
@@ -93,8 +95,8 @@ export function DecisionRoomDashboard() {
       <section>
         <SectionHeader
           icon={ShieldAlert}
-          title="Risk Controls"
-          description="Technical, legal, commercial, environmental and financial risks with their controls."
+          title={t("sections.riskControls.title")}
+          description={t("sections.riskControls.desc")}
         />
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {riskControls.map((risk) => (
@@ -108,8 +110,8 @@ export function DecisionRoomDashboard() {
         <section>
           <SectionHeader
             icon={CheckCircle2}
-            title="Claim Controls"
-            description="Active across the platform."
+            title={t("sections.claimControls.title")}
+            description={t("sections.claimControls.desc")}
           />
           <Panel>
             <ul className="space-y-2">
@@ -129,8 +131,8 @@ export function DecisionRoomDashboard() {
         <section>
           <SectionHeader
             icon={CircleDot}
-            title="Unresolved Validation Items"
-            description="Open items before investor-grade use."
+            title={t("sections.unresolvedItems.title")}
+            description={t("sections.unresolvedItems.desc")}
           />
           <Panel>
             <ul className="space-y-2">

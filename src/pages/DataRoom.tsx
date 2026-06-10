@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next";
 import { FolderLock, Grid3x3, BarChart3 } from "lucide-react";
 import { PageHeader } from "@/components/layout/PageHeader";
 import { SectionHeader } from "@/components/layout/SectionHeader";
@@ -11,12 +12,13 @@ import { dataRoomFolders, accessLevels } from "@/data";
 import type { AccessLevel } from "@/types";
 
 export function DataRoom() {
+  const { t } = useTranslation();
   return (
     <div>
       <PageHeader
-        eyebrow="Controlled disclosure"
-        title="Data Room"
-        description="Project documents organized into twelve folders. Every document carries a status, an access level, a source layer and a claim sensitivity. Technical detail requires NDA."
+        eyebrow={t("pages.dataRoom.eyebrow")}
+        title={t("pages.dataRoom.title")}
+        description={t("pages.dataRoom.description")}
       />
 
       <div className="space-y-10">
@@ -25,8 +27,8 @@ export function DataRoom() {
           <Panel className="lg:col-span-2">
             <SectionHeader
               icon={FolderLock}
-              title="Access Levels"
-              description="Five disclosure tiers govern who sees what."
+              title={t("sections.accessLevels.title")}
+              description={t("sections.accessLevels.desc")}
             />
             <ul className="space-y-3">
               {accessLevels.map((level) => (
@@ -38,14 +40,17 @@ export function DataRoom() {
             </ul>
           </Panel>
           <Panel>
-            <SectionHeader icon={BarChart3} title="Documents by Access Level" />
+            <SectionHeader
+              icon={BarChart3}
+              title={t("sections.docsByAccess.title")}
+            />
             <AccessLevelsChart />
           </Panel>
         </div>
 
         {/* Folders */}
         <section>
-          <SectionHeader title="Document Folders" />
+          <SectionHeader title={t("sections.documentFolders.title")} />
           <div className="space-y-3">
             {dataRoomFolders.map((folder, i) => (
               <DataRoomFolder
@@ -61,8 +66,8 @@ export function DataRoom() {
         <section>
           <SectionHeader
             icon={Grid3x3}
-            title="Access Level Matrix"
-            description="Folder-by-tier disclosure rules."
+            title={t("sections.accessMatrix.title")}
+            description={t("sections.accessMatrix.desc")}
           />
           <AccessMatrix />
         </section>

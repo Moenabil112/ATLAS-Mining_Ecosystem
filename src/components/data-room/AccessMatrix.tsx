@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next";
 import { accessMatrix } from "@/data";
 import { cn } from "@/lib/cn";
 
@@ -7,23 +8,24 @@ const cellTone = (value: string) => {
   return "text-sand-300/35";
 };
 
-const cols = ["Public", "Qualified", "NDA", "Restricted", "Internal"] as const;
+const colKeys = ["public", "qualified", "nda", "restricted", "internal"] as const;
 
 export function AccessMatrix() {
+  const { t } = useTranslation();
   return (
     <div className="panel overflow-x-auto">
       <table className="w-full min-w-[640px] text-sm">
         <thead>
-          <tr className="border-b border-graphite-700/70 text-left">
+          <tr className="border-b border-graphite-700/70 text-start">
             <th className="px-4 py-3 text-xs font-medium uppercase tracking-wide text-sand-300/55">
-              Folder
+              {t("dataRoom.cols.folder")}
             </th>
-            {cols.map((c) => (
+            {colKeys.map((c) => (
               <th
                 key={c}
                 className="px-4 py-3 text-center text-xs font-medium uppercase tracking-wide text-sand-300/55"
               >
-                {c}
+                {t(`dataRoom.cols.${c}`)}
               </th>
             ))}
           </tr>

@@ -1,4 +1,5 @@
 import { FileBarChart, Workflow, Droplets, Coins, Layers3 } from "lucide-react";
+import { useTranslation } from "react-i18next";
 import { SectionHeader } from "@/components/layout/SectionHeader";
 import { Panel } from "@/components/shared/Panel";
 import { Callout } from "@/components/shared/Callout";
@@ -25,14 +26,15 @@ const scenarioTone = {
 } as const;
 
 export function OrientationStudyDashboard() {
+  const { t } = useTranslation();
   return (
     <div className="space-y-10">
       {/* Study summary */}
       <section>
         <SectionHeader
           icon={FileBarChart}
-          title="A.I.P.S Study Summary"
-          description={`${aipsStudy.title} — prepared by ${aipsStudy.preparedBy}.`}
+          title={t("sections.studySummary.title")}
+          description={`${aipsStudy.title} — ${aipsStudy.preparedBy}.`}
         />
         <Callout variant="info">{aipsStudy.coreMessage}</Callout>
       </section>
@@ -40,7 +42,7 @@ export function OrientationStudyDashboard() {
       {/* Production scenario + CAPEX */}
       <div className="grid gap-5 lg:grid-cols-2">
         <section>
-          <SectionHeader title="Production Concept (Base Case)" />
+          <SectionHeader title={t("sections.productionConcept.title")} />
           <Panel>
             <dl className="space-y-3">
               {productionScenario.map((p) => (
@@ -64,8 +66,8 @@ export function OrientationStudyDashboard() {
         <section>
           <SectionHeader
             icon={Coins}
-            title="CAPEX Framework"
-            description={`Preliminary total: ${capex.totalMad}M MAD HT`}
+            title={t("sections.capexFramework.title")}
+            description={`${capex.totalMad}M MAD HT`}
           />
           <Panel>
             <CapexDistributionChart />
@@ -84,8 +86,8 @@ export function OrientationStudyDashboard() {
       <section>
         <SectionHeader
           icon={Workflow}
-          title="Process Flowsheet (Sulfide Route)"
-          description="Flotation-based processing concept from the orientation study."
+          title={t("sections.processFlowsheet.title")}
+          description={t("sections.processFlowsheet.desc")}
         />
         <Panel>
           <ol className="flex flex-wrap items-center gap-2">
@@ -110,7 +112,7 @@ export function OrientationStudyDashboard() {
       <section>
         <SectionHeader
           icon={Droplets}
-          title="Water, Power & Tailings Assumptions"
+          title={t("sections.infrastructure.title")}
         />
         <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
           {infrastructure.map((item) => (
@@ -133,8 +135,8 @@ export function OrientationStudyDashboard() {
       <section>
         <SectionHeader
           icon={Layers3}
-          title="Base Case · Upside Case · Expansion Case"
-          description="The orientation study is the starting case — not the project ceiling."
+          title={t("sections.scenarios.title")}
+          description={t("sections.scenarios.desc")}
         />
         <div className="grid gap-4 lg:grid-cols-3">
           {scenarioCases.map((sc) => (
@@ -172,8 +174,8 @@ export function OrientationStudyDashboard() {
       {/* Assumption register preview */}
       <section>
         <SectionHeader
-          title="Assumption Register (preview)"
-          description="Every study assumption is tracked with a maturity status and a validation requirement."
+          title={t("sections.assumptionRegister.title")}
+          description={t("sections.assumptionRegister.desc")}
         />
         <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
           {assumptionRegister.slice(0, 9).map((a) => (
@@ -181,7 +183,7 @@ export function OrientationStudyDashboard() {
           ))}
         </div>
         <div className="mt-4">
-          <SectionHeader title="Validation Needs" />
+          <SectionHeader title={t("sections.validationNeeds.title")} />
           <div className="flex flex-wrap gap-2">
             {studyValidationNeeds.map((n) => (
               <Badge key={n} tone="mineral">

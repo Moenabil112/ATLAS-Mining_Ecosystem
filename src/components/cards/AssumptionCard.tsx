@@ -1,8 +1,10 @@
+import { useTranslation } from "react-i18next";
 import { NumberStatusBadge } from "./NumberStatusBadge";
 import { Panel } from "@/components/shared/Panel";
 import type { AssumptionRow } from "@/types";
 
 export function AssumptionCard({ assumption }: { assumption: AssumptionRow }) {
+  const { t } = useTranslation();
   return (
     <Panel hover>
       <div className="flex items-start justify-between gap-3">
@@ -21,7 +23,7 @@ export function AssumptionCard({ assumption }: { assumption: AssumptionRow }) {
       <div className="mt-3 flex flex-wrap items-center gap-2">
         <NumberStatusBadge status={assumption.numberStatus} />
         <span className="text-[11px] text-sand-300/60">
-          Validation: {assumption.validationRequired}
+          {t("common.validation")}: {assumption.validationRequired}
         </span>
       </div>
     </Panel>

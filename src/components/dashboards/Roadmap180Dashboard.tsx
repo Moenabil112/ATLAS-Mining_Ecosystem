@@ -1,4 +1,5 @@
 import { CalendarRange, Flag, Boxes, FileCheck2, Users } from "lucide-react";
+import { useTranslation } from "react-i18next";
 import { SectionHeader } from "@/components/layout/SectionHeader";
 import { Panel } from "@/components/shared/Panel";
 import { Callout } from "@/components/shared/Callout";
@@ -7,13 +8,14 @@ import { PhaseTimelineChart } from "@/components/charts/PhaseTimelineChart";
 import { roadmapPhases, roadmapGoal } from "@/data";
 
 export function Roadmap180Dashboard() {
+  const { t } = useTranslation();
   return (
     <div className="space-y-10">
       <section>
         <SectionHeader
           icon={CalendarRange}
-          title="180-Day Phase Timeline"
-          description="Six phases convert documents and assumptions into a structured commercial decision."
+          title={t("sections.phaseTimeline.title")}
+          description={t("sections.phaseTimeline.desc")}
         />
         <Panel>
           <PhaseTimelineChart />
@@ -32,16 +34,18 @@ export function Roadmap180Dashboard() {
               <Panel>
                 <div className="flex flex-wrap items-center justify-between gap-2">
                   <h3 className="text-sm font-semibold text-sand-50">
-                    Phase {phase.phase} · {phase.title}
+                    {t("roadmap.phase", { n: phase.phase })} · {phase.title}
                   </h3>
-                  <Badge tone="copper">{phase.days} days</Badge>
+                  <Badge tone="copper">
+                    {t("roadmap.daysLabel", { days: phase.days })}
+                  </Badge>
                 </div>
                 <p className="mt-2 text-sm text-sand-200/75">{phase.objective}</p>
 
                 <div className="mt-4 grid gap-4 lg:grid-cols-2">
                   <div>
                     <p className="eyebrow mb-2 flex items-center gap-1.5">
-                      <Boxes className="h-3 w-3" /> Activities
+                      <Boxes className="h-3 w-3" /> {t("roadmap.activities")}
                     </p>
                     <ul className="space-y-1.5">
                       {phase.activities.map((a) => (
@@ -57,7 +61,7 @@ export function Roadmap180Dashboard() {
                   </div>
                   <div>
                     <p className="eyebrow mb-2 flex items-center gap-1.5">
-                      <FileCheck2 className="h-3 w-3" /> Outputs
+                      <FileCheck2 className="h-3 w-3" /> {t("roadmap.outputs")}
                     </p>
                     <div className="flex flex-wrap gap-1.5">
                       {phase.outputs.map((o) => (
@@ -72,7 +76,7 @@ export function Roadmap180Dashboard() {
                 <div className="mt-4 grid gap-3 border-t border-graphite-700/70 pt-4 sm:grid-cols-3">
                   <div>
                     <p className="eyebrow mb-1 flex items-center gap-1.5">
-                      <Flag className="h-3 w-3" /> Decision gate
+                      <Flag className="h-3 w-3" /> {t("roadmap.decisionGate")}
                     </p>
                     <p className="text-xs text-sand-200/75">
                       {phase.decisionGate}
@@ -80,14 +84,14 @@ export function Roadmap180Dashboard() {
                   </div>
                   <div>
                     <p className="eyebrow mb-1 flex items-center gap-1.5">
-                      <Users className="h-3 w-3" /> Responsible layer
+                      <Users className="h-3 w-3" /> {t("roadmap.responsibleLayer")}
                     </p>
                     <p className="text-xs text-sand-200/75">
                       {phase.responsibleLayer}
                     </p>
                   </div>
                   <div>
-                    <p className="eyebrow mb-1">Evidence required</p>
+                    <p className="eyebrow mb-1">{t("roadmap.evidenceRequired")}</p>
                     <p className="text-xs text-sand-200/75">
                       {phase.evidenceRequired}
                     </p>
@@ -99,7 +103,7 @@ export function Roadmap180Dashboard() {
         </div>
       </section>
 
-      <Callout variant="success" title="Day 180 goal">
+      <Callout variant="success" title={t("roadmap.dayGoal")}>
         {roadmapGoal}
       </Callout>
     </div>

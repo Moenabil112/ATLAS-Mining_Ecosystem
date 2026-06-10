@@ -1,13 +1,15 @@
+import { useTranslation } from "react-i18next";
 import { PageHeader } from "@/components/layout/PageHeader";
 import { IntelligentSystemDashboard } from "@/components/dashboards/IntelligentSystemDashboard";
 
 export function IntelligentSystem() {
+  const { t } = useTranslation();
   return (
     <div>
       <PageHeader
-        eyebrow="Layer 04 · Digital decision layer"
-        title="Intelligent Validation System"
-        description="The ATLAS Intelligent Copper Targeting System is a decision-support layer that organizes license, field, assay and study data to decide where to sample, survey, drill — and where to avoid. It supports productivity and reduces waste. It does not replace geologists, engineers, labs, legal review, or feasibility studies — and it is independent from the entry fee."
+        eyebrow={t("pages.system.eyebrow")}
+        title={t("pages.system.title")}
+        description={t("pages.system.description")}
       />
       <IntelligentSystemDashboard />
     </div>

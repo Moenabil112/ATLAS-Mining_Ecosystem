@@ -12,19 +12,19 @@ import {
 
 export interface NavItem {
   to: string;
-  label: string;
-  mobileLabel: string;
+  /** i18n key suffix used as nav.<key> and nav.mobile.<key>. */
+  key: string;
   icon: typeof LayoutGrid;
 }
 
 export const navItems: NavItem[] = [
-  { to: "/", label: "Gateway", mobileLabel: "Gateway", icon: LayoutGrid },
-  { to: "/license", label: "License Position", mobileLabel: "License", icon: ScrollText },
-  { to: "/evidence", label: "Evidence", mobileLabel: "Evidence", icon: FlaskConical },
-  { to: "/orientation-study", label: "Orientation Study", mobileLabel: "Study", icon: FileBarChart },
-  { to: "/intelligent-system", label: "Intelligent System", mobileLabel: "System", icon: BrainCircuit },
-  { to: "/roadmap-180", label: "180-Day Upgrade", mobileLabel: "180 Days", icon: CalendarRange },
-  { to: "/operating-entry", label: "Operating Entry", mobileLabel: "Entry", icon: Handshake },
-  { to: "/data-room", label: "Data Room", mobileLabel: "Data", icon: FolderLock },
-  { to: "/decision-room", label: "Decision Room", mobileLabel: "Decision", icon: Gavel },
+  { to: "/", key: "gateway", icon: LayoutGrid },
+  { to: "/license", key: "license", icon: ScrollText },
+  { to: "/evidence", key: "evidence", icon: FlaskConical },
+  { to: "/orientation-study", key: "study", icon: FileBarChart },
+  { to: "/intelligent-system", key: "system", icon: BrainCircuit },
+  { to: "/roadmap-180", key: "days180", icon: CalendarRange },
+  { to: "/operating-entry", key: "entry", icon: Handshake },
+  { to: "/data-room", key: "data", icon: FolderLock },
+  { to: "/decision-room", key: "decision", icon: Gavel },
 ];

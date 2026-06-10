@@ -1,4 +1,5 @@
 import { MapPin, FlaskConical, Layers, ListChecks } from "lucide-react";
+import { useTranslation } from "react-i18next";
 import { AssayHighlightCard } from "@/components/cards/AssayHighlightCard";
 import { EvidenceStatusBadge } from "@/components/cards/EvidenceStatusBadge";
 import { SectionHeader } from "@/components/layout/SectionHeader";
@@ -16,13 +17,14 @@ import {
 } from "@/data";
 
 export function EvidenceDashboard() {
+  const { t } = useTranslation();
   return (
     <div className="space-y-10">
       {/* Field visit */}
       <section>
         <SectionHeader
           icon={MapPin}
-          title="Field Visit Summary"
+          title={t("sections.fieldVisit.title")}
           description={fieldVisit.source}
         />
         <div className="grid gap-5 lg:grid-cols-3">
@@ -40,7 +42,7 @@ export function EvidenceDashboard() {
           </Panel>
           <Panel>
             <h3 className="mb-3 text-sm font-medium text-sand-50">
-              Trenching & sampling
+              {t("license.trenchingTitle")}
             </h3>
             <ul className="space-y-2">
               {fieldVisit.summaryPoints.map((p) => (
@@ -61,15 +63,15 @@ export function EvidenceDashboard() {
       <section>
         <SectionHeader
           icon={FlaskConical}
-          title="AFRILAB Assay Highlights"
-          description="Selected high-grade copper assays. These are selected-sample evidence — not average project grade."
+          title={t("sections.assayHighlights.title")}
+          description={t("sections.assayHighlights.desc")}
         />
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-5">
           {assayHighlights.map((assay) => (
             <AssayHighlightCard key={assay.sampleId} assay={assay} />
           ))}
         </div>
-        <Callout variant="warning" title="Selected-sample evidence — not average project grade">
+        <Callout variant="warning" title={t("common.selectedSampleNote")}>
           {evidenceInterpretation}
         </Callout>
       </section>
@@ -79,14 +81,19 @@ export function EvidenceDashboard() {
         <section>
           <SectionHeader
             icon={Layers}
-            title="Trench & Sample Register (preview)"
-            description="29 samples submitted to AFRILAB; full register held under NDA."
+            title={t("sections.trenchRegister.title")}
+            description={t("sections.trenchRegister.desc")}
           />
           <div className="panel overflow-x-auto">
             <table className="w-full text-sm">
               <thead>
-                <tr className="border-b border-graphite-700/70 text-left">
-                  {["Sample", "Cu %", "Report", "Confidence"].map((h) => (
+                <tr className="border-b border-graphite-700/70 text-start">
+                  {[
+                    t("evidence.table.sample"),
+                    t("evidence.table.cu"),
+                    t("evidence.table.report"),
+                    t("evidence.table.confidence"),
+                  ].map((h) => (
                     <th
                       key={h}
                       className="px-4 py-2.5 text-xs font-medium uppercase tracking-wide text-sand-300/55"
@@ -122,7 +129,7 @@ export function EvidenceDashboard() {
         </section>
 
         <section>
-          <SectionHeader title="Evidence Maturity Distribution" />
+          <SectionHeader title={t("sections.evidenceMaturity.title")} />
           <Panel>
             <EvidenceMaturityChart />
           </Panel>
@@ -132,14 +139,19 @@ export function EvidenceDashboard() {
       {/* Confidence matrix */}
       <section>
         <SectionHeader
-          title="Evidence Confidence Matrix"
-          description="Every evidence item carries a maturity status and confidence level."
+          title={t("sections.confidenceMatrix.title")}
+          description={t("sections.confidenceMatrix.desc")}
         />
         <div className="panel overflow-x-auto">
           <table className="w-full min-w-[640px] text-sm">
             <thead>
-              <tr className="border-b border-graphite-700/70 text-left">
-                {["Evidence item", "Status", "Confidence", "Use"].map((h) => (
+              <tr className="border-b border-graphite-700/70 text-start">
+                {[
+                  t("evidence.table.item"),
+                  t("evidence.table.status"),
+                  t("evidence.table.confidence"),
+                  t("evidence.table.use"),
+                ].map((h) => (
                   <th
                     key={h}
                     className="px-4 py-3 text-xs font-medium uppercase tracking-wide text-sand-300/55"
@@ -170,7 +182,10 @@ export function EvidenceDashboard() {
 
       {/* Next actions */}
       <section>
-        <SectionHeader icon={ListChecks} title="Required Next Validation Actions" />
+        <SectionHeader
+          icon={ListChecks}
+          title={t("sections.nextActions.title")}
+        />
         <div className="flex flex-wrap gap-2">
           {evidenceNextActions.map((a) => (
             <Badge key={a} tone="mineral">
