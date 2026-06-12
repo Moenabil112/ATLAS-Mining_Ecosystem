@@ -1,0 +1,30 @@
+{
+  "project": {
+    "name": "ATLAS Isseksi Copper Project",
+    "strategicTitle": "A Licensed Copper Asset with a Preliminary Mine Construction & Processing Orientation Study",
+    "owner": "Atlas Mining",
+    "technologyLayer": "Mohamed Nabil / Akanil",
+    "documentStatus": "Digital ecosystem build package — Draft 01",
+    "positioning": "ATLAS Isseksi Copper Project is a licensed copper asset supported by field evidence, laboratory assays, and a preliminary mine construction and processing orientation study, with a digital validation pathway designed to convert the opportunity into a structured operating platform.",
+    "keyMessage": "Atlas Mining controls a licensed copper asset with preliminary field, laboratory, and engineering evidence, now structured for intelligent validation and operating entry.",
+    "region": "Beni Mellal-Khénifra, Morocco"
+  },
+  "layers": [
+    { "id": "license-position", "index": 1, "title": "Atlas License Position", "shortTitle": "License", "maturity": "document-supported", "role": "Anchor asset", "summary": "Exploitation License No. 353294 over 15.36 km², valid 2024–2034, with environmental approval CRI/24/102 — the legal foundation Atlas Mining controls.", "route": "/license" },
+    { "id": "field-lab-evidence", "index": 2, "title": "Field & Laboratory Evidence", "shortTitle": "Evidence", "maturity": "assay-supported", "role": "Evidence base", "summary": "May 2025 field visit, ≈232 m trenching, 29 AFRILAB samples and selected copper assays up to 9.65% Cu — selected-sample evidence, not average grade.", "route": "/evidence" },
+    { "id": "orientation-study", "index": 3, "title": "Orientation Study Asset", "shortTitle": "Study", "maturity": "preliminary-assumption", "role": "Industrial base case", "summary": "A.I.P.S preliminary orientation study: 2.3 Mt @ 1.8% Cu, 800 t/day plant, 124.4M MAD HT CAPEX — a base case to be upgraded, not a feasibility study.", "route": "/orientation-study" },
+    { "id": "intelligent-validation", "index": 4, "title": "Intelligent Validation System", "shortTitle": "System", "maturity": "requires-implementation", "role": "Digital decision layer", "summary": "The ATLAS Intelligent Copper Targeting System — an independent decision-support layer that reduces blind exploration and supports pilot-feed definition.", "route": "/intelligent-system" },
+    { "id": "feasibility-180", "index": 5, "title": "180-Day Feasibility Upgrade", "shortTitle": "180 Days", "maturity": "planned", "role": "Validation pathway", "summary": "A six-phase, 180-day roadmap converting documents and assumptions into a structured commercial decision.", "route": "/roadmap-180" },
+    { "id": "operating-entry", "index": 6, "title": "Structured Operating Entry", "shortTitle": "Entry", "maturity": "commercial-draft", "role": "Deal pathway", "summary": "USD 150,000 Non-Refundable Entry & Validation Access fee — structured access to validation and operating negotiation, not a license sale.", "route": "/operating-entry" }
+  ],
+  "keyMetrics": [
+    { "label": "Exploitation License", "value": "No. 353294", "numberStatus": "documented", "note": "Document-supported license reference" },
+    { "label": "Surface Area", "value": "15.36", "unit": "km²", "numberStatus": "documented", "note": "Subject to legal review" },
+    { "label": "License Validity", "value": "2024 → 2034", "numberStatus": "documented", "note": "03/10/2024 — 02/10/2034" },
+    { "label": "Selected Cu Assay", "value": "up to 9.65", "unit": "% Cu", "numberStatus": "indicative", "note": "Selected sample — not average grade" },
+    { "label": "Preliminary Estimate", "value": "2.3 Mt @ 1.8", "unit": "% Cu", "numberStatus": "requires-validation", "note": "Preliminary orientation estimate" },
+    { "label": "Processing Scenario", "value": "800", "unit": "t/day", "numberStatus": "preliminary-base-case", "note": "Preliminary processing scenario" },
+    { "label": "Preliminary CAPEX", "value": "124.4M", "unit": "MAD HT", "numberStatus": "preliminary-base-case", "note": "Subject to engineering update" },
+    { "label": "Entry Fee", "value": "USD 150,000", "numberStatus": "documented", "note": "Non-refundable Entry & Validation Access" }
+  ]
+}

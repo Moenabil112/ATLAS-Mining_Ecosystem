@@ -1,0 +1,144 @@
+{
+  "folders": [
+    {
+      "id": "license-documents",
+      "index": 1,
+      "name": "License Documents",
+      "description": "Exploitation license, register, and legal references.",
+      "documents": [
+        { "id": "doc-license-register", "title": "License Register", "category": "License Documents", "status": "Draft", "accessLevel": "restricted-technical", "description": "Structured license register (No. 353294) — to be confirmed with original legal documents.", "sourceLayer": "license-position", "claimSensitivity": "requires-legal-review" },
+        { "id": "doc-license-summary", "title": "License Control Memo", "category": "License Documents", "status": "Draft", "accessLevel": "qualified-review", "description": "High-level license overview, validity and area for screened parties.", "sourceLayer": "license-position", "claimSensitivity": "document-supported" }
+      ]
+    },
+    {
+      "id": "environmental-documents",
+      "index": 2,
+      "name": "Environmental Documents",
+      "description": "Environmental approval and regulatory references.",
+      "documents": [
+        { "id": "doc-env-approval", "title": "Environmental Approval Reference CRI/24/102", "category": "Environmental Documents", "status": "Draft", "accessLevel": "nda-review", "description": "Environmental approval reference; not a substitute for final operating compliance.", "sourceLayer": "license-position", "claimSensitivity": "document-supported" },
+        { "id": "doc-reg-review", "title": "Regulatory & Environmental Reference Note", "category": "Environmental Documents", "status": "Draft", "accessLevel": "nda-review", "description": "Summary of regulatory review areas required before pilot or operations.", "sourceLayer": "license-position", "claimSensitivity": "requires-validation" }
+      ]
+    },
+    {
+      "id": "field-visit-reports",
+      "index": 3,
+      "name": "Field Visit Reports",
+      "description": "Site inspection and trenching campaign reports.",
+      "documents": [
+        { "id": "doc-field-visit", "title": "Morocco Isseksi Concession Report (12–28 May 2025)", "category": "Field Visit Reports", "status": "Draft", "accessLevel": "nda-review", "description": "Field inspection, site access, trenching (≈232 m), sample preparation, geophysics recommendation.", "sourceLayer": "field-lab-evidence", "claimSensitivity": "field-observed" }
+      ]
+    },
+    {
+      "id": "afrilab-reports",
+      "index": 4,
+      "name": "AFRILAB Reports",
+      "description": "Laboratory copper assay reports and interpretation.",
+      "documents": [
+        { "id": "doc-afrilab-1848", "title": "AFRILAB Report AM/QA/DM/RA/1848/06/25", "category": "AFRILAB Reports", "status": "Draft", "accessLevel": "nda-review", "description": "Copper assays incl. selected samples up to 9.65% Cu. Selected-sample evidence, not average grade.", "sourceLayer": "field-lab-evidence", "claimSensitivity": "assay-supported" },
+        { "id": "doc-afrilab-1849", "title": "AFRILAB Report AM/QA/DM/RA/1849/06/25", "category": "AFRILAB Reports", "status": "Draft", "accessLevel": "nda-review", "description": "Copper assay incl. Echantillon 2 at 3.78% Cu. Selected-sample evidence.", "sourceLayer": "field-lab-evidence", "claimSensitivity": "assay-supported" },
+        { "id": "doc-afrilab-interp", "title": "AFRILAB Assay Interpretation", "category": "AFRILAB Reports", "status": "Draft", "accessLevel": "nda-review", "description": "Interpretation: strong grade variability; justifies selective targeting, not resource claims.", "sourceLayer": "field-lab-evidence", "claimSensitivity": "assay-supported" }
+      ]
+    },
+    {
+      "id": "aips-orientation-study",
+      "index": 5,
+      "name": "A.I.P.S Orientation Study",
+      "description": "Preliminary mine construction & processing orientation study.",
+      "documents": [
+        { "id": "doc-aips-digest", "title": "A.I.P.S Study Executive Digest", "category": "A.I.P.S Orientation Study", "status": "Draft", "accessLevel": "qualified-review", "description": "Preliminary orientation study: 2.3 Mt @ 1.8% Cu, 800 t/day, 124.4M MAD HT CAPEX. Base case only.", "sourceLayer": "orientation-study", "claimSensitivity": "preliminary-assumption" },
+        { "id": "doc-aips-process", "title": "Process Flowsheet & Infrastructure", "category": "A.I.P.S Orientation Study", "status": "Draft", "accessLevel": "nda-review", "description": "Flotation route, water, power, tailings concepts — preliminary, subject to validation.", "sourceLayer": "orientation-study", "claimSensitivity": "preliminary-assumption" }
+      ]
+    },
+    {
+      "id": "maps-gis",
+      "index": 6,
+      "name": "Maps and GIS",
+      "description": "License perimeter, target and survey maps.",
+      "documents": [
+        { "id": "doc-gis-license", "title": "License Perimeter & GIS Layers", "category": "Maps and GIS", "status": "Planned", "accessLevel": "restricted-technical", "description": "GIS license boundary and survey layers. Sensitive coordinates restricted.", "sourceLayer": "license-position", "claimSensitivity": "internal-only" },
+        { "id": "doc-gis-targets", "title": "Copper Target Priority Map", "category": "Maps and GIS", "status": "Planned", "accessLevel": "restricted-technical", "description": "Target ranking output of the Intelligent Copper Targeting System.", "sourceLayer": "intelligent-validation", "claimSensitivity": "requires-validation" }
+      ]
+    },
+    {
+      "id": "trench-sample-registers",
+      "index": 7,
+      "name": "Trench and Sample Registers",
+      "description": "Structured registry of trenches and samples.",
+      "documents": [
+        { "id": "doc-trench-register", "title": "Trench & Sample Register", "category": "Trench and Sample Registers", "status": "Draft", "accessLevel": "nda-review", "description": "29 samples submitted to AFRILAB linked to trenches, assays and confidence status.", "sourceLayer": "field-lab-evidence", "claimSensitivity": "field-observed" }
+      ]
+    },
+    {
+      "id": "assumption-register",
+      "index": 8,
+      "name": "Assumption Register",
+      "description": "A.I.P.S study assumptions and validation status.",
+      "documents": [
+        { "id": "doc-assumption-register", "title": "A.I.P.S Assumption Register", "category": "Assumption Register", "status": "Draft", "accessLevel": "restricted-technical", "description": "14 tracked assumptions incl. material-balance review item AIPS-014.", "sourceLayer": "orientation-study", "claimSensitivity": "requires-validation" }
+      ]
+    },
+    {
+      "id": "180-day-upgrade-plan",
+      "index": 9,
+      "name": "180-Day Upgrade Plan",
+      "description": "Six-phase feasibility upgrade roadmap.",
+      "documents": [
+        { "id": "doc-180-plan", "title": "180-Day Feasibility Upgrade Plan", "category": "180-Day Upgrade Plan", "status": "Draft", "accessLevel": "qualified-review", "description": "Staged plan converting documents and assumptions into a commercial decision.", "sourceLayer": "feasibility-180", "claimSensitivity": "requires-validation" }
+      ]
+    },
+    {
+      "id": "commercial-offer",
+      "index": 10,
+      "name": "Commercial Offer",
+      "description": "Structured operating entry and entry fee terms.",
+      "documents": [
+        { "id": "doc-entry-offer", "title": "Structured Operating Entry Offer", "category": "Commercial Offer", "status": "Draft", "accessLevel": "qualified-review", "description": "USD 150,000 Non-Refundable Entry Fee, access scope, exclusions, and pathways.", "sourceLayer": "operating-entry", "claimSensitivity": "document-supported" }
+      ]
+    },
+    {
+      "id": "risk-register",
+      "index": 11,
+      "name": "Risk Register",
+      "description": "Technical, legal, commercial and environmental risks.",
+      "documents": [
+        { "id": "doc-risk-register", "title": "Project Risk Register", "category": "Risk Register", "status": "Draft", "accessLevel": "restricted-technical", "description": "Tracks risks and controls across all six layers.", "sourceLayer": "cross-layer", "claimSensitivity": "internal-only" }
+      ]
+    },
+    {
+      "id": "digital-system-brief",
+      "index": 12,
+      "name": "Digital System Brief",
+      "description": "ATLAS Intelligent Copper Targeting System brief.",
+      "documents": [
+        { "id": "doc-system-brief", "title": "Intelligent Copper Targeting System Brief", "category": "Digital System Brief", "status": "Draft", "accessLevel": "qualified-review", "description": "Independent decision-support layer — separate from the entry fee.", "sourceLayer": "intelligent-validation", "claimSensitivity": "document-supported" }
+      ]
+    }
+  ],
+  "accessMatrix": [
+    { "folder": "License summary", "public": "yes", "qualified": "yes", "nda": "yes", "restricted": "yes", "internal": "yes" },
+    { "folder": "Full license documents", "public": "no", "qualified": "no", "nda": "yes", "restricted": "yes", "internal": "yes" },
+    { "folder": "Environmental documents", "public": "no", "qualified": "summary", "nda": "yes", "restricted": "yes", "internal": "yes" },
+    { "folder": "AFRILAB reports", "public": "no", "qualified": "summary", "nda": "yes", "restricted": "yes", "internal": "yes" },
+    { "folder": "A.I.P.S study", "public": "no", "qualified": "summary", "nda": "yes", "restricted": "yes", "internal": "yes" },
+    { "folder": "Assumption register", "public": "no", "qualified": "no", "nda": "summary", "restricted": "yes", "internal": "yes" },
+    { "folder": "Commercial offer", "public": "summary", "qualified": "yes", "nda": "yes", "restricted": "yes", "internal": "yes" },
+    { "folder": "Negotiation strategy", "public": "no", "qualified": "no", "nda": "no", "restricted": "no", "internal": "yes" }
+  ],
+  "accessLevels": [
+    { "id": "public-teaser", "label": "Public teaser", "description": "General external communication — location and high-level reference only." },
+    { "id": "qualified-review", "label": "Qualified review", "description": "Screened operator / investor — overview and opportunity logic." },
+    { "id": "nda-review", "label": "NDA review", "description": "Serious operator / investor under NDA — technical detail." },
+    { "id": "restricted-technical", "label": "Restricted technical", "description": "Counsel / technical reviewers — full documents and sensitive data." },
+    { "id": "internal-only", "label": "Internal only", "description": "Atlas only — strategy and negotiation position." }
+  ],
+  "disclosureRules": [
+    "Do not disclose sensitive coordinates publicly.",
+    "Do not present preliminary estimates as certified resources.",
+    "Do not present selected high-grade assays as average grade.",
+    "Do not present CAPEX as final.",
+    "Do not disclose internal negotiation strategy.",
+    "Always use NDA before technical detail disclosure.",
+    "Always use 'preliminary', 'orientation-study', 'subject to validation' and 'requires technical review' language."
+  ]
+}

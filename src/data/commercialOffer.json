@@ -1,0 +1,105 @@
+{
+  "offer": {
+    "offerType": "Structured Operating Entry",
+    "entryFeeUsd": 150000,
+    "feeNature": "Non-Refundable Entry & Validation Access fee",
+    "payableTo": "Atlas Mining",
+    "accessIncludes": [
+      "Controlled document review",
+      "License opportunity review",
+      "Field evidence review",
+      "Assay evidence review",
+      "A.I.P.S study review",
+      "Site review pathway",
+      "Validation participation",
+      "Negotiation pathway"
+    ],
+    "accessExcludes": [
+      "License ownership",
+      "Automatic production rights",
+      "Equity",
+      "Refundable deposit",
+      "Guaranteed operating agreement",
+      "Automatic access to the digital system",
+      "Technology fee / software fee",
+      "Loan",
+      "Guarantee of results"
+    ],
+    "entryPathway": [
+      "Entry & Validation Access",
+      "Feasibility Upgrade Participation",
+      "Pilot Operating Pathway",
+      "Long-Term Operating Agreement"
+    ]
+  },
+  "coreOffer": "Atlas Mining offers structured entry into a licensed copper asset supported by an exploitation license, field evidence, AFRILAB assays, an A.I.P.S orientation study, a 180-day feasibility upgrade, and an optional independent digital validation system. The offer is not a license sale — it is a structured entry into validation and operating negotiation.",
+  "feeRepresents": [
+    "Structured access to the opportunity",
+    "Controlled document and site review pathway",
+    "Validation participation",
+    "Commercial negotiation pathway",
+    "Reservation of serious engagement space"
+  ],
+  "feeIsNot": [
+    "Not a license purchase",
+    "Not a refundable deposit",
+    "Not a technology fee",
+    "Not a production right",
+    "Not an equity investment",
+    "Not a loan",
+    "Not a guarantee of results",
+    "Not a guarantee of operating agreement"
+  ],
+  "pilotPathway": {
+    "title": "Pilot Operating Pathway",
+    "description": "The route from validation to a controlled pilot.",
+    "conditions": [
+      "Priority zones are identified",
+      "Representative sampling is completed",
+      "Geophysics is interpreted",
+      "Pilot feed is defined",
+      "Ore type is understood",
+      "Metallurgical testing is planned",
+      "Environmental and safety controls are reviewed"
+    ],
+    "scope": [
+      "Selective extraction",
+      "Bulk sample",
+      "Processing test",
+      "Product quality test",
+      "Measurement and traceability",
+      "Cost review",
+      "Go / scale / redesign decision"
+    ]
+  },
+  "longTermPathway": {
+    "title": "Long-Term Operating Agreement Pathway",
+    "description": "The possible future operating structure after pilot validation.",
+    "conditions": [
+      "Operating scope",
+      "Equipment responsibilities",
+      "Operating costs",
+      "Production measurement",
+      "Product sale mechanism",
+      "Revenue / profit / production sharing",
+      "Environmental and safety obligations",
+      "Data governance",
+      "Expansion rights",
+      "Termination and dispute resolution"
+    ],
+    "principle": "Atlas Mining should enter long-term operations only after the license value has been strengthened through evidence, pilot validation, and commercial discipline."
+  },
+  "investorBenefits": [
+    "Entry into a licensed, evidence-backed copper asset pathway — not an empty idea",
+    "Structured, staged validation that de-risks capital commitment",
+    "Digitally governed data room and decision room",
+    "Clear pilot and long-term operating routes"
+  ],
+  "atlasBenefits": [
+    "Preserves control over the license",
+    "Controls the structured operating entry path",
+    "Strengthens license value before long-term commitment",
+    "Offers controlled access to qualified operators or investors only"
+  ],
+  "technologyIndependence": "The ATLAS Intelligent Copper Targeting System is a separate value-creation and decision-support layer. The USD 150,000 entry fee does not pay for the technology, and the digital system may be contracted separately under its own arrangement."
+}

@@ -1,0 +1,140 @@
+{
+  "register": {
+    "licenseId": "ATLAS-ISSEKSI-LIC-353294",
+    "licenseType": "Exploitation License",
+    "licenseNumber": "353294",
+    "holder": "Atlas Mining / legal holder context subject to review",
+    "region": "Beni Mellal-Khénifra, Morocco",
+    "projectArea": "Isseksi",
+    "areaKm2": 15.36,
+    "validFrom": "03/10/2024",
+    "validTo": "02/10/2034",
+    "relatedResearchPermit": "3535903 / related perimeter references subject to legal review",
+    "environmentalApproval": "CRI/24/102",
+    "primaryMineral": "Copper",
+    "associatedMinerals": "Zinc and other associated minerals subject to validation",
+    "status": "Document-supported, subject to legal review",
+    "disclosureLevel": "nda-review"
+  },
+  "registerRows": [
+    {
+      "field": "Exploitation License",
+      "value": "No. 353294",
+      "evidenceStatus": "document-supported",
+      "disclosure": "qualified-review",
+      "note": "Document-supported license reference; original legal documents required for confirmation."
+    },
+    {
+      "field": "License Type",
+      "value": "Exploitation License",
+      "evidenceStatus": "document-supported",
+      "disclosure": "qualified-review"
+    },
+    {
+      "field": "Surface Area",
+      "value": "15.36 km²",
+      "evidenceStatus": "document-supported",
+      "disclosure": "qualified-review",
+      "note": "Document-supported, subject to legal review of boundaries and coordinates."
+    },
+    {
+      "field": "License Validity",
+      "value": "03/10/2024 — 02/10/2034",
+      "evidenceStatus": "document-supported",
+      "disclosure": "qualified-review"
+    },
+    {
+      "field": "Region",
+      "value": "Beni Mellal-Khénifra, Morocco",
+      "evidenceStatus": "document-supported",
+      "disclosure": "qualified-review"
+    },
+    {
+      "field": "Related Research Permit",
+      "value": "No. 3535903",
+      "evidenceStatus": "requires-legal-review",
+      "disclosure": "nda-review",
+      "note": "Related perimeter references subject to legal review."
+    },
+    {
+      "field": "Environmental Approval",
+      "value": "CRI/24/102",
+      "evidenceStatus": "document-supported",
+      "disclosure": "nda-review",
+      "note": "Strategic strength; not a substitute for final operating compliance."
+    },
+    {
+      "field": "Primary Mineral",
+      "value": "Copper",
+      "evidenceStatus": "document-supported",
+      "disclosure": "qualified-review"
+    },
+    {
+      "field": "Associated Minerals",
+      "value": "Zinc and associated minerals",
+      "evidenceStatus": "requires-validation",
+      "disclosure": "nda-review",
+      "note": "Subject to validation."
+    },
+    {
+      "field": "Holder",
+      "value": "Atlas Mining / legal holder context",
+      "evidenceStatus": "requires-legal-review",
+      "disclosure": "restricted-technical",
+      "note": "Official holder name to be confirmed by legal counsel."
+    },
+    {
+      "field": "Coordinates & Boundaries",
+      "value": "Held — restricted disclosure",
+      "evidenceStatus": "internal-only",
+      "disclosure": "restricted-technical",
+      "note": "Sensitive coordinates not exposed publicly."
+    }
+  ],
+  "regulatoryReviewAreas": [
+    { "area": "Environmental impact obligations", "note": "Detailed compliance review required." },
+    { "area": "Monitoring program requirements", "note": "To be defined before operational activity." },
+    { "area": "Water extraction & borehole permissions", "note": "Permits required prior to abstraction." },
+    { "area": "Tailings storage design", "note": "Engineering and permitting review required." },
+    { "area": "Land access", "note": "Subject to confirmation." },
+    { "area": "Health and safety", "note": "Operational HSE framework required." },
+    { "area": "Waste and residue management", "note": "Review before pilot/operations." },
+    { "area": "Community and local authority engagement", "note": "Ongoing engagement required." },
+    { "area": "Power connection approvals", "note": "ONEE connection study required." },
+    { "area": "Site construction permits", "note": "Required before construction." }
+  ],
+  "disclosureTiers": [
+    {
+      "level": "Public summary",
+      "audience": "General external communication",
+      "content": "Project location, license reference at high level."
+    },
+    {
+      "level": "Qualified review",
+      "audience": "Screened operator / investor",
+      "content": "License overview, validity, area, opportunity logic."
+    },
+    {
+      "level": "NDA technical review",
+      "audience": "Serious operator / investor",
+      "content": "License copy, coordinates, environmental reference."
+    },
+    {
+      "level": "Restricted legal review",
+      "audience": "Counsel / transaction party",
+      "content": "Full legal documents, holder details, obligations."
+    },
+    {
+      "level": "Internal Atlas control",
+      "audience": "Atlas only",
+      "content": "Strategy, negotiation position, sensitive issues."
+    }
+  ],
+  "riskNotes": [
+    "Do not imply license sale unless contractually intended.",
+    "Do not expose sensitive coordinates unnecessarily.",
+    "Do not state legal finality without counsel review.",
+    "Do not connect third-party access to ownership rights.",
+    "Register to be updated with original legal documents, coordinates, boundaries, and official holder name as confirmed by legal counsel."
+  ]
+}

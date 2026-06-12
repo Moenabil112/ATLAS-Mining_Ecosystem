@@ -1,0 +1,106 @@
+{
+  "fieldVisit": {
+    "source": "Morocco Isseksi Concession Report, 12–28 May 2025",
+    "facts": [
+      { "label": "Technical site visit", "value": "12–28 May 2025" },
+      { "label": "Distance from Beni Mellal city center", "value": "≈ 30 km" },
+      { "label": "Site access", "value": "Asphalt and dirt-road sections" },
+      { "label": "Grid power", "value": "Observed in the vicinity" },
+      { "label": "Trenching campaign", "value": "≈ 232 m total trench length" },
+      { "label": "Samples prepared for AFRILAB", "value": "29 samples" },
+      { "label": "Geophysics recommended", "value": "IP / Resistivity survey" },
+      { "label": "Drilling", "value": "DD / RC quotations approached" }
+    ],
+    "summaryPoints": [
+      "Site inspection covered Isseksi and other license areas.",
+      "Trenching works were completed during the reported campaign.",
+      "IP geophysics was recommended to define depth and continuity of mineralization.",
+      "Drilling contractors were approached for DD / RC quotations."
+    ]
+  },
+  "assayHighlights": [
+    {
+      "sampleId": "TC-22-H2",
+      "cuPercent": 9.65,
+      "labReference": "AFRILAB",
+      "reportNumber": "AM/QA/DM/RA/1848/06/25",
+      "note": "Selected-sample evidence — not average project grade."
+    },
+    {
+      "sampleId": "TC-23-H2-1",
+      "cuPercent": 9.34,
+      "labReference": "AFRILAB",
+      "reportNumber": "AM/QA/DM/RA/1848/06/25",
+      "note": "Selected-sample evidence — not average project grade."
+    },
+    {
+      "sampleId": "TC-24-H3",
+      "cuPercent": 7.24,
+      "labReference": "AFRILAB",
+      "reportNumber": "AM/QA/DM/RA/1848/06/25",
+      "note": "Selected-sample evidence — not average project grade."
+    },
+    {
+      "sampleId": "TC-22-H1",
+      "cuPercent": 5.46,
+      "labReference": "AFRILAB",
+      "reportNumber": "AM/QA/DM/RA/1848/06/25",
+      "note": "Selected-sample evidence — not average project grade."
+    },
+    {
+      "sampleId": "Echantillon 2",
+      "cuPercent": 3.78,
+      "labReference": "AFRILAB",
+      "reportNumber": "AM/QA/DM/RA/1849/06/25",
+      "note": "Selected-sample evidence — not average project grade."
+    }
+  ],
+  "trenchSampleRegister": [
+    { "sampleId": "TC-22-H2", "cuPercent": 9.65, "oreType": "Copper ore", "reportNumber": "1848/06/25", "confidence": "Assay-supported" },
+    { "sampleId": "TC-23-H2-1", "cuPercent": 9.34, "oreType": "Copper ore", "reportNumber": "1848/06/25", "confidence": "Assay-supported" },
+    { "sampleId": "TC-24-H3", "cuPercent": 7.24, "oreType": "Copper ore", "reportNumber": "1848/06/25", "confidence": "Assay-supported" },
+    { "sampleId": "TC-22-H1", "cuPercent": 5.46, "oreType": "Copper ore", "reportNumber": "1848/06/25", "confidence": "Assay-supported" },
+    { "sampleId": "Echantillon 2", "cuPercent": 3.78, "oreType": "Copper ore", "reportNumber": "1849/06/25", "confidence": "Assay-supported" },
+    { "sampleId": "TC-21-H2", "cuPercent": 2.24, "oreType": "Copper ore", "reportNumber": "1848/06/25", "confidence": "Assay-supported" },
+    { "sampleId": "TC-21-H1", "cuPercent": 1.35, "oreType": "Copper ore", "reportNumber": "1848/06/25", "confidence": "Assay-supported" },
+    { "sampleId": "TC-21-H3", "cuPercent": 0.98, "oreType": "Copper ore", "reportNumber": "1848/06/25", "confidence": "Assay-supported" },
+    { "sampleId": "Low-grade samples (several)", "cuPercent": 0.04, "oreType": "Variable", "reportNumber": "1848/06/25", "confidence": "Assay-supported — low grade" }
+  ],
+  "confidenceMatrix": [
+    { "item": "Exploitation license No. 353294", "status": "document-supported", "confidence": "High", "use": "Commercial anchor" },
+    { "item": "Environmental approval CRI/24/102", "status": "document-supported", "confidence": "High", "use": "ESG / regulatory layer" },
+    { "item": "Field visit report", "status": "field-observed", "confidence": "Medium-high", "use": "Technical narrative" },
+    { "item": "Trenching campaign", "status": "field-observed", "confidence": "Medium-high", "use": "Exploration support" },
+    { "item": "AFRILAB high-grade samples", "status": "assay-supported", "confidence": "Medium", "use": "Targeting support" },
+    { "item": "AIPS 2.3 Mt @ 1.8% Cu", "status": "preliminary-assumption", "confidence": "Medium-low", "use": "Base orientation case" },
+    { "item": "800 t/day plant", "status": "preliminary-assumption", "confidence": "Medium-low", "use": "Industrial upside" },
+    { "item": "124.4M MAD CAPEX", "status": "preliminary-assumption", "confidence": "Medium-low", "use": "CAPEX anchor" },
+    { "item": "Annual gains", "status": "requires-validation", "confidence": "Low", "use": "Upside narrative only" }
+  ],
+  "reports": [
+    {
+      "reportNumber": "AM/QA/DM/RA/1848/06/25",
+      "issued": "04/06/2025",
+      "analyzed": "01/06/2025",
+      "clientReference": "COPPER ORE",
+      "preparedBy": "AFRILAB"
+    },
+    {
+      "reportNumber": "AM/QA/DM/RA/1849/06/25",
+      "issued": "04/06/2025",
+      "analyzed": "31/05/2025",
+      "clientReference": "COPPER ORE",
+      "preparedBy": "AFRILAB"
+    }
+  ],
+  "nextActions": [
+    "Representative channel sampling",
+    "Multi-element assays",
+    "QA/QC controls",
+    "IP / Resistivity geophysics",
+    "Drilling",
+    "Mineralogy",
+    "Metallurgical tests"
+  ],
+  "interpretation": "The assay results justify selective targeting and further validation, not immediate resource or reserve claims. Selected high-grade samples are encouraging but do not define average grade."
+}

@@ -1,0 +1,149 @@
+{
+  "goal": "By Day 180, Atlas should be able to decide whether to proceed to a pilot operating agreement, staged production, further feasibility upgrade, industrial plant development discussion, or hold/redesign.",
+  "phases": [
+    {
+      "id": "phase-1",
+      "phase": 1,
+      "days": "0–30",
+      "title": "Data Consolidation & Assumption Control",
+      "objective": "Convert all existing documents into a structured digital evidence base.",
+      "activities": [
+        "Digitize A.I.P.S study",
+        "Build license register",
+        "Build evidence register",
+        "Build sample/assay register",
+        "Extract assumptions and detect contradictions",
+        "Classify claims and define investor disclosure levels"
+      ],
+      "outputs": [
+        "License Register",
+        "Assumption Register",
+        "Evidence Matrix",
+        "Claims Control Matrix",
+        "Data Gap Register",
+        "30-Day Validation Work Plan"
+      ],
+      "decisionGate": "Data control confirmed — registers complete and contradictions logged.",
+      "responsibleLayer": "Intelligent Validation System / Atlas internal team",
+      "evidenceRequired": "Source documents, A.I.P.S study, AFRILAB reports, license documents."
+    },
+    {
+      "id": "phase-2",
+      "phase": 2,
+      "days": "30–60",
+      "title": "Target Mapping & Sampling Upgrade",
+      "objective": "Upgrade the exploration evidence and define priority copper targets.",
+      "activities": [
+        "GIS mapping of license",
+        "Trench and sample mapping",
+        "Channel sampling plan",
+        "Blind-zone mapping",
+        "Ore-type classification",
+        "Short drilling target list"
+      ],
+      "outputs": [
+        "Copper Target Priority Map",
+        "Blind-Zone Map",
+        "Sampling Upgrade Plan",
+        "Short Drilling Target List"
+      ],
+      "decisionGate": "Priority targets approved for survey and sampling.",
+      "responsibleLayer": "Geology team + Intelligent Validation System",
+      "evidenceRequired": "Field maps, trench/sample register, GIS layers."
+    },
+    {
+      "id": "phase-3",
+      "phase": 3,
+      "days": "60–90",
+      "title": "Geophysics & Geochemistry Validation",
+      "objective": "Validate targets through geophysics and multi-element geochemistry.",
+      "activities": [
+        "Multi-element geochemistry",
+        "IP / Resistivity survey",
+        "Geochemistry interpretation",
+        "Updated target model"
+      ],
+      "outputs": [
+        "Geochemistry Interpretation Memo",
+        "IP / Resistivity Plan & Results",
+        "Updated Target Model"
+      ],
+      "decisionGate": "Geophysics plan executed and targets refined for drilling.",
+      "responsibleLayer": "Geophysics contractor + technical advisor",
+      "evidenceRequired": "Survey data, multi-element assays, QA/QC controls."
+    },
+    {
+      "id": "phase-4",
+      "phase": 4,
+      "days": "90–120",
+      "title": "Pilot Feed Definition",
+      "objective": "Define what material can be used for pilot testing.",
+      "activities": [
+        "Targeted short drilling if approved",
+        "Integrate geophysics and assays",
+        "Classify ore by type and grade",
+        "Exclude low-confidence material",
+        "Select bulk sample locations",
+        "Design metallurgical sample plan"
+      ],
+      "outputs": [
+        "Pilot Feed Definition Memo",
+        "Selective Extraction Plan",
+        "Ore-Type Decision Matrix",
+        "Metallurgical Sample Plan",
+        "Pilot Decision Gate Memo"
+      ],
+      "decisionGate": "Pilot feed defined and approved for metallurgical testing.",
+      "responsibleLayer": "Geology + metallurgy + Intelligent Validation System",
+      "evidenceRequired": "Integrated assay/geophysics model, ore-type classification."
+    },
+    {
+      "id": "phase-5",
+      "phase": 5,
+      "days": "120–150",
+      "title": "Process, Water, Power & CAPEX Review",
+      "objective": "Review the A.I.P.S processing and infrastructure assumptions.",
+      "activities": [
+        "Compare 800 t/day plant with modular pilot",
+        "Review flotation and oxide/sulfide/mixed routes",
+        "Update water balance and borehole assumptions",
+        "Review tailings concept and ONEE power connection",
+        "Update CAPEX sensitivity"
+      ],
+      "outputs": [
+        "Process Route Upgrade Memo",
+        "Water & Power Validation Memo",
+        "Tailings Risk Note",
+        "CAPEX Sensitivity Table",
+        "Pilot vs Full Plant Decision Memo"
+      ],
+      "decisionGate": "Engineering review memos approved; CAPEX framework updated.",
+      "responsibleLayer": "Process engineering + infrastructure advisors",
+      "evidenceRequired": "Metallurgical results, water study, power study, current costs."
+    },
+    {
+      "id": "phase-6",
+      "phase": 6,
+      "days": "150–180",
+      "title": "Commercial Decision & Operating Pathway",
+      "objective": "Convert technical validation into a commercial decision.",
+      "activities": [
+        "Update study findings and correct assumptions",
+        "Prepare investor/operator decision pack",
+        "Prepare pilot operating term sheet",
+        "Prepare long-term agreement framework",
+        "Prepare Atlas board memo and update data room"
+      ],
+      "outputs": [
+        "180-Day Feasibility Upgrade Report",
+        "Investor / Operator Decision Pack",
+        "Pilot Operating Term Sheet",
+        "Long-Term Operating Agreement Framework",
+        "Atlas Board Decision Memo"
+      ],
+      "decisionGate": "Commercial decision: pilot, staged production, further validation, or hold/redesign.",
+      "responsibleLayer": "Atlas board + commercial layer",
+      "evidenceRequired": "Validated technical pack, corrected assumptions, updated CAPEX."
+    }
+  ]
+}
