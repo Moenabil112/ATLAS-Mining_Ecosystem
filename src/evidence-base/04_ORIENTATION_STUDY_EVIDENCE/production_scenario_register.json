@@ -1,0 +1,21 @@
+{
+  "pits": 4,
+  "per_pit_tpd": 200,
+  "plant_tpd": 800,
+  "ore_type": "sulfide (oxide/mixed split requires validation)",
+  "schedule": "2027–2037",
+  "optimal_annual_tonnage_t": 225000,
+  "concentrate": {
+    "tonnes_per_year": 22050,
+    "grade_cu_percent": 28.4
+  },
+  "recovery_percent": "≈89.78–90",
+  "source_document": "DOC-007",
+  "number_status": "orientation-study-assumption",
+  "required_label": "Preliminary processing scenario — not final plant decision.",
+  "review_items": [
+    "AIPS-014 material balance",
+    "flotation test work",
+    "mine scheduling"
+  ]
+}

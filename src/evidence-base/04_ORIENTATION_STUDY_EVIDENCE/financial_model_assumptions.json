@@ -1,0 +1,12 @@
+{
+  "annual_gains_range": "162–406M MAD/year",
+  "number_status": "requires-correction",
+  "investor_use_allowed": false,
+  "access_level": "internal-only",
+  "required_label": "Preliminary model output — not bankable cash flow.",
+  "linked_review_items": [
+    "AIPS-013 (financial model update)",
+    "AIPS-014 (material balance audit)"
+  ],
+  "rule": "Internal only until the financial model is corrected and updated. Never bankable cash flow."
+}

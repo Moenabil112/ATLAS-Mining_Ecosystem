@@ -1,0 +1,120 @@
+[
+  {
+    "id": "license-position",
+    "title": "Atlas License Position",
+    "subtitle": "From legal asset to operating platform",
+    "status": "document-supported",
+    "role": "Anchor asset",
+    "key_evidence": [
+      "NUM-L01",
+      "NUM-L02",
+      "NUM-L03",
+      "NUM-L04",
+      "NUM-L05"
+    ],
+    "key_risks": [
+      "Holder/boundary confirmation pending counsel (GATE-01)"
+    ],
+    "next_action": "Complete restricted legal review",
+    "source_files": [
+      "DOC-001",
+      "DOC-002",
+      "DOC-003"
+    ]
+  },
+  {
+    "id": "field-lab-evidence",
+    "title": "Field & Laboratory Evidence",
+    "subtitle": "Beyond paper stage",
+    "status": "assay-supported",
+    "role": "Evidence base",
+    "key_evidence": [
+      "NUM-F01",
+      "NUM-F02",
+      "NUM-F03",
+      "NUM-F04",
+      "NUM-A06",
+      "NUM-A07",
+      "NUM-A08"
+    ],
+    "key_risks": [
+      "Selected assays must never be generalized to average grade",
+      "Per-trench detail pending original report"
+    ],
+    "next_action": "Lodge originals; approve channel sampling plan (GATE-03)",
+    "source_files": [
+      "DOC-004",
+      "DOC-005",
+      "DOC-006"
+    ]
+  },
+  {
+    "id": "orientation-study",
+    "title": "Orientation Study Asset",
+    "subtitle": "Preliminary industrial base case",
+    "status": "preliminary-assumption",
+    "role": "Industrial base case",
+    "key_evidence": [
+      "NUM-S01",
+      "NUM-S02",
+      "NUM-S03",
+      "NUM-S06"
+    ],
+    "key_risks": [
+      "AIPS-014 material-balance review item",
+      "Annual gains require correction (AIPS-013)"
+    ],
+    "next_action": "Technical & arithmetic audit (GATE-09)",
+    "source_files": [
+      "DOC-007"
+    ]
+  },
+  {
+    "id": "intelligent-validation",
+    "title": "Intelligent Validation System",
+    "subtitle": "ATLAS Intelligent Copper Targeting System",
+    "status": "requires-implementation",
+    "role": "Digital decision layer",
+    "key_evidence": [],
+    "key_risks": [
+      "Must remain independent from entry fee (binding rule)"
+    ],
+    "next_action": "Implement target/blind-zone/pilot-feed modules on this evidence base",
+    "source_files": [
+      "DOC-011"
+    ]
+  },
+  {
+    "id": "feasibility-180",
+    "title": "180-Day Feasibility Upgrade",
+    "subtitle": "The bridge from documents to decision",
+    "status": "phase-1-in-progress",
+    "role": "Validation pathway",
+    "key_evidence": [],
+    "key_risks": [
+      "Gate discipline must hold; no phase skipping"
+    ],
+    "next_action": "Close Gate-01 & Gate-02; open Phase 2",
+    "source_files": [
+      "DOC-010"
+    ]
+  },
+  {
+    "id": "operating-entry",
+    "title": "Structured Operating Entry",
+    "subtitle": "Entry → Validation → Pilot → Agreement",
+    "status": "commercial-draft",
+    "role": "Deal pathway",
+    "key_evidence": [
+      "NUM-C01"
+    ],
+    "key_risks": [
+      "Fee nature must never be mischaracterized",
+      "No license-sale implication"
+    ],
+    "next_action": "Legal drafting of access agreement (NDA + non-circumvention)",
+    "source_files": [
+      "DOC-009"
+    ]
+  }
+]

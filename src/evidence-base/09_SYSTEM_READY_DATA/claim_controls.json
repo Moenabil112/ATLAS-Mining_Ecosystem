@@ -1,0 +1,62 @@
+{
+  "mandatory_labels": {
+    "license": "Document-supported — subject to legal review before binding agreement.",
+    "assay": "Selected-sample assay — not average project grade.",
+    "resource": "Preliminary orientation estimate — not certified resource or reserve.",
+    "plant": "Preliminary processing scenario — not final plant decision.",
+    "capex": "Preliminary CAPEX orientation — subject to engineering update.",
+    "gains": "Preliminary model output — not bankable cash flow.",
+    "fee": "USD 150,000 Non-Refundable Entry & Validation Access fee — not license purchase, not technology fee, not production right.",
+    "field": "Field-observed evidence — supports targeting, not resource claims.",
+    "study": "Orientation-study assumption — subject to feasibility upgrade.",
+    "upside": "Upside case — not yet resource-classified.",
+    "expansion": "Expansion case — requires feasibility and engineering validation."
+  },
+  "rules": [
+    {
+      "trigger": "any license claim",
+      "label": "Document-supported — subject to legal review before binding agreement."
+    },
+    {
+      "trigger": "any assay value (e.g., 9.65% Cu)",
+      "label": "Selected-sample assay — not average project grade."
+    },
+    {
+      "trigger": "2.3 Mt / 1.8% Cu",
+      "label": "Preliminary orientation estimate — not certified resource or reserve."
+    },
+    {
+      "trigger": "800 t/day",
+      "label": "Preliminary processing scenario — not final plant decision."
+    },
+    {
+      "trigger": "124.4M MAD",
+      "label": "Preliminary CAPEX orientation — subject to engineering update."
+    },
+    {
+      "trigger": "annual gains / ROI",
+      "label": "Preliminary model output — not bankable cash flow."
+    },
+    {
+      "trigger": "USD 150,000",
+      "label": "USD 150,000 Non-Refundable Entry & Validation Access fee — not license purchase, not technology fee, not production right."
+    }
+  ],
+  "prohibited_claims": [
+    "confirmed reserve",
+    "proven resource",
+    "guaranteed production",
+    "guaranteed grade",
+    "bankable feasibility",
+    "final CAPEX",
+    "secured annual gains",
+    "immediate 800 t/day plant decision",
+    "guaranteed recovery",
+    "guaranteed operating agreement"
+  ],
+  "tiers": {
+    "tier1": "Base orientation case — subject to validation.",
+    "tier2": "Upside case — not yet resource-classified (qualitative only; no invented tonnage/grade).",
+    "tier3": "Expansion case — requires feasibility and engineering validation."
+  }
+}

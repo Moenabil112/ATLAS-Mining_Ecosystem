@@ -1,0 +1,36 @@
+{
+  "offer_id": "ATLAS-ISSEKSI-ENTRY-001",
+  "offer_type": "Structured Operating Entry",
+  "entry_fee_usd": 150000,
+  "fee_nature": "Non-Refundable Entry Fee, payable to Atlas Mining",
+  "access_scope": [
+    "controlled document review",
+    "license opportunity review",
+    "field & assay evidence review",
+    "A.I.P.S study review",
+    "site review pathway",
+    "validation participation",
+    "negotiation pathway"
+  ],
+  "exclusions": [
+    "license ownership",
+    "automatic production rights",
+    "equity",
+    "refundable deposit",
+    "guaranteed operating agreement",
+    "automatic access to the digital system",
+    "loan",
+    "guarantee of results"
+  ],
+  "duration": "(to be defined in access agreement)",
+  "nda_required": true,
+  "non_circumvention_required": true,
+  "pilot_pathway": "Conditional on pilot decision gate (GATE-06) and pilot conditions",
+  "long_term_pathway": "Separately negotiated operating agreement after pilot validation",
+  "technology_access": "Independent — separate commercial/technical arrangement if adopted",
+  "legal_review_status": "Commercial draft — access agreement to be drafted by counsel",
+  "source_document": "DOC-009",
+  "evidence_status": "commercial-draft",
+  "access_level": "qualified-review",
+  "required_label": "USD 150,000 Non-Refundable Entry & Validation Access fee — not license purchase, not technology fee, not production right."
+}

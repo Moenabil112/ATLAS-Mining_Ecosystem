@@ -1,0 +1,58 @@
+[
+  {
+    "claim_id": "CLM-001",
+    "restricted_wording": "License copy, coordinates and official holder name under NDA / restricted legal review only."
+  },
+  {
+    "claim_id": "CLM-002",
+    "restricted_wording": "Approval document and obligations under NDA review."
+  },
+  {
+    "claim_id": "CLM-003",
+    "restricted_wording": "Trench coordinates and photos restricted-technical."
+  },
+  {
+    "claim_id": "CLM-004",
+    "restricted_wording": "Full sample tables under NDA review."
+  },
+  {
+    "claim_id": "CLM-005",
+    "restricted_wording": "Study extracts under NDA; assumption register restricted-technical."
+  },
+  {
+    "claim_id": "CLM-006",
+    "restricted_wording": "Flowsheet details under NDA."
+  },
+  {
+    "claim_id": "CLM-007",
+    "restricted_wording": "Component breakdown under NDA; sensitivity work restricted-technical."
+  },
+  {
+    "claim_id": "CLM-009",
+    "restricted_wording": "Material-balance review item (AIPS-014) tracked openly in the assumption register."
+  },
+  {
+    "claim_id": "CLM-010",
+    "restricted_wording": "Full term structure at qualified review and above."
+  },
+  {
+    "claim_id": "CLM-011",
+    "restricted_wording": "Negotiation strategy internal-only."
+  },
+  {
+    "claim_id": "CLM-012",
+    "restricted_wording": "Commercial terms for system adoption negotiated separately."
+  },
+  {
+    "claim_id": "CLM-013",
+    "restricted_wording": "No new tonnage/grade figures may be attached to the upside case."
+  },
+  {
+    "claim_id": "CLM-014",
+    "restricted_wording": "Term-sheet level detail under NDA."
+  },
+  {
+    "claim_id": "CLM-015",
+    "restricted_wording": "Contractor quotations internal-only until procurement."
+  }
+]

@@ -65,6 +65,7 @@ src/
 │   ├── decision-room/       # DecisionGateCard
 │   └── shared/              # Panel, Badge, ClaimBadge, Callout, CheckList, Icon
 ├── i18n/                    # config.ts + locales/{en,ar,fr}.json (trilingual, RTL)
+├── evidence-base/           # ATLAS Digital Evidence Base (structured backend) + typed loader (index.ts)
 ├── content/markdown/        # Source-of-truth Markdown knowledge package
 ├── data/                    # license.json, evidence.json, orientationStudy.json,
 │                            #   validationSystem.json, roadmap180.json, commercialOffer.json,
@@ -173,7 +174,46 @@ Node 18+ recommended (built and verified on Node 22).
 
 ---
 
-## 9. Next recommended development steps
+## 9. Evidence Base (backend content layer)
+
+The **Evidence, Data Room and Decision Room** layers are driven by the *ATLAS
+Digital Evidence Base* (Evidence Base v1.0 — Phase 1, 0–30 Day Data Control),
+lodged under `src/evidence-base/` as the structured backend with full
+provenance. `src/evidence-base/index.ts` is the typed loader; types live in
+`src/types/evidence.ts`.
+
+What the base provides and where it surfaces:
+
+- **66 evidence objects** — 51 registered numbers + 15 controlled claims, each
+  with a source document, status and a mandatory display label.
+- **Evidence page** — field-visit summary, 8 selected-assay highlights, the
+  full AFRILAB assay register (12 of 29 samples, selected results only), 7-trench
+  register, evidence confidence matrix, geophysics/drilling record, registered
+  field/lab claims, and linked source documents. The maturity chart reads the
+  base's `evidence_maturity_count` (documented 17 · selected-sample 12 ·
+  preliminary 21 · requires-correction 1).
+- **Data Room** — 12 folders resolving `DOC-xxx` ids to the 12-document source
+  register (each card shows access level, key numbers, claim sensitivity and
+  *file status* — most originals are "referenced, pending lodgement"), the
+  six-tier access-control matrix, and the claim-disclosure split
+  (investor-visible 14 / NDA-required 14 / restricted-internal 4).
+- **Decision Room** — 10 decision gates (phase, question, required evidence,
+  status, owner, risk, go/hold/redesign conditions, next action), 10 risk flags
+  with controls and linked claims, the AIPS-014 material-balance review item, and
+  the validation workstreams + gaps.
+
+Governance enforced from the base: selected assays are always labelled
+*not average grade*; 2.3 Mt / 1.8% Cu stays a *preliminary orientation estimate*;
+the 162–406M MAD gains are `requires-correction` and blocked from investor
+material; the USD 150,000 fee keeps its fixed non-refundable wording, independent
+of the digital system.
+
+> The evidence base is a Phase-1 register: original PDFs are not yet lodged, the
+> full 29-sample table and per-trench geometry are pending, and GIS layers are
+> scheduled for Phase 2. The UI surfaces these as explicit `file_status` /
+> "pending" states rather than hiding them.
+
+## 10. Next recommended development steps
 
 1. **Authentication & gated data room** — enforce the five access tiers server-side
    with NDA/qualified-review onboarding and an investor access log.

@@ -1,0 +1,191 @@
+[
+  {
+    "phase": "PH-1",
+    "days": "0–30",
+    "deliverable": "License Register",
+    "gate": "GATE-01, GATE-02",
+    "owner": "Atlas + digital layer"
+  },
+  {
+    "phase": "PH-1",
+    "days": "0–30",
+    "deliverable": "Assumption Register",
+    "gate": "GATE-01, GATE-02",
+    "owner": "Atlas + digital layer"
+  },
+  {
+    "phase": "PH-1",
+    "days": "0–30",
+    "deliverable": "Evidence Matrix",
+    "gate": "GATE-01, GATE-02",
+    "owner": "Atlas + digital layer"
+  },
+  {
+    "phase": "PH-1",
+    "days": "0–30",
+    "deliverable": "Claims Control Matrix",
+    "gate": "GATE-01, GATE-02",
+    "owner": "Atlas + digital layer"
+  },
+  {
+    "phase": "PH-1",
+    "days": "0–30",
+    "deliverable": "Data Gap Register",
+    "gate": "GATE-01, GATE-02",
+    "owner": "Atlas + digital layer"
+  },
+  {
+    "phase": "PH-1",
+    "days": "0–30",
+    "deliverable": "30-Day Validation Work Plan",
+    "gate": "GATE-01, GATE-02",
+    "owner": "Atlas + digital layer"
+  },
+  {
+    "phase": "PH-2",
+    "days": "30–60",
+    "deliverable": "Copper Target Priority Map",
+    "gate": "GATE-03",
+    "owner": "Geology team + digital layer"
+  },
+  {
+    "phase": "PH-2",
+    "days": "30–60",
+    "deliverable": "Blind-Zone Map",
+    "gate": "GATE-03",
+    "owner": "Geology team + digital layer"
+  },
+  {
+    "phase": "PH-2",
+    "days": "30–60",
+    "deliverable": "Sampling Upgrade Plan",
+    "gate": "GATE-03",
+    "owner": "Geology team + digital layer"
+  },
+  {
+    "phase": "PH-3",
+    "days": "60–90",
+    "deliverable": "Geochemistry Interpretation Memo",
+    "gate": "GATE-04, GATE-05",
+    "owner": "Geophysics contractor + Atlas"
+  },
+  {
+    "phase": "PH-3",
+    "days": "60–90",
+    "deliverable": "IP/Resistivity results",
+    "gate": "GATE-04, GATE-05",
+    "owner": "Geophysics contractor + Atlas"
+  },
+  {
+    "phase": "PH-3",
+    "days": "60–90",
+    "deliverable": "Short Drilling Target List",
+    "gate": "GATE-04, GATE-05",
+    "owner": "Geophysics contractor + Atlas"
+  },
+  {
+    "phase": "PH-4",
+    "days": "90–120",
+    "deliverable": "Pilot Feed Definition Memo",
+    "gate": "GATE-06",
+    "owner": "Mining engineer + metallurgist"
+  },
+  {
+    "phase": "PH-4",
+    "days": "90–120",
+    "deliverable": "Selective Extraction Plan",
+    "gate": "GATE-06",
+    "owner": "Mining engineer + metallurgist"
+  },
+  {
+    "phase": "PH-4",
+    "days": "90–120",
+    "deliverable": "Ore-Type Decision Matrix",
+    "gate": "GATE-06",
+    "owner": "Mining engineer + metallurgist"
+  },
+  {
+    "phase": "PH-4",
+    "days": "90–120",
+    "deliverable": "Metallurgical Sample Plan",
+    "gate": "GATE-06",
+    "owner": "Mining engineer + metallurgist"
+  },
+  {
+    "phase": "PH-4",
+    "days": "90–120",
+    "deliverable": "Pilot Decision Gate Memo",
+    "gate": "GATE-06",
+    "owner": "Mining engineer + metallurgist"
+  },
+  {
+    "phase": "PH-5",
+    "days": "120–150",
+    "deliverable": "Process Route Upgrade Memo",
+    "gate": "GATE-07, GATE-08, GATE-09",
+    "owner": "Process engineer + Atlas board"
+  },
+  {
+    "phase": "PH-5",
+    "days": "120–150",
+    "deliverable": "Water & Power Validation Memo",
+    "gate": "GATE-07, GATE-08, GATE-09",
+    "owner": "Process engineer + Atlas board"
+  },
+  {
+    "phase": "PH-5",
+    "days": "120–150",
+    "deliverable": "Tailings Risk Note",
+    "gate": "GATE-07, GATE-08, GATE-09",
+    "owner": "Process engineer + Atlas board"
+  },
+  {
+    "phase": "PH-5",
+    "days": "120–150",
+    "deliverable": "CAPEX Sensitivity Table",
+    "gate": "GATE-07, GATE-08, GATE-09",
+    "owner": "Process engineer + Atlas board"
+  },
+  {
+    "phase": "PH-5",
+    "days": "120–150",
+    "deliverable": "Pilot vs Full Plant Decision Memo",
+    "gate": "GATE-07, GATE-08, GATE-09",
+    "owner": "Process engineer + Atlas board"
+  },
+  {
+    "phase": "PH-6",
+    "days": "150–180",
+    "deliverable": "180-Day Feasibility Upgrade Report",
+    "gate": "GATE-10",
+    "owner": "Atlas board"
+  },
+  {
+    "phase": "PH-6",
+    "days": "150–180",
+    "deliverable": "Investor/Operator Decision Pack",
+    "gate": "GATE-10",
+    "owner": "Atlas board"
+  },
+  {
+    "phase": "PH-6",
+    "days": "150–180",
+    "deliverable": "Pilot Operating Term Sheet",
+    "gate": "GATE-10",
+    "owner": "Atlas board"
+  },
+  {
+    "phase": "PH-6",
+    "days": "150–180",
+    "deliverable": "Long-Term Operating Agreement Framework",
+    "gate": "GATE-10",
+    "owner": "Atlas board"
+  },
+  {
+    "phase": "PH-6",
+    "days": "150–180",
+    "deliverable": "Atlas Board Decision Memo",
+    "gate": "GATE-10",
+    "owner": "Atlas board"
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "claim_id": "CLM-001",
+    "wording": "A licensed Moroccan copper asset.",
+    "badge": "Document-supported · Legal review required"
+  },
+  {
+    "claim_id": "CLM-002",
+    "wording": "The project benefits from an environmental approval reference, while operations remain subject to detailed compliance review and permitting.",
+    "badge": "Document-supported · Compliance review required"
+  },
+  {
+    "claim_id": "CLM-003",
+    "wording": "The project has moved beyond paper stage: trenching, sampling and laboratory assays are completed.",
+    "badge": "Field-observed"
+  },
+  {
+    "claim_id": "CLM-004",
+    "wording": "Selected high-grade copper assays up to 9.65% Cu — selected-sample evidence, not average project grade.",
+    "badge": "Selected-sample assay — not average project grade"
+  },
+  {
+    "claim_id": "CLM-005",
+    "wording": "A preliminary orientation estimate of 2.3 Mt at 1.8% Cu — requiring validation; not a certified resource or reserve.",
+    "badge": "Preliminary orientation estimate — requires validation"
+  },
+  {
+    "claim_id": "CLM-006",
+    "wording": "A preliminary 800 t/day processing scenario — the initial industrial reference case, not a final plant decision.",
+    "badge": "Preliminary processing scenario — not final plant decision"
+  },
+  {
+    "claim_id": "CLM-007",
+    "wording": "Preliminary CAPEX framework of 124.4M MAD HT — not final capital cost, not the development ceiling.",
+    "badge": "Preliminary CAPEX orientation — subject to engineering update"
+  },
+  {
+    "claim_id": "CLM-009",
+    "wording": "(Qualified review and above.) Production scheduling scenario, subject to material-balance review and flotation test work.",
+    "badge": "Orientation-study assumption — requires engineering review"
+  },
+  {
+    "claim_id": "CLM-010",
+    "wording": "USD 150,000 Non-Refundable Entry & Validation Access fee — structured access; not a license purchase, technology fee, equity investment, refundable deposit, production right, or guaranteed operating agreement.",
+    "badge": "Non-refundable Entry & Validation Access fee"
+  },
+  {
+    "claim_id": "CLM-011",
+    "wording": "Atlas Mining preserves license control; any transfer, equity, or operating right is separately negotiated and documented.",
+    "badge": "Atlas-controlled opportunity"
+  },
+  {
+    "claim_id": "CLM-012",
+    "wording": "An optional, independent digital validation layer that reduces blind exploration and supports pilot-feed definition. It does not replace geologists, engineers, labs, legal review, or feasibility studies.",
+    "badge": "Independent digital layer"
+  },
+  {
+    "claim_id": "CLM-013",
+    "wording": "Potential upside beyond the preliminary orientation case — subject to geophysics, drilling, and resource validation; not yet resource-classified.",
+    "badge": "Upside case — not yet resource-classified"
+  },
+  {
+    "claim_id": "CLM-014",
+    "wording": "Expansion case — staged development pathway requiring feasibility and engineering validation.",
+    "badge": "Expansion case — requires feasibility and engineering validation"
+  },
+  {
+    "claim_id": "CLM-015",
+    "wording": "Geophysics is the recommended next validation step, with drilling pathways already scoped.",
+    "badge": "Field-observed · Next validation step"
+  }
+]

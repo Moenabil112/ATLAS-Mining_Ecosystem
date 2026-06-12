@@ -1,0 +1,124 @@
+[
+  {
+    "folder_id": "F-01",
+    "title": "License Documents",
+    "access_level": "nda-review",
+    "documents": [
+      "DOC-001",
+      "DOC-002"
+    ],
+    "status": "awaiting original uploads",
+    "claim_sensitivity": "high"
+  },
+  {
+    "folder_id": "F-02",
+    "title": "Environmental Documents",
+    "access_level": "nda-review",
+    "documents": [
+      "DOC-003"
+    ],
+    "status": "awaiting original uploads",
+    "claim_sensitivity": "medium"
+  },
+  {
+    "folder_id": "F-03",
+    "title": "Field Visit Reports",
+    "access_level": "nda-review",
+    "documents": [
+      "DOC-004"
+    ],
+    "status": "awaiting original uploads",
+    "claim_sensitivity": "medium"
+  },
+  {
+    "folder_id": "F-04",
+    "title": "AFRILAB Reports",
+    "access_level": "nda-review",
+    "documents": [
+      "DOC-005",
+      "DOC-006"
+    ],
+    "status": "awaiting original uploads",
+    "claim_sensitivity": "high"
+  },
+  {
+    "folder_id": "F-05",
+    "title": "A.I.P.S Orientation Study",
+    "access_level": "nda-review",
+    "documents": [
+      "DOC-007"
+    ],
+    "status": "awaiting original upload",
+    "claim_sensitivity": "high"
+  },
+  {
+    "folder_id": "F-06",
+    "title": "Maps and GIS",
+    "access_level": "restricted-technical",
+    "documents": [],
+    "status": "to be produced in Phase 2",
+    "claim_sensitivity": "high — coordinates restricted"
+  },
+  {
+    "folder_id": "F-07",
+    "title": "Trench and Sample Registers",
+    "access_level": "nda-review",
+    "documents": [
+      "DOC-004",
+      "DOC-005",
+      "DOC-006"
+    ],
+    "status": "structured drafts present; per-trench detail pending",
+    "claim_sensitivity": "medium"
+  },
+  {
+    "folder_id": "F-08",
+    "title": "Assumption Register",
+    "access_level": "restricted-technical",
+    "documents": [
+      "DOC-007"
+    ],
+    "status": "structured (17 items)",
+    "claim_sensitivity": "high"
+  },
+  {
+    "folder_id": "F-09",
+    "title": "180-Day Upgrade Plan",
+    "access_level": "qualified-review",
+    "documents": [
+      "DOC-010"
+    ],
+    "status": "structured (6 phases, 10 gates)",
+    "claim_sensitivity": "low"
+  },
+  {
+    "folder_id": "F-10",
+    "title": "Commercial Offer",
+    "access_level": "qualified-review",
+    "documents": [
+      "DOC-009"
+    ],
+    "status": "commercial draft",
+    "claim_sensitivity": "high"
+  },
+  {
+    "folder_id": "F-11",
+    "title": "Risk Register",
+    "access_level": "restricted-technical",
+    "documents": [
+      "DOC-008"
+    ],
+    "status": "risk flags structured",
+    "claim_sensitivity": "medium"
+  },
+  {
+    "folder_id": "F-12",
+    "title": "Digital System Brief",
+    "access_level": "qualified-review",
+    "documents": [
+      "DOC-011"
+    ],
+    "status": "structured",
+    "claim_sensitivity": "medium"
+  }
+]

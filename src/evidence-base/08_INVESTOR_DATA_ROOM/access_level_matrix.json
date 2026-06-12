@@ -1,0 +1,122 @@
+{
+  "levels": [
+    "public-teaser",
+    "qualified-review",
+    "nda-review",
+    "restricted-technical",
+    "restricted-legal",
+    "internal-only"
+  ],
+  "matrix": [
+    {
+      "item": "License summary",
+      "levels": {
+        "public-teaser": "yes",
+        "qualified-review": "yes",
+        "nda-review": "yes",
+        "restricted-technical": "yes",
+        "restricted-legal": "yes",
+        "internal-only": "yes"
+      }
+    },
+    {
+      "item": "Full license documents",
+      "levels": {
+        "public-teaser": "no",
+        "qualified-review": "no",
+        "nda-review": "yes",
+        "restricted-technical": "yes",
+        "restricted-legal": "yes",
+        "internal-only": "yes"
+      }
+    },
+    {
+      "item": "Environmental documents",
+      "levels": {
+        "public-teaser": "no",
+        "qualified-review": "summary",
+        "nda-review": "yes",
+        "restricted-technical": "yes",
+        "restricted-legal": "yes",
+        "internal-only": "yes"
+      }
+    },
+    {
+      "item": "AFRILAB reports",
+      "levels": {
+        "public-teaser": "no",
+        "qualified-review": "summary",
+        "nda-review": "yes",
+        "restricted-technical": "yes",
+        "restricted-legal": "yes",
+        "internal-only": "yes"
+      }
+    },
+    {
+      "item": "A.I.P.S study",
+      "levels": {
+        "public-teaser": "no",
+        "qualified-review": "summary",
+        "nda-review": "yes",
+        "restricted-technical": "yes",
+        "restricted-legal": "yes",
+        "internal-only": "yes"
+      }
+    },
+    {
+      "item": "Assumption register",
+      "levels": {
+        "public-teaser": "no",
+        "qualified-review": "no",
+        "nda-review": "summary",
+        "restricted-technical": "yes",
+        "restricted-legal": "yes",
+        "internal-only": "yes"
+      }
+    },
+    {
+      "item": "Maps / GIS / coordinates",
+      "levels": {
+        "public-teaser": "no",
+        "qualified-review": "no",
+        "nda-review": "summary",
+        "restricted-technical": "yes",
+        "restricted-legal": "yes",
+        "internal-only": "yes"
+      }
+    },
+    {
+      "item": "Commercial offer",
+      "levels": {
+        "public-teaser": "summary",
+        "qualified-review": "yes",
+        "nda-review": "yes",
+        "restricted-technical": "yes",
+        "restricted-legal": "yes",
+        "internal-only": "yes"
+      }
+    },
+    {
+      "item": "Financial model (pre-correction)",
+      "levels": {
+        "public-teaser": "no",
+        "qualified-review": "no",
+        "nda-review": "no",
+        "restricted-technical": "yes",
+        "restricted-legal": "yes",
+        "internal-only": "yes"
+      }
+    },
+    {
+      "item": "Negotiation strategy",
+      "levels": {
+        "public-teaser": "no",
+        "qualified-review": "no",
+        "nda-review": "no",
+        "restricted-technical": "no",
+        "restricted-legal": "no",
+        "internal-only": "yes"
+      }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "source_document": "DOC-004",
+  "report_title": "Morocco Isseksi Concession Visit Report",
+  "visit_period": "12–28 May 2025",
+  "areas_covered": [
+    "Isseksi (~30 km from Beni Mellal)",
+    "Zaouit Askar (~59 km from Beni Mellal)",
+    "other license areas"
+  ],
+  "site_access": "Asphalt and dirt-road sections; grid power observed in vicinity",
+  "trenching": {
+    "total_length_m": "≈232",
+    "trench_count": 7
+  },
+  "sampling": {
+    "samples_submitted": 29,
+    "lab": "AFRILAB"
+  },
+  "recommendations": [
+    "IP / Resistivity geophysics to define depth and continuity of mineralization",
+    "DD / RC drilling — contractors approached for quotations"
+  ],
+  "evidence_status": "field-observed",
+  "number_status": "documented",
+  "access_level": "nda-review",
+  "required_label": "Field-observed evidence — supports targeting, not resource claims."
+}

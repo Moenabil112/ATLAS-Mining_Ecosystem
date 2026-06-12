@@ -1,0 +1,22 @@
+{
+  "route": [
+    "Primary crushing",
+    "Secondary/tertiary crushing to 10 mm",
+    "Ball milling d80 120 µm",
+    "Detalcage",
+    "Flotation — roughing",
+    "Flotation — scavenging",
+    "Flotation — re-cleaning",
+    "Concentrate thickening",
+    "Concentrate filtration",
+    "Tailings dam with water recovery"
+  ],
+  "source_document": "DOC-007",
+  "number_status": "orientation-study-assumption",
+  "validation_needs": [
+    "ore type split oxide/sulfide/mixed",
+    "flotation test work",
+    "liberation tests (d80)",
+    "pilot vs full plant trade-off"
+  ]
+}

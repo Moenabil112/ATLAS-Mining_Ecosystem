@@ -1,0 +1,26 @@
+{
+  "dashboards": [
+    "License Dashboard",
+    "Evidence Dashboard",
+    "Target Priority Map",
+    "Assay Matrix",
+    "AIPS Assumption Tracker",
+    "CAPEX Scenario Tracker",
+    "180-Day Roadmap",
+    "Risk Register",
+    "Investor Access Log"
+  ],
+  "decision_states": [
+    "Go",
+    "Hold",
+    "Redesign",
+    "More data required",
+    "Internal only",
+    "Ready for operator review"
+  ],
+  "feeds": {
+    "gates": "06_180_DAY_ROADMAP_EVIDENCE/decision_gate_register.json",
+    "metrics": "09_SYSTEM_READY_DATA/dashboard_metrics.json",
+    "risks": "09_SYSTEM_READY_DATA/risk_flags.json"
+  }
+}

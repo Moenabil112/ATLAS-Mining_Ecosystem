@@ -1,0 +1,99 @@
+{
+  "workstreams": [
+    {
+      "id": "WS-LEGAL",
+      "name": "Legal & license confirmation",
+      "gates": [
+        "GATE-01"
+      ],
+      "items": [
+        "holder, boundaries, obligations"
+      ]
+    },
+    {
+      "id": "WS-GEO",
+      "name": "Geology & sampling",
+      "gates": [
+        "GATE-03",
+        "GATE-05"
+      ],
+      "items": [
+        "channel sampling",
+        "multi-element assays",
+        "QA/QC",
+        "drilling targets"
+      ]
+    },
+    {
+      "id": "WS-GPX",
+      "name": "Geophysics",
+      "gates": [
+        "GATE-04"
+      ],
+      "items": [
+        "IP/Resistivity design, execution, interpretation"
+      ]
+    },
+    {
+      "id": "WS-MET",
+      "name": "Metallurgy & pilot feed",
+      "gates": [
+        "GATE-06",
+        "GATE-07"
+      ],
+      "items": [
+        "ore-type split",
+        "flotation tests",
+        "pilot feed definition"
+      ]
+    },
+    {
+      "id": "WS-INF",
+      "name": "Water, power, tailings",
+      "gates": [
+        "GATE-08"
+      ],
+      "items": [
+        "hydrogeology",
+        "ONEE study",
+        "tailings engineering"
+      ]
+    },
+    {
+      "id": "WS-FIN",
+      "name": "CAPEX & financial correction",
+      "gates": [
+        "GATE-09"
+      ],
+      "items": [
+        "AIPS-014 audit",
+        "CAPEX sensitivity",
+        "model update"
+      ]
+    },
+    {
+      "id": "WS-COM",
+      "name": "Commercial decision",
+      "gates": [
+        "GATE-10"
+      ],
+      "items": [
+        "decision pack",
+        "pilot term sheet",
+        "board memo"
+      ]
+    }
+  ],
+  "validation_gaps": [
+    "Average grade vs selected assays — representative channel sampling + drilling (GATE-03/05).",
+    "Resource estimate 2.3 Mt @ 1.8% Cu — drilling and resource modeling (GATE-05).",
+    "Ore-type split oxide/sulfide/mixed — mineralogy + metallurgical test work (GATE-06/07).",
+    "Recovery ~89.78–90% — flotation test work (GATE-07).",
+    "Material balance AIPS-014 (225,000 t/y × 1.8% Cu vs 22,050 t/y @ 28.40% Cu) — technical & arithmetic audit (GATE-09).",
+    "Annual gains 162–406M MAD — financial model correction & update (GATE-09).",
+    "Water: 1,200 m³/day, 1.32 m³/t ROM, 40% recycling — hydrogeology, permits, tailings tests (GATE-08).",
+    "Power: ONEE 22 kV, 630–800 kVA — electrical connection study (GATE-08).",
+    "Tailings: 3 ha concept ~2 km from plant — tailings engineering & permitting (GATE-08).",
+    "License legal finality — counsel review (GATE-01)."
+  ]
+}

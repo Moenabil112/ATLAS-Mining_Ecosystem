@@ -1,0 +1,226 @@
+[
+  {
+    "document_id": "DOC-001",
+    "title": "Exploitation License No. 353294",
+    "file_name": "(original pending upload)",
+    "document_type": "License document",
+    "language": "FR/AR",
+    "date": "03/10/2024",
+    "source_layer": "license-position",
+    "access_level": "nda-review",
+    "summary": "Exploitation license over the Isseksi perimeter, 15.36 km², valid 03/10/2024–02/10/2034. Primary mineral copper; associated minerals subject to validation.",
+    "key_numbers": [
+      "353294",
+      "15.36 km²",
+      "03/10/2024–02/10/2034"
+    ],
+    "claim_sensitivity": "high — legal anchor of the entire opportunity",
+    "use_in_system": "License register, investor gateway anchor, Gate-01 evidence",
+    "file_status": "referenced — original document not yet lodged in evidence base"
+  },
+  {
+    "document_id": "DOC-002",
+    "title": "Research Permit No. 3535903",
+    "file_name": "(original pending upload)",
+    "document_type": "Permit document",
+    "language": "FR/AR",
+    "date": "(per document)",
+    "source_layer": "license-position",
+    "access_level": "nda-review",
+    "summary": "Related research permit; perimeter references subject to legal review.",
+    "key_numbers": [
+      "3535903"
+    ],
+    "claim_sensitivity": "high — perimeter relationship to exploitation license must be confirmed",
+    "use_in_system": "License register, legal review input",
+    "file_status": "referenced — original document not yet lodged in evidence base"
+  },
+  {
+    "document_id": "DOC-003",
+    "title": "Environmental Approval No. CRI/24/102",
+    "file_name": "(original pending upload)",
+    "document_type": "Regulatory approval",
+    "language": "FR/AR",
+    "date": "(per document)",
+    "source_layer": "license-position",
+    "access_level": "nda-review",
+    "summary": "Environmental approval reference. A strategic strength; not a substitute for final operating compliance (water, tailings, construction, monitoring all remain subject to detailed permitting).",
+    "key_numbers": [
+      "CRI/24/102"
+    ],
+    "claim_sensitivity": "medium — must not be presented as full operating compliance",
+    "use_in_system": "Regulatory layer, ESG narrative, Gate-08 input",
+    "file_status": "referenced — original document not yet lodged in evidence base"
+  },
+  {
+    "document_id": "DOC-004",
+    "title": "Morocco Isseksi Concession Visit Report, 12–28 May 2025",
+    "file_name": "(original pending upload)",
+    "document_type": "Field / technical report",
+    "language": "EN",
+    "date": "May 2025",
+    "source_layer": "field-lab-evidence",
+    "access_level": "nda-review",
+    "summary": "Technical site visit covering Isseksi and other license areas. Trenching (~232 m, 7 trenches), 29 samples prepared for AFRILAB, IP/Resistivity geophysics recommended, DD/RC drilling contractors approached. Site ~30 km from Beni Mellal; Zaouit Askar ~59 km. Asphalt + dirt-road access; grid power observed in vicinity.",
+    "key_numbers": [
+      "12–28 May 2025",
+      "232 m",
+      "7 trenches",
+      "29 samples",
+      "30 km",
+      "59 km"
+    ],
+    "claim_sensitivity": "medium — field-observed evidence, no resource implication",
+    "use_in_system": "Field evidence layer, trench/sample registers, geophysics planning",
+    "file_status": "referenced — original document not yet lodged in evidence base"
+  },
+  {
+    "document_id": "DOC-005",
+    "title": "AFRILAB Assay Report No. AM/QA/DM/RA/1848/06/25",
+    "file_name": "(original pending upload)",
+    "document_type": "Laboratory report",
+    "language": "FR/EN",
+    "date": "04/06/2025",
+    "source_layer": "field-lab-evidence",
+    "access_level": "nda-review",
+    "summary": "Copper assay report. Client reference COPPER ORE. Received 29/05/2025, analysed 01/06/2025, issued 04/06/2025. Selected results: TC-22-H2 9.65% Cu; TC-23-H2-1 9.34%; TC-24-H3 7.24%; TC-22-H1 5.46%; TC-21-H2 2.24%; TC-21-H1 1.35%; TC-21-H3 0.98%. Several samples at 0.01–0.04% Cu.",
+    "key_numbers": [
+      "1848/06/25",
+      "9.65% Cu",
+      "9.34% Cu",
+      "7.24% Cu",
+      "5.46% Cu"
+    ],
+    "claim_sensitivity": "high — selected samples must never be presented as average grade",
+    "use_in_system": "Assay register, targeting support, claims-control engine",
+    "file_status": "referenced — original document not yet lodged in evidence base"
+  },
+  {
+    "document_id": "DOC-006",
+    "title": "AFRILAB Assay Report No. AM/QA/DM/RA/1849/06/25",
+    "file_name": "(original pending upload)",
+    "document_type": "Laboratory report",
+    "language": "FR/EN",
+    "date": "04/06/2025",
+    "summary": "Copper assay report. Client reference COPPER ORE. Analysed 31/05/2025, issued 04/06/2025. Selected result: Échantillon 2 — 3.78% Cu.",
+    "source_layer": "field-lab-evidence",
+    "access_level": "nda-review",
+    "key_numbers": [
+      "1849/06/25",
+      "3.78% Cu"
+    ],
+    "claim_sensitivity": "high — selected sample, same control as DOC-005",
+    "use_in_system": "Assay register, targeting support",
+    "file_status": "referenced — original document not yet lodged in evidence base"
+  },
+  {
+    "document_id": "DOC-007",
+    "title": "A.I.P.S Preliminary Orientation Study — «Étude d'orientation pour la construction du Projet de la Mine Isseksi — Licence d'exploitation N°353294»",
+    "file_name": "(original pending upload)",
+    "document_type": "Engineering orientation study",
+    "language": "FR",
+    "date": "(per document)",
+    "source_layer": "orientation-study",
+    "access_level": "nda-review",
+    "summary": "Preliminary mine construction & processing orientation study by Africa Industrial Power Systems. Base case: 2.3 Mt @ 1.8% Cu hypothesis; 4 open pits × 200 t/day; 800 t/day sulfide flotation plant; CAPEX 124.4M MAD HT (mine 3.41 / plant 96.06 / infrastructure 24.93); tailings 3 ha; water ~1,200 m³/day from 4 boreholes; ONEE 22 kV; production schedule 2027–2037; example optimal annual tonnage 225,000 t/year; concentrate scenario 22,050 t/year at 28.40% Cu; recovery assumption ~89.78–90%. Contains a material-balance item requiring arithmetic review.",
+    "key_numbers": [
+      "2.3 Mt",
+      "1.8% Cu",
+      "800 t/day",
+      "124.4M MAD HT",
+      "2027–2037",
+      "225,000 t/y",
+      "22,050 t/y @ 28.40% Cu"
+    ],
+    "claim_sensitivity": "high — preliminary orientation only; never feasibility-grade",
+    "use_in_system": "Orientation study layer, assumption register, CAPEX register, Gate-09",
+    "file_status": "referenced — original document not yet lodged in evidence base"
+  },
+  {
+    "document_id": "DOC-008",
+    "title": "ATLAS_Isseksi_Copper_Digital_Ecosystem MD Knowledge Package (57 files)",
+    "file_name": "ATLAS_Isseksi_Copper_Digital_Ecosystem_MD_Package_1_.zip",
+    "document_type": "Structured knowledge package",
+    "language": "EN",
+    "date": "2026 (Draft 01)",
+    "source_layer": "all-layers",
+    "access_level": "internal-only",
+    "summary": "Six-layer master context, strategic positioning, claims-control language, layer files 01–06, investor interface copy, data room index, system build notes. Treated as the governing source of structure, positioning and claims language.",
+    "key_numbers": [
+      "six layers",
+      "180-day roadmap",
+      "10 decision gates"
+    ],
+    "claim_sensitivity": "medium — internal governance document",
+    "use_in_system": "Governs all layers; source of claims-control rules",
+    "file_status": "present in evidence base (digitized)"
+  },
+  {
+    "document_id": "DOC-009",
+    "title": "Structured Operating Entry Offer (Commercial Draft)",
+    "file_name": "06_LAYER_STRUCTURED_OPERATING_ENTRY/*.md",
+    "document_type": "Commercial draft",
+    "language": "EN",
+    "date": "2026 (Draft 01)",
+    "source_layer": "operating-entry",
+    "access_level": "qualified-review",
+    "summary": "USD 150,000 Non-Refundable Entry & Validation Access fee payable to Atlas Mining; four-stage pathway (entry → feasibility participation → pilot → long-term operating agreement). Not a license sale; technology independent.",
+    "key_numbers": [
+      "USD 150,000"
+    ],
+    "claim_sensitivity": "high — fee nature must never be misdescribed",
+    "use_in_system": "Commercial evidence layer, operating entry page, Gate-10",
+    "file_status": "present in evidence base (digitized)"
+  },
+  {
+    "document_id": "DOC-010",
+    "title": "180-Day Feasibility Upgrade Plan",
+    "file_name": "05_LAYER_180_DAY_FEASIBILITY_UPGRADE/*.md",
+    "document_type": "Validation roadmap",
+    "language": "EN",
+    "date": "2026 (Draft 01)",
+    "source_layer": "feasibility-180",
+    "access_level": "qualified-review",
+    "summary": "Six phases × 30 days: data control → target mapping → geophysics/geochemistry → pilot feed → process/water/power/CAPEX review → commercial decision pack. Decision-gate governed.",
+    "key_numbers": [
+      "6 phases",
+      "180 days"
+    ],
+    "claim_sensitivity": "low — process document",
+    "use_in_system": "Roadmap layer, decision gate register, deliverables matrix",
+    "file_status": "present in evidence base (digitized)"
+  },
+  {
+    "document_id": "DOC-011",
+    "title": "ATLAS Intelligent Copper Targeting System Brief",
+    "file_name": "04_LAYER_INTELLIGENT_VALIDATION_SYSTEM/*.md",
+    "document_type": "Digital system brief",
+    "language": "EN",
+    "date": "2026 (Draft 01)",
+    "source_layer": "intelligent-validation",
+    "access_level": "qualified-review",
+    "summary": "Independent decision-support layer (Akanil / Mohamed Nabil technology structure): target ranking, blind-zone reduction, pilot feed selection, assumption tracking, digital governance. Independent from the entry fee; does not replace specialists.",
+    "key_numbers": [],
+    "claim_sensitivity": "medium — independence from entry fee is a binding rule",
+    "use_in_system": "Digital system layer, decision room requirements",
+    "file_status": "present in evidence base (digitized)"
+  },
+  {
+    "document_id": "DOC-012",
+    "title": "Data Room Index & Disclosure Rules",
+    "file_name": "08_DATA_ROOM_INDEX/*.md",
+    "document_type": "Governance document",
+    "language": "EN",
+    "date": "2026 (Draft 01)",
+    "source_layer": "all-layers",
+    "access_level": "internal-only",
+    "summary": "12-folder data room structure, access level matrix, document status register, disclosure rules (NDA before technical detail; no coordinates publicly; no preliminary numbers as certified).",
+    "key_numbers": [
+      "12 folders",
+      "5 access levels"
+    ],
+    "claim_sensitivity": "medium",
+    "use_in_system": "Investor data room layer, access control matrix",
+    "file_status": "present in evidence base (digitized)"
+  }
+]

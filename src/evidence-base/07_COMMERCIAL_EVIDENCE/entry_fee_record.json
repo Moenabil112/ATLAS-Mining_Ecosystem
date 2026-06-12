@@ -1,0 +1,27 @@
+{
+  "amount_usd": 150000,
+  "currency": "USD",
+  "nature": "Non-Refundable Entry Fee",
+  "payable_to": "Atlas Mining",
+  "represents": [
+    "structured access to the opportunity",
+    "controlled document and site review pathway",
+    "validation participation",
+    "commercial negotiation pathway",
+    "reservation of serious engagement space"
+  ],
+  "is_not": [
+    "license purchase",
+    "refundable deposit",
+    "technology fee",
+    "production right",
+    "equity investment",
+    "loan",
+    "guarantee of results",
+    "guarantee of operating agreement"
+  ],
+  "independence": "Separate from the ATLAS Intelligent Copper Targeting System",
+  "required_label": "USD 150,000 Non-Refundable Entry & Validation Access fee — not license purchase, not technology fee, not production right.",
+  "number_status": "documented",
+  "access_level": "qualified-review"
+}

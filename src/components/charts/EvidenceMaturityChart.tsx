@@ -8,18 +8,28 @@ import {
   XAxis,
   YAxis,
 } from "recharts";
-import { evidenceMaturityDistribution } from "@/lib/evidence";
+import { dashboardMetrics } from "@/evidence-base";
 
-const toneColor: Record<string, string> = {
-  "document-supported": "#2f5d50",
-  "field-observed": "#4f8a76",
-  "assay-supported": "#b87333",
-  "preliminary-assumption": "#cbb084",
-  "requires-validation": "#c47b38",
+const colorByKey: Record<string, string> = {
+  documented: "#2f5d50",
+  selected_sample: "#b87333",
+  preliminary: "#cbb084",
+  requires_correction: "#c0532f",
 };
 
+const labelByKey: Record<string, string> = {
+  documented: "Documented",
+  selected_sample: "Selected sample",
+  preliminary: "Preliminary",
+  requires_correction: "Requires correction",
+};
+
+/** Evidence maturity distribution across the 51 registered numbers. */
 export function EvidenceMaturityChart() {
-  const data = evidenceMaturityDistribution();
+  const data = Object.entries(dashboardMetrics.evidence_maturity_count).map(
+    ([key, count]) => ({ key, label: labelByKey[key] ?? key, count }),
+  );
+
   return (
     <div className="h-64 w-full">
       <ResponsiveContainer width="100%" height="100%">
@@ -28,7 +38,7 @@ export function EvidenceMaturityChart() {
           <XAxis
             dataKey="label"
             tick={{ fill: "#cbb084", fontSize: 10 }}
-            angle={-15}
+            angle={-12}
             textAnchor="end"
             height={50}
             interval={0}
@@ -46,7 +56,7 @@ export function EvidenceMaturityChart() {
           />
           <Bar dataKey="count" radius={[4, 4, 0, 0]}>
             {data.map((d) => (
-              <Cell key={d.status} fill={toneColor[d.status] ?? "#b87333"} />
+              <Cell key={d.key} fill={colorByKey[d.key] ?? "#b87333"} />
             ))}
           </Bar>
         </BarChart>

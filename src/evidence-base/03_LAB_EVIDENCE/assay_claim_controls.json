@@ -1,0 +1,15 @@
+{
+  "rule": "Any assay value (e.g., 9.65% Cu) must carry the mandatory label.",
+  "required_label": "Selected-sample assay — not average project grade.",
+  "number_status": "selected-sample-result",
+  "prohibited": [
+    "average grade implication",
+    "resource implication",
+    "reserve implication",
+    "grade continuity implication"
+  ],
+  "access": {
+    "highlights": "qualified-review (with label)",
+    "full_tables": "nda-review"
+  }
+}

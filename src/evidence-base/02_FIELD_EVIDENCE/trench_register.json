@@ -1,0 +1,111 @@
+[
+  {
+    "trench_id": "TC-21",
+    "samples": [
+      "TC-21-H1",
+      "TC-21-H2",
+      "TC-21-H3"
+    ],
+    "evidence": "Three assayed samples, 0.98–2.24% Cu (selected)",
+    "status": "assay-linked",
+    "total_campaign_length_m": "≈232",
+    "source_document": "DOC-004",
+    "length_m": "(per trench — pending original report)",
+    "coordinates": "(restricted — pending GIS layer)",
+    "ore_observation": "(pending original report)",
+    "photo_reference": "(pending original report)",
+    "evidence_status": "field-observed",
+    "access_level": "restricted-technical"
+  },
+  {
+    "trench_id": "TC-22",
+    "samples": [
+      "TC-22-H1",
+      "TC-22-H2"
+    ],
+    "evidence": "Two assayed samples, 5.46–9.65% Cu (selected)",
+    "status": "assay-linked",
+    "total_campaign_length_m": "≈232",
+    "source_document": "DOC-004",
+    "length_m": "(per trench — pending original report)",
+    "coordinates": "(restricted — pending GIS layer)",
+    "ore_observation": "(pending original report)",
+    "photo_reference": "(pending original report)",
+    "evidence_status": "field-observed",
+    "access_level": "restricted-technical"
+  },
+  {
+    "trench_id": "TC-23",
+    "samples": [
+      "TC-23-H2-1"
+    ],
+    "evidence": "One assayed sample, 9.34% Cu (selected)",
+    "status": "assay-linked",
+    "total_campaign_length_m": "≈232",
+    "source_document": "DOC-004",
+    "length_m": "(per trench — pending original report)",
+    "coordinates": "(restricted — pending GIS layer)",
+    "ore_observation": "(pending original report)",
+    "photo_reference": "(pending original report)",
+    "evidence_status": "field-observed",
+    "access_level": "restricted-technical"
+  },
+  {
+    "trench_id": "TC-24",
+    "samples": [
+      "TC-24-H3"
+    ],
+    "evidence": "One assayed sample, 7.24% Cu (selected)",
+    "status": "assay-linked",
+    "total_campaign_length_m": "≈232",
+    "source_document": "DOC-004",
+    "length_m": "(per trench — pending original report)",
+    "coordinates": "(restricted — pending GIS layer)",
+    "ore_observation": "(pending original report)",
+    "photo_reference": "(pending original report)",
+    "evidence_status": "field-observed",
+    "access_level": "restricted-technical"
+  },
+  {
+    "trench_id": "(trench 5 — ID pending)",
+    "samples": [],
+    "evidence": "Identified in count of 7 trenches; details pending original field report",
+    "status": "data-gap",
+    "total_campaign_length_m": "≈232",
+    "source_document": "DOC-004",
+    "length_m": "(per trench — pending original report)",
+    "coordinates": "(restricted — pending GIS layer)",
+    "ore_observation": "(pending original report)",
+    "photo_reference": "(pending original report)",
+    "evidence_status": "field-observed",
+    "access_level": "restricted-technical"
+  },
+  {
+    "trench_id": "(trench 6 — ID pending)",
+    "samples": [],
+    "evidence": "Identified in count of 7 trenches; details pending original field report",
+    "status": "data-gap",
+    "total_campaign_length_m": "≈232",
+    "source_document": "DOC-004",
+    "length_m": "(per trench — pending original report)",
+    "coordinates": "(restricted — pending GIS layer)",
+    "ore_observation": "(pending original report)",
+    "photo_reference": "(pending original report)",
+    "evidence_status": "field-observed",
+    "access_level": "restricted-technical"
+  },
+  {
+    "trench_id": "(trench 7 — ID pending)",
+    "samples": [],
+    "evidence": "Identified in count of 7 trenches; details pending original field report",
+    "status": "data-gap",
+    "total_campaign_length_m": "≈232",
+    "source_document": "DOC-004",
+    "length_m": "(per trench — pending original report)",
+    "coordinates": "(restricted — pending GIS layer)",
+    "ore_observation": "(pending original report)",
+    "photo_reference": "(pending original report)",
+    "evidence_status": "field-observed",
+    "access_level": "restricted-technical"
+  }
+]

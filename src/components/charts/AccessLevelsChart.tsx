@@ -8,7 +8,8 @@ import {
   XAxis,
   YAxis,
 } from "recharts";
-import { dataRoomFolders } from "@/data";
+import { useTranslation } from "react-i18next";
+import { sourceDocuments } from "@/evidence-base";
 import { accessLevelLabel, accessOrder } from "@/lib/accessControl";
 import type { AccessLevel } from "@/types";
 
@@ -17,21 +18,24 @@ const color: Record<AccessLevel, string> = {
   "qualified-review": "#2f5d50",
   "nda-review": "#b87333",
   "restricted-technical": "#c47b38",
-  "internal-only": "#9c5e28",
+  "restricted-legal": "#9c5e28",
+  "internal-only": "#7c4a20",
 };
 
+/** Distribution of registered source documents across disclosure tiers. */
 export function AccessLevelsChart() {
+  const { t } = useTranslation();
   const counts = new Map<AccessLevel, number>();
-  for (const folder of dataRoomFolders) {
-    for (const doc of folder.documents) {
-      counts.set(doc.accessLevel, (counts.get(doc.accessLevel) ?? 0) + 1);
-    }
+  for (const doc of sourceDocuments) {
+    counts.set(doc.access_level, (counts.get(doc.access_level) ?? 0) + 1);
   }
-  const data = accessOrder.map((level) => ({
-    level,
-    label: accessLevelLabel(level),
-    count: counts.get(level) ?? 0,
-  }));
+  const data = accessOrder
+    .map((level) => ({
+      level,
+      label: t(`status.access.${level}`, accessLevelLabel(level)),
+      count: counts.get(level) ?? 0,
+    }))
+    .filter((d) => d.count > 0);
 
   return (
     <div className="h-64 w-full">

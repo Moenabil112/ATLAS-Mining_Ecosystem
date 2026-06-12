@@ -1,0 +1,94 @@
+[
+  {
+    "level": "1",
+    "name": "Documented license evidence",
+    "linked_items": [
+      "NUM-L01",
+      "NUM-L02",
+      "NUM-L03",
+      "NUM-L04",
+      "NUM-L05"
+    ]
+  },
+  {
+    "level": "2",
+    "name": "Field-observed evidence",
+    "linked_items": [
+      "NUM-F01",
+      "NUM-F02",
+      "NUM-F03",
+      "NUM-F04",
+      "NUM-F05",
+      "NUM-F06"
+    ]
+  },
+  {
+    "level": "3",
+    "name": "Assay-supported selected samples",
+    "linked_items": [
+      "NUM-A06",
+      "NUM-A07",
+      "NUM-A08",
+      "NUM-A09",
+      "NUM-A10",
+      "NUM-A11",
+      "NUM-A12",
+      "NUM-A13"
+    ]
+  },
+  {
+    "level": "4",
+    "name": "Preliminary orientation engineering",
+    "linked_items": [
+      "NUM-S01",
+      "NUM-S02",
+      "NUM-S03",
+      "NUM-S06",
+      "NUM-S17",
+      "NUM-S18",
+      "NUM-S19",
+      "NUM-S20",
+      "NUM-S21"
+    ]
+  },
+  {
+    "level": "5",
+    "name": "AI/digital system design",
+    "linked_items": []
+  },
+  {
+    "level": "6",
+    "name": "Planned validation",
+    "linked_items": [
+      "GATE-03",
+      "GATE-04",
+      "GATE-05",
+      "GATE-06",
+      "GATE-07",
+      "GATE-08",
+      "GATE-09"
+    ]
+  },
+  {
+    "level": "7",
+    "name": "Investor-ready with caution",
+    "linked_items": [
+      "CLM-001",
+      "CLM-003",
+      "CLM-004",
+      "CLM-005",
+      "CLM-006",
+      "CLM-007",
+      "CLM-010",
+      "CLM-013"
+    ]
+  },
+  {
+    "level": "8",
+    "name": "Restricted internal only",
+    "linked_items": [
+      "NUM-S22",
+      "negotiation strategy"
+    ]
+  }
+]

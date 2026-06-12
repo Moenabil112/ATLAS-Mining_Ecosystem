@@ -1,0 +1,48 @@
+{
+  "license_area_km2": 15.36,
+  "license_validity": "03/10/2024 – 02/10/2034",
+  "highest_selected_assay": {
+    "value": 9.65,
+    "unit": "% Cu",
+    "label": "Selected-sample assay — not average project grade."
+  },
+  "aips_base_tonnage": {
+    "value": 2.3,
+    "unit": "Mt",
+    "label": "Preliminary orientation estimate — not certified resource or reserve."
+  },
+  "aips_base_grade": {
+    "value": 1.8,
+    "unit": "% Cu",
+    "label": "Preliminary orientation estimate — not certified resource or reserve."
+  },
+  "aips_capex": {
+    "value": 124.4,
+    "unit": "M MAD HT",
+    "label": "Preliminary CAPEX orientation — subject to engineering update."
+  },
+  "processing_scenario": {
+    "value": 800,
+    "unit": "t/day",
+    "label": "Preliminary processing scenario — not final plant decision."
+  },
+  "entry_fee": {
+    "value": 150000,
+    "unit": "USD",
+    "label": "USD 150,000 Non-Refundable Entry & Validation Access fee — not license purchase, not technology fee, not production right."
+  },
+  "evidence_maturity_count": {
+    "documented": 17,
+    "selected_sample": 12,
+    "preliminary": 21,
+    "requires_correction": 1
+  },
+  "validation_gaps_count": 10,
+  "missing_data_count": 8,
+  "gates": {
+    "total": 10,
+    "in_progress": 2,
+    "open": 3,
+    "pending": 5
+  }
+}

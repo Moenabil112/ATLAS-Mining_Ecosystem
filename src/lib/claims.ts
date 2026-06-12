@@ -59,9 +59,12 @@ export function numberStatusLabel(status: NumberStatus): string {
   const labels: Record<NumberStatus, string> = {
     documented: "Documented",
     "preliminary-base-case": "Preliminary base case",
+    "orientation-study-assumption": "Orientation-study assumption",
+    "selected-sample-result": "Selected-sample result",
     "upside-case": "Upside case",
     indicative: "Indicative",
     "requires-validation": "Requires validation",
+    "requires-correction": "Requires correction",
     "do-not-use-publicly": "Internal — do not use publicly",
   };
   return labels[status];
@@ -74,10 +77,15 @@ export function evidenceStatusLabel(status: EvidenceStatus): string {
     "field-observed": "Field-observed",
     "assay-supported": "Assay-supported",
     "preliminary-assumption": "Preliminary assumption",
+    "engineering-orientation": "Engineering orientation",
+    "commercial-draft": "Commercial draft",
     "requires-validation": "Requires validation",
     "requires-legal-review": "Requires legal review",
     "requires-engineering-review": "Requires engineering review",
+    "requires-environmental-review": "Requires environmental review",
+    "requires-financial-review": "Requires financial review",
     "investor-visible-with-caution": "Investor-visible with caution",
+    "restricted-internal": "Restricted internal",
     "internal-only": "Internal only",
   };
   return labels[status];
@@ -98,6 +106,10 @@ export function statusTone(
       return "strong";
     case "preliminary-base-case":
     case "preliminary-assumption":
+    case "orientation-study-assumption":
+    case "selected-sample-result":
+    case "engineering-orientation":
+    case "commercial-draft":
     case "upside-case":
     case "indicative":
     case "investor-visible-with-caution":
@@ -105,7 +117,11 @@ export function statusTone(
     case "requires-validation":
     case "requires-legal-review":
     case "requires-engineering-review":
+    case "requires-environmental-review":
+    case "requires-financial-review":
+    case "requires-correction":
     case "do-not-use-publicly":
+    case "restricted-internal":
     case "internal-only":
       return "warning";
     default:

@@ -1,0 +1,26 @@
+{
+  "statuses": [
+    "documented",
+    "preliminary-base-case",
+    "orientation-study-assumption",
+    "selected-sample-result",
+    "indicative",
+    "upside-case",
+    "requires-validation",
+    "requires-correction",
+    "do-not-use-publicly"
+  ],
+  "labels": {
+    "license": "Document-supported — subject to legal review before binding agreement.",
+    "assay": "Selected-sample assay — not average project grade.",
+    "resource": "Preliminary orientation estimate — not certified resource or reserve.",
+    "plant": "Preliminary processing scenario — not final plant decision.",
+    "capex": "Preliminary CAPEX orientation — subject to engineering update.",
+    "gains": "Preliminary model output — not bankable cash flow.",
+    "fee": "USD 150,000 Non-Refundable Entry & Validation Access fee — not license purchase, not technology fee, not production right.",
+    "field": "Field-observed evidence — supports targeting, not resource claims.",
+    "study": "Orientation-study assumption — subject to feasibility upgrade.",
+    "upside": "Upside case — not yet resource-classified.",
+    "expansion": "Expansion case — requires feasibility and engineering validation."
+  }
+}

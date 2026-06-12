@@ -1,4 +1,4 @@
-import { Lock, ShieldCheck, FileSignature, Eye, EyeOff } from "lucide-react";
+import { Lock, ShieldCheck, FileSignature, Eye, EyeOff, Scale } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import { Badge } from "@/components/shared/Badge";
 import { accessLevelLabel, accessTone } from "@/lib/accessControl";
@@ -9,6 +9,7 @@ const icons: Record<AccessLevel, typeof Lock> = {
   "qualified-review": ShieldCheck,
   "nda-review": FileSignature,
   "restricted-technical": Lock,
+  "restricted-legal": Scale,
   "internal-only": EyeOff,
 };
 

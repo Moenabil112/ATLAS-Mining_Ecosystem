@@ -1,0 +1,12 @@
+[
+  {
+    "item_id": "AIPS-014",
+    "title": "Material balance review",
+    "description": "Possible arithmetic/assumption inconsistency around copper metal from 225,000 t/year at 1.8% Cu versus the 22,050 t/year @ 28.40% Cu concentrate scenario at ≈89.78–90% recovery.",
+    "framing": "Validation item / feasibility upgrade requirement — tracked openly, never hidden.",
+    "consequence": "Annual gains figures (162–406M MAD) blocked from investor material until corrected.",
+    "owner": "Engineering + finance",
+    "decision_gate": "GATE-09",
+    "status": "requires-correction"
+  }
+]

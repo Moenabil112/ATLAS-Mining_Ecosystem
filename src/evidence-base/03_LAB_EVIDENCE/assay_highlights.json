@@ -1,0 +1,58 @@
+[
+  {
+    "sample_id": "TC-22-H2",
+    "cu_percent": 9.65,
+    "report": "AM/QA/DM/RA/1848/06/25",
+    "required_label": "Selected-sample assay — not average project grade.",
+    "number_status": "selected-sample-result"
+  },
+  {
+    "sample_id": "TC-23-H2-1",
+    "cu_percent": 9.34,
+    "report": "AM/QA/DM/RA/1848/06/25",
+    "required_label": "Selected-sample assay — not average project grade.",
+    "number_status": "selected-sample-result"
+  },
+  {
+    "sample_id": "TC-24-H3",
+    "cu_percent": 7.24,
+    "report": "AM/QA/DM/RA/1848/06/25",
+    "required_label": "Selected-sample assay — not average project grade.",
+    "number_status": "selected-sample-result"
+  },
+  {
+    "sample_id": "TC-22-H1",
+    "cu_percent": 5.46,
+    "report": "AM/QA/DM/RA/1848/06/25",
+    "required_label": "Selected-sample assay — not average project grade.",
+    "number_status": "selected-sample-result"
+  },
+  {
+    "sample_id": "Échantillon 2",
+    "cu_percent": 3.78,
+    "report": "AM/QA/DM/RA/1849/06/25",
+    "required_label": "Selected-sample assay — not average project grade.",
+    "number_status": "selected-sample-result"
+  },
+  {
+    "sample_id": "TC-21-H2",
+    "cu_percent": 2.24,
+    "report": "AM/QA/DM/RA/1848/06/25",
+    "required_label": "Selected-sample assay — not average project grade.",
+    "number_status": "selected-sample-result"
+  },
+  {
+    "sample_id": "TC-21-H1",
+    "cu_percent": 1.35,
+    "report": "AM/QA/DM/RA/1848/06/25",
+    "required_label": "Selected-sample assay — not average project grade.",
+    "number_status": "selected-sample-result"
+  },
+  {
+    "sample_id": "TC-21-H3",
+    "cu_percent": 0.98,
+    "report": "AM/QA/DM/RA/1848/06/25",
+    "required_label": "Selected-sample assay — not average project grade.",
+    "number_status": "selected-sample-result"
+  }
+]

@@ -1,0 +1,146 @@
+[
+  {
+    "phase_id": "PH-1",
+    "days": "0–30",
+    "title": "Data Consolidation & Assumption Control",
+    "objective": "Convert all existing documents into a structured digital evidence base.",
+    "activities": [
+      "Digitize A.I.P.S study",
+      "Build license, evidence & sample/assay registers",
+      "Extract assumptions; detect contradictions",
+      "Classify claims; build data room base; define disclosure levels"
+    ],
+    "outputs": [
+      "License Register",
+      "Assumption Register",
+      "Evidence Matrix",
+      "Claims Control Matrix",
+      "Data Gap Register",
+      "30-Day Validation Work Plan"
+    ],
+    "gates": [
+      "GATE-01",
+      "GATE-02"
+    ],
+    "owner": "Atlas + digital layer",
+    "evidence_required": "Source documents lodged and indexed"
+  },
+  {
+    "phase_id": "PH-2",
+    "days": "30–60",
+    "title": "Target Mapping & Sampling Upgrade",
+    "objective": "Upgrade exploration evidence and define priority copper targets.",
+    "activities": [
+      "GIS mapping of license",
+      "Trench & sample mapping",
+      "Channel sampling plan",
+      "Blind-zone mapping; ore-type classification"
+    ],
+    "outputs": [
+      "Copper Target Priority Map",
+      "Blind-Zone Map",
+      "Sampling Upgrade Plan"
+    ],
+    "gates": [
+      "GATE-03"
+    ],
+    "owner": "Geology team + digital layer",
+    "evidence_required": "Field + assay registers complete"
+  },
+  {
+    "phase_id": "PH-3",
+    "days": "60–90",
+    "title": "Geophysics & Geochemistry Validation",
+    "objective": "Test continuity and depth of mineralization; build the short drilling target list.",
+    "activities": [
+      "IP/Resistivity survey plan & execution",
+      "Multi-element geochemistry",
+      "Interpretation & model update"
+    ],
+    "outputs": [
+      "Geochemistry Interpretation Memo",
+      "IP/Resistivity results",
+      "Short Drilling Target List"
+    ],
+    "gates": [
+      "GATE-04",
+      "GATE-05"
+    ],
+    "owner": "Geophysics contractor + Atlas",
+    "evidence_required": "Survey data with QA/QC"
+  },
+  {
+    "phase_id": "PH-4",
+    "days": "90–120",
+    "title": "Pilot Feed Definition",
+    "objective": "Define what material can be used for pilot testing.",
+    "activities": [
+      "Targeted short drilling if approved",
+      "Integrate geophysics & assays",
+      "Classify ore by type & grade; exclude low-confidence material",
+      "Select bulk sample locations"
+    ],
+    "outputs": [
+      "Pilot Feed Definition Memo",
+      "Selective Extraction Plan",
+      "Ore-Type Decision Matrix",
+      "Metallurgical Sample Plan",
+      "Pilot Decision Gate Memo"
+    ],
+    "gates": [
+      "GATE-06"
+    ],
+    "owner": "Mining engineer + metallurgist",
+    "evidence_required": "Drilling + assay integration"
+  },
+  {
+    "phase_id": "PH-5",
+    "days": "120–150",
+    "title": "Process, Water, Power & CAPEX Review",
+    "objective": "Review the A.I.P.S processing and infrastructure assumptions against validated data.",
+    "activities": [
+      "Compare 800 t/day plant vs modular pilot",
+      "Review flotation & oxide/sulfide/mixed routes",
+      "Update water balance; review boreholes & tailings",
+      "Review ONEE connection; update CAPEX sensitivity"
+    ],
+    "outputs": [
+      "Process Route Upgrade Memo",
+      "Water & Power Validation Memo",
+      "Tailings Risk Note",
+      "CAPEX Sensitivity Table",
+      "Pilot vs Full Plant Decision Memo"
+    ],
+    "gates": [
+      "GATE-07",
+      "GATE-08",
+      "GATE-09"
+    ],
+    "owner": "Process engineer + Atlas board",
+    "evidence_required": "Test work + engineering memos"
+  },
+  {
+    "phase_id": "PH-6",
+    "days": "150–180",
+    "title": "Commercial Decision & Operating Pathway",
+    "objective": "Convert technical validation into a commercial decision.",
+    "activities": [
+      "Update study findings; correct assumptions",
+      "Prepare investor/operator pack",
+      "Prepare pilot operating term sheet",
+      "Prepare board memo; update data room"
+    ],
+    "outputs": [
+      "180-Day Feasibility Upgrade Report",
+      "Investor/Operator Decision Pack",
+      "Pilot Operating Term Sheet",
+      "Long-Term Operating Agreement Framework",
+      "Atlas Board Decision Memo"
+    ],
+    "gates": [
+      "GATE-10"
+    ],
+    "owner": "Atlas board",
+    "evidence_required": "Full validated package"
+  }
+]

@@ -1,0 +1,94 @@
+[
+  {
+    "risk_id": "RSK-001",
+    "severity": "severe",
+    "flag": "Selected assays presented as average grade",
+    "control": "Mandatory label on every assay value; claims-control engine",
+    "linked": [
+      "CLM-004"
+    ]
+  },
+  {
+    "risk_id": "RSK-002",
+    "severity": "severe",
+    "flag": "2.3 Mt @ 1.8% Cu presented as certified resource/reserve",
+    "control": "Mandatory 'preliminary orientation estimate' label",
+    "linked": [
+      "CLM-005"
+    ]
+  },
+  {
+    "risk_id": "RSK-003",
+    "severity": "severe",
+    "flag": "Annual gains (162–406M MAD) used in investor material before correction",
+    "control": "number status 'requires-correction'; investor use blocked",
+    "linked": [
+      "CLM-008",
+      "AIPS-013",
+      "AIPS-014"
+    ]
+  },
+  {
+    "risk_id": "RSK-004",
+    "severity": "severe",
+    "flag": "Entry fee mischaracterized (license purchase / equity / technology fee / refundable)",
+    "control": "Fixed fee-nature wording in all materials",
+    "linked": [
+      "CLM-010"
+    ]
+  },
+  {
+    "risk_id": "RSK-005",
+    "severity": "severe",
+    "flag": "License-sale implication",
+    "control": "'Structured operating entry' positioning enforced",
+    "linked": [
+      "CLM-011"
+    ]
+  },
+  {
+    "risk_id": "RSK-006",
+    "severity": "high",
+    "flag": "Digital system bundled with entry fee",
+    "control": "Independence rule in every commercial document",
+    "linked": [
+      "CLM-012"
+    ]
+  },
+  {
+    "risk_id": "RSK-007",
+    "severity": "high",
+    "flag": "CAPEX presented as final / development ceiling",
+    "control": "Mandatory CAPEX label; sensitivity work at Gate-09",
+    "linked": [
+      "CLM-007"
+    ]
+  },
+  {
+    "risk_id": "RSK-008",
+    "severity": "high",
+    "flag": "Original source PDFs not yet lodged in the evidence base",
+    "control": "Document register file_status field; Gate-02 hold condition",
+    "linked": [
+      "GATE-02"
+    ]
+  },
+  {
+    "risk_id": "RSK-009",
+    "severity": "medium",
+    "flag": "Coordinates over-disclosure",
+    "control": "restricted-technical access on all GIS material",
+    "linked": [
+      "F-06"
+    ]
+  },
+  {
+    "risk_id": "RSK-010",
+    "severity": "medium",
+    "flag": "Upside case acquires invented tonnage/grade numbers",
+    "control": "Tier-2 upside is qualitative-only by rule",
+    "linked": [
+      "CLM-013"
+    ]
+  }
+]

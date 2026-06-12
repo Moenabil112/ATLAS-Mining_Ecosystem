@@ -1,0 +1,28 @@
+[
+  {
+    "claim_id": "CLM-001",
+    "claim_text": "Atlas Mining controls a licensed copper asset (Exploitation License No. 353294, 15.36 km², valid to 02/10/2034) in the Isseksi / Beni Mellal-Khénifra context.",
+    "claim_category": "license",
+    "source_document": "DOC-001",
+    "evidence_status": "document-supported",
+    "number_status": "documented",
+    "allowed_public_wording": "A licensed Moroccan copper asset.",
+    "restricted_wording": "License copy, coordinates and official holder name under NDA / restricted legal review only.",
+    "validation_required": true,
+    "risk_if_overstated": "Legal exposure if holder name, boundaries or obligations are misstated before counsel confirmation.",
+    "recommended_badge": "Document-supported · Legal review required"
+  },
+  {
+    "claim_id": "CLM-002",
+    "claim_text": "The project benefits from Environmental Approval No. CRI/24/102.",
+    "claim_category": "regulatory",
+    "source_document": "DOC-003",
+    "evidence_status": "document-supported",
+    "number_status": "documented",
+    "allowed_public_wording": "The project benefits from an environmental approval reference, while operations remain subject to detailed compliance review and permitting.",
+    "restricted_wording": "Approval document and obligations under NDA review.",
+    "validation_required": true,
+    "risk_if_overstated": "Regulatory exposure if presented as full operating compliance.",
+    "recommended_badge": "Document-supported · Compliance review required"
+  }
+]

@@ -1,0 +1,29 @@
+{
+  "system_name": "ATLAS Intelligent Copper Targeting System",
+  "structure": "Akanil / Mohamed Nabil — independent technology and digitization layer",
+  "nature": "Decision-support and digital validation layer",
+  "independence": "Independent from the USD 150,000 Entry & Validation Access fee; may be contracted separately",
+  "commercial_question": "Where should we spend money first, and where should we avoid wasting it?",
+  "modules": [
+    "License map",
+    "Sample and assay map",
+    "Target priority map",
+    "Blind-zone map",
+    "Ore-type classifier",
+    "Pilot feed selector",
+    "A.I.P.S assumption tracker",
+    "Investor decision dashboard"
+  ],
+  "value_mechanisms": [
+    "Better targeting before spend",
+    "Less blind exploration",
+    "Selective pilot feed",
+    "CAPEX protection (pilot-first)",
+    "Stronger investor confidence",
+    "Operating discipline"
+  ],
+  "limits": "Does not replace fieldwork, geologists, mining engineers, metallurgists, laboratories, water specialists, legal review, or financial due diligence",
+  "source_document": "DOC-011",
+  "evidence_status": "commercial-draft",
+  "access_level": "qualified-review"
+}

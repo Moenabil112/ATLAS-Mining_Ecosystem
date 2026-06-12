@@ -1,0 +1,22 @@
+{
+  "preconditions": [
+    "priority zones identified",
+    "representative sampling completed",
+    "geophysics interpreted",
+    "pilot feed defined",
+    "ore type understood",
+    "metallurgical testing planned",
+    "environmental and safety controls reviewed"
+  ],
+  "scope": [
+    "selective extraction",
+    "bulk sample",
+    "processing test",
+    "product quality test",
+    "measurement and traceability",
+    "cost review",
+    "go / scale / redesign decision"
+  ],
+  "decision_gate": "GATE-06 (feed) → GATE-10 (commercial)",
+  "evidence_status": "commercial-draft"
+}

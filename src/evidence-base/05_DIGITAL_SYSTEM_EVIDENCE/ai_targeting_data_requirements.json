@@ -1,0 +1,30 @@
+{
+  "target_object_schema": {
+    "target_id": "",
+    "zone_name": "",
+    "coordinates": "(restricted)",
+    "evidence_sources": [],
+    "cu_grade_range": "",
+    "ore_type": "",
+    "confidence_score": "",
+    "data_gaps": [],
+    "geophysics_required": true,
+    "drilling_required": true,
+    "pilot_feed_potential": "",
+    "risk_level": "",
+    "recommended_action": "",
+    "decision_gate": ""
+  },
+  "minimum_inputs": [
+    "trench register (complete)",
+    "full 29-sample assay table",
+    "GIS license perimeter",
+    "IP/Resistivity results (Phase 3)",
+    "ore-type classification (Phase 4)"
+  ],
+  "current_blockers": [
+    "per-trench geometry pending",
+    "21 sample IDs pending",
+    "GIS layers scheduled Phase 2"
+  ]
+}

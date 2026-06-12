@@ -1,0 +1,32 @@
+{
+  "statuses": [
+    "document-supported",
+    "field-observed",
+    "assay-supported",
+    "preliminary-assumption",
+    "engineering-orientation",
+    "commercial-draft",
+    "requires-validation",
+    "requires-legal-review",
+    "requires-engineering-review",
+    "requires-environmental-review",
+    "requires-financial-review",
+    "investor-visible-with-caution",
+    "restricted-internal"
+  ],
+  "colors": {
+    "document-supported": "mineral-green",
+    "field-observed": "copper",
+    "assay-supported": "copper",
+    "preliminary-assumption": "amber",
+    "engineering-orientation": "amber",
+    "commercial-draft": "sand",
+    "requires-validation": "blue",
+    "requires-legal-review": "blue",
+    "requires-engineering-review": "blue",
+    "requires-environmental-review": "blue",
+    "requires-financial-review": "red",
+    "investor-visible-with-caution": "amber",
+    "restricted-internal": "graphite"
+  }
+}

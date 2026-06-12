@@ -1,0 +1,44 @@
+{
+  "study_title": "Étude d'orientation pour la construction du Projet de la Mine Isseksi — Licence d'exploitation N°353294",
+  "prepared_by": "Africa Industrial Power Systems (A.I.P.S)",
+  "source_document": "DOC-007",
+  "study_purpose": [
+    "geological resources",
+    "optimal production capacity",
+    "ore extraction method",
+    "ore processing route",
+    "investment estimate",
+    "operating cost estimate",
+    "gains and return on investment",
+    "project implementation planning"
+  ],
+  "base_case": {
+    "resource": "2.3 Mt (preliminary)",
+    "grade": "1.8% Cu (preliminary)",
+    "pits": "4 open pits",
+    "per_pit": "200 t/day",
+    "plant": "800 t/day sulfide ore",
+    "capex": "124.4M MAD HT",
+    "schedule": "2027–2037",
+    "optimal_annual_tonnage": "225,000 t/year",
+    "concentrate": "22,050 t/year at 28.40% Cu",
+    "recovery": "≈89.78–90%"
+  },
+  "evidence_status": "preliminary-assumption",
+  "number_status": "preliminary-base-case",
+  "access_level": "nda-review",
+  "correct_use": [
+    "preliminary orientation asset",
+    "base engineering hypothesis",
+    "industrial development starting point",
+    "feasibility upgrade input"
+  ],
+  "prohibited_use": [
+    "final feasibility study",
+    "reserve statement",
+    "bankable CAPEX",
+    "final operating plan"
+  ],
+  "known_review_item": "AIPS-014 material balance — requires technical and arithmetic review before investor-grade financial use",
+  "required_label": "Orientation-study assumption — subject to feasibility upgrade."
+}

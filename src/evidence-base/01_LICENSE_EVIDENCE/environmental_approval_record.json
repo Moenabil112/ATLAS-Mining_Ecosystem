@@ -1,0 +1,23 @@
+{
+  "approval_number": "CRI/24/102",
+  "source_document": "DOC-003",
+  "evidence_status": "document-supported",
+  "number_status": "documented",
+  "access_level": "nda-review",
+  "strategic_value": "Strategic strength — regulatory reference for the ESG layer",
+  "limits": "Not a substitute for final operating compliance",
+  "required_reviews": [
+    "Environmental impact obligations",
+    "Monitoring program requirements",
+    "Water extraction / borehole permissions",
+    "Tailings storage design",
+    "Land access",
+    "Health and safety",
+    "Waste and residue management",
+    "Community & local authority engagement",
+    "Power connection approvals",
+    "Site construction permits"
+  ],
+  "investor_language": "The project benefits from an environmental approval reference, while all operational, water, tailings, and site-construction activities remain subject to detailed compliance review and permitting requirements.",
+  "required_label": "Document-supported — subject to legal review before binding agreement."
+}

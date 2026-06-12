@@ -1,0 +1,38 @@
+[
+  {
+    "item": "Field visit report",
+    "status": "field-observed",
+    "confidence": "medium-high",
+    "use": "Technical narrative"
+  },
+  {
+    "item": "Trenching campaign (≈232 m, 7 trenches)",
+    "status": "field-observed",
+    "confidence": "medium-high",
+    "use": "Exploration support"
+  },
+  {
+    "item": "Sample collection (29 to AFRILAB)",
+    "status": "documented",
+    "confidence": "high",
+    "use": "Assay chain of custody"
+  },
+  {
+    "item": "Site access & power observations",
+    "status": "field-observed",
+    "confidence": "medium-high",
+    "use": "Infrastructure narrative"
+  },
+  {
+    "item": "Geophysics recommendation",
+    "status": "field-observed",
+    "confidence": "medium",
+    "use": "Validation planning"
+  },
+  {
+    "item": "Per-trench geometry & coordinates",
+    "status": "data-gap",
+    "confidence": "n/a",
+    "use": "Pending original report"
+  }
+]

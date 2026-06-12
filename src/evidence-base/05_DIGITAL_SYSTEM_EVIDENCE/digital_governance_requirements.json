@@ -1,0 +1,26 @@
+{
+  "rules": [
+    "Every document has an access level",
+    "Every claim has an evidence level",
+    "Every number has a maturity label",
+    "Every investor view is controlled",
+    "Every update must identify its source",
+    "Every technical decision must have a decision gate",
+    "The digital system remains separate from the entry fee"
+  ],
+  "approval_flow": [
+    "Draft",
+    "Internal review",
+    "Technical review",
+    "Commercial review",
+    "Approved for controlled disclosure"
+  ],
+  "access_levels": [
+    "public-teaser",
+    "qualified-review",
+    "nda-review",
+    "restricted-technical",
+    "restricted-legal",
+    "internal-only"
+  ]
+}

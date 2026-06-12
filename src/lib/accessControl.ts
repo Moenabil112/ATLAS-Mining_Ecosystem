@@ -9,6 +9,7 @@ export const accessOrder: AccessLevel[] = [
   "qualified-review",
   "nda-review",
   "restricted-technical",
+  "restricted-legal",
   "internal-only",
 ];
 
@@ -18,6 +19,7 @@ export function accessLevelLabel(level: AccessLevel): string {
     "qualified-review": "Qualified review",
     "nda-review": "NDA review",
     "restricted-technical": "Restricted technical",
+    "restricted-legal": "Restricted legal",
     "internal-only": "Internal only",
   };
   return labels[level];

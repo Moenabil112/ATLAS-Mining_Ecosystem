@@ -1,0 +1,67 @@
+[
+  {
+    "claim_id": "CLM-010",
+    "claim_text": "Entry & Validation Access requires a USD 150,000 Non-Refundable Entry Fee payable to Atlas Mining.",
+    "claim_category": "commercial",
+    "source_document": "DOC-009",
+    "evidence_status": "commercial-draft",
+    "number_status": "documented",
+    "allowed_public_wording": "USD 150,000 Non-Refundable Entry & Validation Access fee — structured access; not a license purchase, technology fee, equity investment, refundable deposit, production right, or guaranteed operating agreement.",
+    "restricted_wording": "Full term structure at qualified review and above.",
+    "validation_required": false,
+    "risk_if_overstated": "SEVERE — mischaracterizing the fee creates legal and reputational exposure.",
+    "recommended_badge": "Non-refundable Entry & Validation Access fee"
+  },
+  {
+    "claim_id": "CLM-011",
+    "claim_text": "The license is not being sold; the standard offer is structured operating entry and validation access.",
+    "claim_category": "commercial",
+    "source_document": "DOC-009",
+    "evidence_status": "commercial-draft",
+    "number_status": "documented",
+    "allowed_public_wording": "Atlas Mining preserves license control; any transfer, equity, or operating right is separately negotiated and documented.",
+    "restricted_wording": "Negotiation strategy internal-only.",
+    "validation_required": false,
+    "risk_if_overstated": "SEVERE — implying license sale contradicts the core commercial architecture.",
+    "recommended_badge": "Atlas-controlled opportunity"
+  },
+  {
+    "claim_id": "CLM-012",
+    "claim_text": "The ATLAS Intelligent Copper Targeting System is an independent decision-support layer (Akanil technology structure), separate from the entry fee.",
+    "claim_category": "digital-system",
+    "source_document": "DOC-011",
+    "evidence_status": "commercial-draft",
+    "number_status": "documented",
+    "allowed_public_wording": "An optional, independent digital validation layer that reduces blind exploration and supports pilot-feed definition. It does not replace geologists, engineers, labs, legal review, or feasibility studies.",
+    "restricted_wording": "Commercial terms for system adoption negotiated separately.",
+    "validation_required": false,
+    "risk_if_overstated": "High — bundling the system with the fee breaks a binding separation rule.",
+    "recommended_badge": "Independent digital layer"
+  },
+  {
+    "claim_id": "CLM-013",
+    "claim_text": "The license may hold upside beyond the preliminary orientation case (larger mineralized system hypothesis; possible Cu/Zn extension; additional zones).",
+    "claim_category": "upside",
+    "source_document": "DOC-007 + DOC-008",
+    "evidence_status": "preliminary-assumption",
+    "number_status": "upside-case",
+    "allowed_public_wording": "Potential upside beyond the preliminary orientation case — subject to geophysics, drilling, and resource validation; not yet resource-classified.",
+    "restricted_wording": "No new tonnage/grade figures may be attached to the upside case.",
+    "validation_required": true,
+    "risk_if_overstated": "SEVERE — inventing upside tonnage/grade would be fabrication.",
+    "recommended_badge": "Upside case — not yet resource-classified"
+  },
+  {
+    "claim_id": "CLM-014",
+    "claim_text": "After validation, the project may support staged industrial development: selective pilot → modular processing → staged production → plant decision → long-term operating agreement.",
+    "claim_category": "expansion",
+    "source_document": "DOC-008",
+    "evidence_status": "commercial-draft",
+    "number_status": "upside-case",
+    "allowed_public_wording": "Expansion case — staged development pathway requiring feasibility and engineering validation.",
+    "restricted_wording": "Term-sheet level detail under NDA.",
+    "validation_required": true,
+    "risk_if_overstated": "Medium — must remain gate-conditional.",
+    "recommended_badge": "Expansion case — requires feasibility and engineering validation"
+  }
+]

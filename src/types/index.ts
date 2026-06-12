@@ -14,10 +14,15 @@ export type EvidenceStatus =
   | "field-observed"
   | "assay-supported"
   | "preliminary-assumption"
+  | "engineering-orientation"
+  | "commercial-draft"
   | "requires-validation"
   | "requires-legal-review"
   | "requires-engineering-review"
+  | "requires-environmental-review"
+  | "requires-financial-review"
   | "investor-visible-with-caution"
+  | "restricted-internal"
   | "internal-only";
 
 /** Data-room / disclosure access tiers. */
@@ -26,15 +31,19 @@ export type AccessLevel =
   | "qualified-review"
   | "nda-review"
   | "restricted-technical"
+  | "restricted-legal"
   | "internal-only";
 
 /** Number maturity — controls how figures may be presented. */
 export type NumberStatus =
   | "documented"
   | "preliminary-base-case"
+  | "orientation-study-assumption"
+  | "selected-sample-result"
   | "upside-case"
   | "indicative"
   | "requires-validation"
+  | "requires-correction"
   | "do-not-use-publicly";
 
 /** The six strategic layers of the ecosystem. */

@@ -1,0 +1,32 @@
+{
+  "total": {
+    "value": "124.4",
+    "unit": "M MAD HT",
+    "required_label": "Preliminary CAPEX orientation — subject to engineering update.",
+    "number_status": "preliminary-base-case"
+  },
+  "components": [
+    {
+      "item": "Mine",
+      "value": 3.41,
+      "unit": "M MAD"
+    },
+    {
+      "item": "Plant",
+      "value": 96.06,
+      "unit": "M MAD"
+    },
+    {
+      "item": "Infrastructure",
+      "value": 24.93,
+      "unit": "M MAD"
+    }
+  ],
+  "source_document": "DOC-007",
+  "decision_gate": "GATE-09",
+  "rules": [
+    "Not final capital cost",
+    "Not the development ceiling",
+    "Sensitivity update required at Gate-09"
+  ]
+}

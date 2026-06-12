@@ -1,0 +1,22 @@
+{
+  "water": {
+    "boreholes": 4,
+    "per_borehole": "≈4 L/s",
+    "total": "≈1,200 m³/day",
+    "fresh_water_ratio": "≈1.32 m³/t ROM",
+    "recycling_from_tailings": "≈40%",
+    "validation": "hydrogeology, borehole permits, water balance (GATE-08)"
+  },
+  "power": {
+    "connection": "ONEE 22 kV",
+    "transformer": "630–800 kVA",
+    "validation": "electrical connection study (GATE-08)"
+  },
+  "tailings": {
+    "area": "3 hectares",
+    "location": "≈2 km from plant (study concept)",
+    "validation": "tailings engineering & permitting (GATE-08)"
+  },
+  "source_document": "DOC-007",
+  "number_status": "orientation-study-assumption"
+}
