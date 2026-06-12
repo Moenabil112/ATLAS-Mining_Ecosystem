@@ -1,21 +1,22 @@
+import { useTranslation } from "react-i18next";
 import { Badge } from "@/components/shared/Badge";
 import { Panel } from "@/components/shared/Panel";
 import type { DecisionGate, DecisionState } from "@/types";
 
-const stateMeta: Record<DecisionState, { label: string; tone: "strong" | "caution" | "warning" | "neutral" }> = {
-  go: { label: "Go", tone: "strong" },
-  "ready-for-operator-review": { label: "Ready for review", tone: "strong" },
-  complete: { label: "Complete", tone: "strong" },
-  "in-progress": { label: "In progress", tone: "caution" },
-  hold: { label: "Hold", tone: "warning" },
-  redesign: { label: "Redesign", tone: "warning" },
-  "more-data-required": { label: "More data required", tone: "warning" },
-  "internal-only": { label: "Internal only", tone: "neutral" },
-  "not-started": { label: "Not started", tone: "neutral" },
+const stateTone: Record<DecisionState, "strong" | "caution" | "warning" | "neutral"> = {
+  go: "strong",
+  "ready-for-operator-review": "strong",
+  complete: "strong",
+  "in-progress": "caution",
+  hold: "warning",
+  redesign: "warning",
+  "more-data-required": "warning",
+  "internal-only": "neutral",
+  "not-started": "neutral",
 };
 
 export function DecisionGateCard({ gate }: { gate: DecisionGate }) {
-  const meta = stateMeta[gate.status];
+  const { t } = useTranslation();
   return (
     <Panel hover>
       <div className="flex items-start justify-between gap-3">
@@ -25,21 +26,23 @@ export function DecisionGateCard({ gate }: { gate: DecisionGate }) {
           </span>
           <h3 className="text-sm font-medium text-sand-50">{gate.title}</h3>
         </div>
-        <Badge tone={meta.tone}>{meta.label}</Badge>
+        <Badge tone={stateTone[gate.status]}>
+          {t(`decisionState.${gate.status}`)}
+        </Badge>
       </div>
       <dl className="mt-3 space-y-2 text-xs">
         <div>
-          <dt className="text-sand-300/50">Required evidence</dt>
+          <dt className="text-sand-300/50">{t("decision.requiredEvidence")}</dt>
           <dd className="text-sand-200/80">{gate.requiredEvidence}</dd>
         </div>
         <div className="flex justify-between gap-3">
           <div>
-            <dt className="text-sand-300/50">Owner</dt>
+            <dt className="text-sand-300/50">{t("decision.owner")}</dt>
             <dd className="text-sand-200/80">{gate.owner}</dd>
           </div>
         </div>
         <div>
-          <dt className="text-sand-300/50">Next action</dt>
+          <dt className="text-sand-300/50">{t("decision.nextAction")}</dt>
           <dd className="text-copper-300/90">{gate.nextAction}</dd>
         </div>
       </dl>

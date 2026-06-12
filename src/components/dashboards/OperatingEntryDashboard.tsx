@@ -1,4 +1,5 @@
 import { Handshake, Route, Building2, Cpu, ShieldCheck } from "lucide-react";
+import { useTranslation } from "react-i18next";
 import { SectionHeader } from "@/components/layout/SectionHeader";
 import { Panel } from "@/components/shared/Panel";
 import { Callout } from "@/components/shared/Callout";
@@ -17,6 +18,7 @@ import {
 } from "@/data";
 
 export function OperatingEntryDashboard() {
+  const { t } = useTranslation();
   return (
     <div className="space-y-10">
       {/* Offer headline */}
@@ -27,7 +29,7 @@ export function OperatingEntryDashboard() {
         <Panel className="relative overflow-hidden">
           <div className="absolute inset-x-0 top-0 h-1 bg-copper-line" />
           <div className="grid gap-6 lg:grid-cols-[auto,1fr] lg:items-center">
-            <div className="text-center lg:border-r lg:border-graphite-700/70 lg:pr-8 lg:text-left">
+            <div className="text-center lg:border-e lg:border-graphite-700/70 lg:pe-8 lg:text-start">
               <p className="eyebrow">{commercialOffer.offerType}</p>
               <p className="mt-2 text-4xl font-semibold tracking-tight text-copper-300">
                 USD 150,000
@@ -36,17 +38,23 @@ export function OperatingEntryDashboard() {
                 {commercialOffer.feeNature}
               </p>
               <div className="mt-3 flex flex-wrap justify-center gap-2 lg:justify-start">
-                <Badge tone="copper">Payable to {commercialOffer.payableTo}</Badge>
-                <Badge tone="warning">Non-refundable</Badge>
+                <Badge tone="copper">
+                  {t("common.payableTo", { party: commercialOffer.payableTo })}
+                </Badge>
+                <Badge tone="warning">{t("common.nonRefundable")}</Badge>
               </div>
             </div>
             <div className="grid gap-6 sm:grid-cols-2">
               <div>
-                <p className="eyebrow mb-2 text-mineral-300">What the fee provides</p>
+                <p className="eyebrow mb-2 text-mineral-300">
+                  {t("entry.whatProvides")}
+                </p>
                 <CheckList items={feeRepresents} variant="include" />
               </div>
               <div>
-                <p className="eyebrow mb-2 text-copper-300">What the fee is not</p>
+                <p className="eyebrow mb-2 text-copper-300">
+                  {t("entry.whatNot")}
+                </p>
                 <CheckList items={feeIsNot} variant="exclude" />
               </div>
             </div>
@@ -58,19 +66,19 @@ export function OperatingEntryDashboard() {
       <section>
         <SectionHeader
           icon={Handshake}
-          title="Entry & Validation Access"
-          description="What the incoming qualified operator / investor receives — and what is explicitly excluded."
+          title={t("sections.entryAccess.title")}
+          description={t("sections.entryAccess.desc")}
         />
         <div className="grid gap-5 lg:grid-cols-2">
           <Panel>
             <h3 className="mb-3 text-sm font-medium text-mineral-300">
-              Access includes
+              {t("entry.accessIncludes")}
             </h3>
             <CheckList items={commercialOffer.accessIncludes} variant="include" />
           </Panel>
           <Panel>
             <h3 className="mb-3 text-sm font-medium text-copper-300">
-              Access does not include
+              {t("entry.accessExcludes")}
             </h3>
             <CheckList items={commercialOffer.accessExcludes} variant="exclude" />
           </Panel>
@@ -79,7 +87,7 @@ export function OperatingEntryDashboard() {
 
       {/* Entry pathway */}
       <section>
-        <SectionHeader icon={Route} title="Entry Pathway" />
+        <SectionHeader icon={Route} title={t("sections.entryPathway.title")} />
         <div className="flex flex-wrap items-center gap-2">
           {commercialOffer.entryPathway.map((step, i) => (
             <div key={step} className="flex items-center gap-2">
@@ -100,10 +108,10 @@ export function OperatingEntryDashboard() {
         <section>
           <SectionHeader title={pilotPathway.title} description={pilotPathway.description} />
           <Panel>
-            <p className="eyebrow mb-2">Pilot conditions</p>
+            <p className="eyebrow mb-2">{t("entry.pilotConditions")}</p>
             <CheckList items={pilotPathway.conditions} variant="include" />
             <div className="mt-4 border-t border-graphite-700/70 pt-4">
-              <p className="eyebrow mb-2">Pilot scope</p>
+              <p className="eyebrow mb-2">{t("entry.pilotScope")}</p>
               <div className="flex flex-wrap gap-1.5">
                 {pilotPathway.scope.map((s) => (
                   <Badge key={s} tone="mineral">
@@ -121,7 +129,7 @@ export function OperatingEntryDashboard() {
             description={longTermPathway.description}
           />
           <Panel>
-            <p className="eyebrow mb-2">Agreement elements</p>
+            <p className="eyebrow mb-2">{t("entry.agreementElements")}</p>
             <div className="flex flex-wrap gap-1.5">
               {longTermPathway.conditions.map((c) => (
                 <Badge key={c} tone="sand">
@@ -135,7 +143,7 @@ export function OperatingEntryDashboard() {
       </div>
 
       {/* Technology independence */}
-      <Callout variant="warning" title="Technology independence">
+      <Callout variant="warning" title={t("entry.technologyIndependence")}>
         <span className="flex items-start gap-2">
           <Cpu className="mt-0.5 h-4 w-4 shrink-0 text-amber-300" />
           {technologyIndependence}
@@ -145,13 +153,19 @@ export function OperatingEntryDashboard() {
       {/* Benefits */}
       <div className="grid gap-5 lg:grid-cols-2">
         <section>
-          <SectionHeader icon={Building2} title="Investor / Operator Benefits" />
+          <SectionHeader
+            icon={Building2}
+            title={t("sections.investorBenefits.title")}
+          />
           <Panel>
             <CheckList items={investorBenefits} variant="include" />
           </Panel>
         </section>
         <section>
-          <SectionHeader icon={ShieldCheck} title="Atlas Benefits" />
+          <SectionHeader
+            icon={ShieldCheck}
+            title={t("sections.atlasBenefits.title")}
+          />
           <Panel>
             <CheckList items={atlasBenefits} variant="include" />
           </Panel>

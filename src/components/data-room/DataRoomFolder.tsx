@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { useTranslation } from "react-i18next";
 import { ChevronDown, Folder } from "lucide-react";
 import { DocumentCard } from "./DocumentCard";
 import { cn } from "@/lib/cn";
@@ -11,12 +12,13 @@ export function DataRoomFolder({
   folder: DataRoomFolderModel;
   defaultOpen?: boolean;
 }) {
+  const { t } = useTranslation();
   const [open, setOpen] = useState(defaultOpen);
   return (
     <div className="panel overflow-hidden">
       <button
         onClick={() => setOpen((o) => !o)}
-        className="flex w-full items-center justify-between gap-3 px-5 py-4 text-left transition-colors hover:bg-graphite-800/50"
+        className="flex w-full items-center justify-between gap-3 px-5 py-4 text-start transition-colors hover:bg-graphite-800/50"
       >
         <div className="flex items-center gap-3">
           <span className="flex h-8 w-8 items-center justify-center rounded-md border border-graphite-700 bg-graphite-800 text-copper-400">
@@ -31,8 +33,7 @@ export function DataRoomFolder({
         </div>
         <div className="flex items-center gap-3">
           <span className="text-[11px] text-sand-300/50">
-            {folder.documents.length} doc
-            {folder.documents.length !== 1 ? "s" : ""}
+            {t("common.docs", { count: folder.documents.length })}
           </span>
           <ChevronDown
             className={cn(

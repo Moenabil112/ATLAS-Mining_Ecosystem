@@ -1,4 +1,5 @@
 import { BrainCircuit, Boxes, TrendingUp, ShieldCheck } from "lucide-react";
+import { useTranslation } from "react-i18next";
 import { SectionHeader } from "@/components/layout/SectionHeader";
 import { Panel } from "@/components/shared/Panel";
 import { Callout } from "@/components/shared/Callout";
@@ -17,13 +18,14 @@ import {
 } from "@/data";
 
 export function IntelligentSystemDashboard() {
+  const { t } = useTranslation();
   return (
     <div className="space-y-10">
       {/* Core statement */}
       <section>
         <Panel className="relative overflow-hidden">
           <div className="absolute inset-x-0 top-0 h-1 bg-copper-line" />
-          <p className="eyebrow">The one commercial question</p>
+          <p className="eyebrow">{t("system.question")}</p>
           <p className="mt-2 text-lg font-medium text-sand-50">
             “{validationBusinessQuestion}”
           </p>
@@ -37,8 +39,8 @@ export function IntelligentSystemDashboard() {
       <section>
         <SectionHeader
           icon={BrainCircuit}
-          title="Decision-Support Modules"
-          description="A businessperson's view: what the system does, in plain language."
+          title={t("sections.systemModules.title")}
+          description={t("sections.systemModules.desc")}
         />
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {systemConcepts.map((c) => (
@@ -58,7 +60,7 @@ export function IntelligentSystemDashboard() {
       </section>
 
       {/* Independence */}
-      <Callout variant="info" title="Independent from the entry fee">
+      <Callout variant="info" title={t("system.independenceTitle")}>
         {validationIndependenceNote}
       </Callout>
 
@@ -66,8 +68,8 @@ export function IntelligentSystemDashboard() {
       <section>
         <SectionHeader
           icon={Boxes}
-          title="Core System Modules"
-          description="How license, field, assay and study data are organized."
+          title={t("sections.coreModules.title")}
+          description={t("sections.coreModules.desc")}
         />
         <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
           {systemModules.map((m) => (
@@ -86,8 +88,8 @@ export function IntelligentSystemDashboard() {
       <section>
         <SectionHeader
           icon={TrendingUp}
-          title="Productivity & Waste Reduction"
-          description="How the digital layer creates economic value."
+          title={t("sections.valueMechanisms.title")}
+          description={t("sections.valueMechanisms.desc")}
         />
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {valueMechanisms.map((v) => (
@@ -104,7 +106,10 @@ export function IntelligentSystemDashboard() {
       {/* Governance + decision states */}
       <div className="grid gap-5 lg:grid-cols-2">
         <section>
-          <SectionHeader icon={ShieldCheck} title="Digital Governance" />
+          <SectionHeader
+            icon={ShieldCheck}
+            title={t("sections.governance.title")}
+          />
           <Panel>
             <ul className="space-y-2">
               {governanceRules.map((r) => (
@@ -118,7 +123,7 @@ export function IntelligentSystemDashboard() {
               ))}
             </ul>
             <div className="mt-4 border-t border-graphite-700/70 pt-4">
-              <p className="eyebrow mb-2">Approval flow</p>
+              <p className="eyebrow mb-2">{t("system.approvalFlow")}</p>
               <div className="flex flex-wrap items-center gap-1.5 text-[11px] text-sand-200/70">
                 {approvalFlow.map((step, i) => (
                   <span key={step} className="flex items-center gap-1.5">
@@ -136,10 +141,10 @@ export function IntelligentSystemDashboard() {
         </section>
 
         <section>
-          <SectionHeader title="Decision States" />
+          <SectionHeader title={t("sections.decisionStates.title")} />
           <Panel>
             <p className="mb-3 text-xs text-sand-300/60">
-              Every zone and decision resolves to one controlled state:
+              {t("system.decisionStatesIntro")}
             </p>
             <div className="flex flex-wrap gap-2">
               {decisionStates.map((s) => (

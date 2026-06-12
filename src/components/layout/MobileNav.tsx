@@ -1,8 +1,10 @@
 import { NavLink } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 import { navItems } from "./nav";
 import { cn } from "@/lib/cn";
 
 export function MobileNav() {
+  const { t } = useTranslation();
   return (
     <nav className="fixed inset-x-0 bottom-0 z-40 border-t border-graphite-700/70 bg-graphite-900/95 backdrop-blur lg:hidden">
       <div className="flex overflow-x-auto">
@@ -19,7 +21,7 @@ export function MobileNav() {
             }
           >
             <item.icon className="h-4 w-4" />
-            <span className="whitespace-nowrap">{item.mobileLabel}</span>
+            <span className="whitespace-nowrap">{t(`nav.mobile.${item.key}`)}</span>
           </NavLink>
         ))}
       </div>

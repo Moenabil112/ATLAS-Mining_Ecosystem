@@ -1,0 +1,373 @@
+{
+  "brand": {
+    "name": "ATLAS Isseksi",
+    "subtitle": "Copper Ecosystem"
+  },
+  "common": {
+    "confidential": "Confidential",
+    "atlasControlled": "Atlas-controlled opportunity",
+    "notPublicFundraising": "Not a public fundraising offer",
+    "footerNote": "Confidential. Atlas-controlled opportunity. Not a public fundraising offer.",
+    "requestAccess": "Request qualified review access",
+    "viewOperatingEntry": "View Structured Operating Entry",
+    "docs_one": "{{count}} doc",
+    "docs_other": "{{count}} docs",
+    "days": "days",
+    "payableTo": "Payable to {{party}}",
+    "nonRefundable": "Non-refundable",
+    "validation": "Validation",
+    "selectedSampleNote": "Selected sample — not average grade",
+    "cuUnit": "% Cu"
+  },
+  "language": {
+    "switch": "Language",
+    "en": "English",
+    "ar": "العربية",
+    "fr": "Français"
+  },
+  "nav": {
+    "gateway": "Gateway",
+    "license": "License Position",
+    "evidence": "Evidence",
+    "study": "Orientation Study",
+    "system": "Intelligent System",
+    "days180": "180-Day Upgrade",
+    "entry": "Operating Entry",
+    "data": "Data Room",
+    "decision": "Decision Room",
+    "mobile": {
+      "gateway": "Gateway",
+      "license": "License",
+      "evidence": "Evidence",
+      "study": "Study",
+      "system": "System",
+      "days180": "180 Days",
+      "entry": "Entry",
+      "data": "Data",
+      "decision": "Decision"
+    }
+  },
+  "flow": {
+    "asset": "Asset",
+    "evidence": "Evidence",
+    "study": "Study",
+    "intelligence": "Intelligence",
+    "validation": "Validation",
+    "operatingEntry": "Operating Entry"
+  },
+  "layers": {
+    "license-position": {
+      "title": "Atlas License Position",
+      "role": "Anchor asset",
+      "summary": "Exploitation License No. 353294 over 15.36 km², valid 2024–2034, with environmental approval CRI/24/102 — the legal foundation Atlas Mining controls."
+    },
+    "field-lab-evidence": {
+      "title": "Field & Laboratory Evidence",
+      "role": "Evidence base",
+      "summary": "May 2025 field visit, ≈232 m trenching, 29 AFRILAB samples and selected copper assays up to 9.65% Cu — selected-sample evidence, not average grade."
+    },
+    "orientation-study": {
+      "title": "Orientation Study Asset",
+      "role": "Industrial base case",
+      "summary": "A.I.P.S preliminary orientation study: 2.3 Mt @ 1.8% Cu, 800 t/day plant, 124.4M MAD HT CAPEX — a base case to be upgraded, not a feasibility study."
+    },
+    "intelligent-validation": {
+      "title": "Intelligent Validation System",
+      "role": "Digital decision layer",
+      "summary": "The ATLAS Intelligent Copper Targeting System — an independent decision-support layer that reduces blind exploration and supports pilot-feed definition."
+    },
+    "feasibility-180": {
+      "title": "180-Day Feasibility Upgrade",
+      "role": "Validation pathway",
+      "summary": "A six-phase, 180-day roadmap converting documents and assumptions into a structured commercial decision."
+    },
+    "operating-entry": {
+      "title": "Structured Operating Entry",
+      "role": "Deal pathway",
+      "summary": "USD 150,000 Non-Refundable Entry & Validation Access fee — structured access to validation and operating negotiation, not a license sale."
+    }
+  },
+  "status": {
+    "evidence": {
+      "document-supported": "Document-supported",
+      "field-observed": "Field-observed",
+      "assay-supported": "Assay-supported",
+      "preliminary-assumption": "Preliminary assumption",
+      "requires-validation": "Requires validation",
+      "requires-legal-review": "Requires legal review",
+      "requires-engineering-review": "Requires engineering review",
+      "investor-visible-with-caution": "Investor-visible with caution",
+      "internal-only": "Internal only"
+    },
+    "number": {
+      "documented": "Documented",
+      "preliminary-base-case": "Preliminary base case",
+      "upside-case": "Upside case",
+      "indicative": "Indicative",
+      "requires-validation": "Requires validation",
+      "do-not-use-publicly": "Internal — do not use publicly"
+    },
+    "access": {
+      "public-teaser": "Public teaser",
+      "qualified-review": "Qualified review",
+      "nda-review": "NDA review",
+      "restricted-technical": "Restricted technical",
+      "internal-only": "Internal only"
+    }
+  },
+  "decisionState": {
+    "go": "Go",
+    "ready-for-operator-review": "Ready for review",
+    "complete": "Complete",
+    "in-progress": "In progress",
+    "hold": "Hold",
+    "redesign": "Redesign",
+    "more-data-required": "More data required",
+    "internal-only": "Internal only",
+    "not-started": "Not started"
+  },
+  "pages": {
+    "license": {
+      "eyebrow": "Layer 01 · Anchor asset",
+      "title": "Atlas License Position",
+      "description": "Atlas Mining controls a licensed copper asset in the Isseksi / Beni Mellal-Khénifra context. The license is the legal anchor of the entire ecosystem — presented as a controlled entry opportunity, not a license sale."
+    },
+    "evidence": {
+      "eyebrow": "Layer 02 · Evidence base",
+      "title": "Field & Laboratory Evidence",
+      "description": "The project has moved beyond a paper-stage asset: a May 2025 field visit, trenching, 29 AFRILAB samples and selected copper assays. This evidence justifies structured validation — it does not yet prove a resource or reserve."
+    },
+    "study": {
+      "eyebrow": "Layer 03 · Industrial base case",
+      "title": "Orientation Study Asset",
+      "description": "The A.I.P.S preliminary orientation study gives Atlas a mine-construction and processing scenario. It is a strategic base case to be upgraded and validated — not a final feasibility study, reserve statement, or bankable CAPEX."
+    },
+    "system": {
+      "eyebrow": "Layer 04 · Digital decision layer",
+      "title": "Intelligent Validation System",
+      "description": "The ATLAS Intelligent Copper Targeting System is a decision-support layer that organizes license, field, assay and study data to decide where to sample, survey, drill — and where to avoid. It supports productivity and reduces waste. It does not replace geologists, engineers, labs, legal review, or feasibility studies — and it is independent from the entry fee."
+    },
+    "roadmap": {
+      "eyebrow": "Layer 05 · Validation pathway",
+      "title": "180-Day Feasibility Upgrade",
+      "description": "A six-phase roadmap that converts the preliminary orientation study and available evidence into a structured commercial decision — the bridge from documents and assumptions to a pilot or operating decision."
+    },
+    "entry": {
+      "eyebrow": "Layer 06 · Deal pathway",
+      "title": "Structured Operating Entry",
+      "description": "Atlas Mining's commercial offer for qualified operators or investors: structured entry into validation and operating negotiation. This is not a license sale."
+    },
+    "dataRoom": {
+      "eyebrow": "Controlled disclosure",
+      "title": "Data Room",
+      "description": "Project documents organized into twelve folders. Every document carries a status, an access level, a source layer and a claim sensitivity. Technical detail requires NDA."
+    },
+    "decisionRoom": {
+      "eyebrow": "Board & investor control room",
+      "title": "Decision Room",
+      "description": "The control room for Atlas Mining and qualified parties: next decisions, ten decision gates, risk and claim controls, feasibility-upgrade status, operating-entry status, and unresolved validation items."
+    }
+  },
+  "gateway": {
+    "projectName": "ATLAS Isseksi Copper Project",
+    "strategicTitle": "A Licensed Copper Asset with a Preliminary Mine Construction & Processing Orientation Study",
+    "positioning": "ATLAS Isseksi Copper Project is a licensed copper asset supported by field evidence, laboratory assays, and a preliminary mine construction and processing orientation study, with a digital validation pathway designed to convert the opportunity into a structured operating platform.",
+    "keyMessage": "Atlas Mining controls a licensed copper asset with preliminary field, laboratory, and engineering evidence, now structured for intelligent validation and operating entry.",
+    "ctaOperatingEntry": "View Structured Operating Entry",
+    "ctaRequestAccess": "Request qualified review access",
+    "keyMessageTitle": "Key message",
+    "keyNumbersTitle": "Key Numbers Panel",
+    "keyNumbersDesc": "Every figure carries a maturity label. Documented references and preliminary estimates are clearly separated.",
+    "sixLayersTitle": "Six Strategic Layers",
+    "sixLayersDesc": "The ecosystem progresses from Asset → Evidence → Study → Intelligence → Validation → Operating Entry.",
+    "scenariosTitle": "Base Case · Upside Case · Expansion Case",
+    "scenariosDesc": "A strong but controlled view of scale: a starting case, an upside hypothesis, and a validated expansion pathway.",
+    "pathwayTitle": "Investor / Operator Pathway",
+    "pathwayDesc": "Atlas Mining preserves control of the license and offers controlled access to qualified parties.",
+    "pathwaySteps": {
+      "qualifiedReview": "Qualified review",
+      "entryAccess": "Entry & Validation Access",
+      "feasibilityUpgrade": "180-Day Feasibility Upgrade",
+      "pilot": "Pilot Operating Pathway",
+      "longTerm": "Long-Term Operating Agreement"
+    }
+  },
+  "sections": {
+    "licensePerimeter": { "title": "License Perimeter" },
+    "licenseRegister": {
+      "title": "License Intelligence Register",
+      "desc": "Each license field carries an evidence status and a disclosure level. Sensitive items are held at restricted tiers."
+    },
+    "regulatory": {
+      "title": "Regulatory & Environmental Reference",
+      "desc": "Environmental Approval CRI/24/102 is a strategic strength — not a substitute for final operating compliance."
+    },
+    "disclosureControl": {
+      "title": "Disclosure Control",
+      "desc": "License information is shared by audience tier."
+    },
+    "fieldVisit": { "title": "Field Visit Summary" },
+    "assayHighlights": {
+      "title": "AFRILAB Assay Highlights",
+      "desc": "Selected high-grade copper assays. These are selected-sample evidence — not average project grade."
+    },
+    "trenchRegister": {
+      "title": "Trench & Sample Register (preview)",
+      "desc": "29 samples submitted to AFRILAB; full register held under NDA."
+    },
+    "evidenceMaturity": { "title": "Evidence Maturity Distribution" },
+    "confidenceMatrix": {
+      "title": "Evidence Confidence Matrix",
+      "desc": "Every evidence item carries a maturity status and confidence level."
+    },
+    "nextActions": { "title": "Required Next Validation Actions" },
+    "studySummary": { "title": "A.I.P.S Study Summary" },
+    "productionConcept": { "title": "Production Concept (Base Case)" },
+    "capexFramework": { "title": "CAPEX Framework" },
+    "processFlowsheet": {
+      "title": "Process Flowsheet (Sulfide Route)",
+      "desc": "Flotation-based processing concept from the orientation study."
+    },
+    "infrastructure": { "title": "Water, Power & Tailings Assumptions" },
+    "scenarios": {
+      "title": "Base Case · Upside Case · Expansion Case",
+      "desc": "The orientation study is the starting case — not the project ceiling."
+    },
+    "assumptionRegister": {
+      "title": "Assumption Register (preview)",
+      "desc": "Every study assumption is tracked with a maturity status and a validation requirement."
+    },
+    "validationNeeds": { "title": "Validation Needs" },
+    "systemModules": {
+      "title": "Decision-Support Modules",
+      "desc": "A businessperson's view: what the system does, in plain language."
+    },
+    "coreModules": {
+      "title": "Core System Modules",
+      "desc": "How license, field, assay and study data are organized."
+    },
+    "valueMechanisms": {
+      "title": "Productivity & Waste Reduction",
+      "desc": "How the digital layer creates economic value."
+    },
+    "governance": { "title": "Digital Governance" },
+    "decisionStates": { "title": "Decision States" },
+    "phaseTimeline": {
+      "title": "180-Day Phase Timeline",
+      "desc": "Six phases convert documents and assumptions into a structured commercial decision."
+    },
+    "entryAccess": {
+      "title": "Entry & Validation Access",
+      "desc": "What the incoming qualified operator / investor receives — and what is explicitly excluded."
+    },
+    "entryPathway": { "title": "Entry Pathway" },
+    "investorBenefits": { "title": "Investor / Operator Benefits" },
+    "atlasBenefits": { "title": "Atlas Benefits" },
+    "accessLevels": {
+      "title": "Access Levels",
+      "desc": "Five disclosure tiers govern who sees what."
+    },
+    "docsByAccess": { "title": "Documents by Access Level" },
+    "documentFolders": { "title": "Document Folders" },
+    "accessMatrix": {
+      "title": "Access Level Matrix",
+      "desc": "Folder-by-tier disclosure rules."
+    },
+    "nextDecisions": {
+      "title": "Next Decisions",
+      "desc": "The immediate moves that unlock the rest of the pathway."
+    },
+    "decisionGates": {
+      "title": "Decision Gates",
+      "desc": "Ten gates from license confirmation to the operating entry decision. Each shows status, required evidence, owner and next action."
+    },
+    "riskControls": {
+      "title": "Risk Controls",
+      "desc": "Technical, legal, commercial, environmental and financial risks with their controls."
+    },
+    "claimControls": {
+      "title": "Claim Controls",
+      "desc": "Active across the platform."
+    },
+    "unresolvedItems": {
+      "title": "Unresolved Validation Items",
+      "desc": "Open items before investor-grade use."
+    }
+  },
+  "license": {
+    "cardEyebrow": "Atlas-controlled licensed copper asset",
+    "fields": {
+      "exploitationLicense": "Exploitation License",
+      "surfaceArea": "Surface Area",
+      "validity": "Validity",
+      "region": "Region",
+      "environmentalApproval": "Environmental Approval"
+    },
+    "primaryMineral": "Primary mineral: {{mineral}}",
+    "mapPlaceholder": "GIS map — restricted disclosure",
+    "riskNotes": "License risk notes",
+    "table": {
+      "field": "Field",
+      "value": "Value",
+      "evidence": "Evidence",
+      "disclosure": "Disclosure",
+      "note": "Note"
+    },
+    "trenchingTitle": "Trenching & sampling"
+  },
+  "evidence": {
+    "table": {
+      "sample": "Sample",
+      "cu": "Cu %",
+      "report": "Report",
+      "confidence": "Confidence",
+      "item": "Evidence item",
+      "status": "Status",
+      "use": "Use"
+    }
+  },
+  "system": {
+    "question": "The one commercial question",
+    "independenceTitle": "Independent from the entry fee",
+    "approvalFlow": "Approval flow",
+    "decisionStatesIntro": "Every zone and decision resolves to one controlled state:"
+  },
+  "roadmap": {
+    "activities": "Activities",
+    "outputs": "Outputs",
+    "decisionGate": "Decision gate",
+    "responsibleLayer": "Responsible layer",
+    "evidenceRequired": "Evidence required",
+    "phase": "Phase {{n}}",
+    "daysLabel": "{{days}} days",
+    "dayGoal": "Day 180 goal"
+  },
+  "entry": {
+    "whatProvides": "What the fee provides",
+    "whatNot": "What the fee is not",
+    "accessIncludes": "Access includes",
+    "accessExcludes": "Access does not include",
+    "pilotConditions": "Pilot conditions",
+    "pilotScope": "Pilot scope",
+    "agreementElements": "Agreement elements",
+    "technologyIndependence": "Technology independence"
+  },
+  "dataRoom": {
+    "feasibilityStatus": "Feasibility upgrade status",
+    "operatingStatus": "Operating entry status",
+    "cols": {
+      "folder": "Folder",
+      "public": "Public",
+      "qualified": "Qualified",
+      "nda": "NDA",
+      "restricted": "Restricted",
+      "internal": "Internal"
+    }
+  },
+  "decision": {
+    "requiredEvidence": "Required evidence",
+    "owner": "Owner",
+    "nextAction": "Next action",
+    "disclosureRules": "Disclosure Rules"
+  }
+}

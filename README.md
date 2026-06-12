@@ -43,6 +43,7 @@ Flow: **Asset → Evidence → Study → Intelligence → Validation → Operati
 - **Lucide React** — icons
 - **Recharts** — CAPEX, evidence maturity, phase timeline, access-level charts
 - **React Router** — routing
+- **i18next + react-i18next** — trilingual (EN / AR / FR) with RTL support
 - Markdown ingestion via `import.meta.glob`; local typed JSON data model
 
 ---
@@ -63,6 +64,7 @@ src/
 │   ├── data-room/           # DataRoomFolder, DocumentCard, AccessMatrix, DisclosureRulesPanel
 │   ├── decision-room/       # DecisionGateCard
 │   └── shared/              # Panel, Badge, ClaimBadge, Callout, CheckList, Icon
+├── i18n/                    # config.ts + locales/{en,ar,fr}.json (trilingual, RTL)
 ├── content/markdown/        # Source-of-truth Markdown knowledge package
 ├── data/                    # license.json, evidence.json, orientationStudy.json,
 │                            #   validationSystem.json, roadmap180.json, commercialOffer.json,
@@ -96,7 +98,43 @@ reserve, guaranteed production, bankable feasibility, etc.).
 
 ---
 
-## 5. How to run
+## 5. Internationalization (i18n)
+
+The platform ships a complete trilingual system: **English (en)**, **Arabic (ar)**
+and **French (fr)**, with full right-to-left support for Arabic.
+
+```txt
+src/i18n/
+├── config.ts            # i18next init: detection, persistence, dir/lang sync
+└── locales/
+    ├── en.json          # source-of-truth resource (247 keys)
+    ├── ar.json          # Arabic — RTL
+    └── fr.json          # French
+```
+
+- **Language switcher** (`components/shared/LanguageSwitcher.tsx`) appears in the
+  sidebar (desktop) and the mobile header. Selection persists to
+  `localStorage` (`atlas-lang`).
+- **Detection order:** localStorage → browser language → `<html lang>`,
+  falling back to English.
+- **Direction:** `applyDocumentDirection()` sets `<html dir>` and `<html lang>`
+  on every language change; Arabic switches the whole shell to RTL. Layout uses
+  logical Tailwind utilities (`border-e`, `pe-*`, `text-start`, `end-0`) and
+  `rtl:rotate-180` on directional arrows so the UI mirrors correctly.
+- **Font:** Alexandria (loaded in `index.html`) covers Latin and Arabic scripts.
+- **Coverage:** all navigation, page headers, section headers, gateway copy,
+  status/access/decision badges, table headers, card labels, CTAs and chrome are
+  translated. All three locale files share an identical key tree (verified equal:
+  247 keys each).
+- **Adding a language:** add a locale JSON, register it in `config.ts`
+  (`resources` + `SUPPORTED_LANGUAGES`), and the switcher picks it up. Set
+  `dir: "rtl"` for right-to-left scripts.
+- **Boundary:** long-form *body* content sourced from the Markdown-derived JSON
+  data model (e.g. assay interpretations, assumption text, risk-control wording)
+  currently renders in its source language. The translation framework is fully
+  wired so this content can be localized by adding keyed entries — see §8.
+
+## 6. How to run
 
 ```bash
 npm install      # install dependencies
@@ -110,7 +148,7 @@ Node 18+ recommended (built and verified on Node 22).
 
 ---
 
-## 6. Responsive layout
+## 7. Responsive layout
 
 - **Desktop/tablet:** fixed left sidebar navigation.
 - **Mobile:** top confidential header + bottom tab bar (Gateway · License ·
@@ -119,7 +157,7 @@ Node 18+ recommended (built and verified on Node 22).
 
 ---
 
-## 7. Remaining gaps & assumptions
+## 8. Remaining gaps & assumptions
 
 - **Maps/GIS** are intentionally rendered as restricted placeholders — sensitive
   coordinates are never exposed (per disclosure rules).
@@ -135,7 +173,7 @@ Node 18+ recommended (built and verified on Node 22).
 
 ---
 
-## 8. Next recommended development steps
+## 9. Next recommended development steps
 
 1. **Authentication & gated data room** — enforce the five access tiers server-side
    with NDA/qualified-review onboarding and an investor access log.
@@ -143,8 +181,9 @@ Node 18+ recommended (built and verified on Node 22).
    blind-zone overlays (the Intelligent Copper Targeting System map modules).
 3. **Assumption tracker workflow** — editable validation states feeding the
    decision gates, with source-document linkage.
-4. **Multilingual (AR/FR/EN)** — Alexandria font and RTL scaffolding are already in
-   place; add an i18n layer and translated content.
+4. **Localize body content** — extend the i18n layer (already complete for all UI
+   chrome) to the Markdown-derived data model so assay interpretations, assumption
+   text and risk-control wording render in AR/FR with translation review.
 5. **PDF/board-pack export** — generate the 150–180 day Investor/Operator Decision
    Pack from the live data model.
 6. **CMS-style Markdown sync** — regenerate `src/data/*.json` automatically from the

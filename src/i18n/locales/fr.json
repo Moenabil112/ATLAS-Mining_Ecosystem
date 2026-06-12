@@ -1,0 +1,373 @@
+{
+  "brand": {
+    "name": "ATLAS Isseksi",
+    "subtitle": "Écosystème Cuivre"
+  },
+  "common": {
+    "confidential": "Confidentiel",
+    "atlasControlled": "Opportunité contrôlée par Atlas",
+    "notPublicFundraising": "Pas une offre de financement public",
+    "footerNote": "Confidentiel. Opportunité contrôlée par Atlas. Pas une offre de financement public.",
+    "requestAccess": "Demander un accès après qualification",
+    "viewOperatingEntry": "Voir l'entrée opérationnelle structurée",
+    "docs_one": "{{count}} document",
+    "docs_other": "{{count}} documents",
+    "days": "jours",
+    "payableTo": "Payable à {{party}}",
+    "nonRefundable": "Non remboursable",
+    "validation": "Validation",
+    "selectedSampleNote": "Échantillon sélectionné — pas la teneur moyenne",
+    "cuUnit": "% Cu"
+  },
+  "language": {
+    "switch": "Langue",
+    "en": "English",
+    "ar": "العربية",
+    "fr": "Français"
+  },
+  "nav": {
+    "gateway": "Portail",
+    "license": "Position de la licence",
+    "evidence": "Preuves",
+    "study": "Étude d'orientation",
+    "system": "Système intelligent",
+    "days180": "Mise à niveau 180 jours",
+    "entry": "Entrée opérationnelle",
+    "data": "Salle de données",
+    "decision": "Salle de décision",
+    "mobile": {
+      "gateway": "Portail",
+      "license": "Licence",
+      "evidence": "Preuves",
+      "study": "Étude",
+      "system": "Système",
+      "days180": "180 jours",
+      "entry": "Entrée",
+      "data": "Données",
+      "decision": "Décision"
+    }
+  },
+  "flow": {
+    "asset": "Actif",
+    "evidence": "Preuves",
+    "study": "Étude",
+    "intelligence": "Intelligence",
+    "validation": "Validation",
+    "operatingEntry": "Entrée opérationnelle"
+  },
+  "layers": {
+    "license-position": {
+      "title": "Position de la licence Atlas",
+      "role": "Actif d'ancrage",
+      "summary": "Licence d'exploitation N° 353294 sur 15,36 km², valable 2024–2034, avec l'approbation environnementale CRI/24/102 — le fondement juridique que contrôle Atlas Mining."
+    },
+    "field-lab-evidence": {
+      "title": "Preuves de terrain et de laboratoire",
+      "role": "Base de preuves",
+      "summary": "Visite de terrain de mai 2025, ≈232 m de tranchées, 29 échantillons AFRILAB et analyses cuivre sélectionnées jusqu'à 9,65 % Cu — preuves d'échantillons sélectionnés, pas la teneur moyenne."
+    },
+    "orientation-study": {
+      "title": "Actif d'étude d'orientation",
+      "role": "Cas industriel de base",
+      "summary": "Étude d'orientation préliminaire A.I.P.S : 2,3 Mt à 1,8 % Cu, usine 800 t/jour, CAPEX 124,4 M MAD HT — un cas de base à améliorer, pas une étude de faisabilité."
+    },
+    "intelligent-validation": {
+      "title": "Système de validation intelligent",
+      "role": "Couche de décision numérique",
+      "summary": "Le système ATLAS de ciblage intelligent du cuivre — une couche d'aide à la décision indépendante qui réduit l'exploration aveugle et soutient la définition de l'alimentation pilote."
+    },
+    "feasibility-180": {
+      "title": "Mise à niveau de faisabilité de 180 jours",
+      "role": "Parcours de validation",
+      "summary": "Une feuille de route de 180 jours en six phases convertissant documents et hypothèses en une décision commerciale structurée."
+    },
+    "operating-entry": {
+      "title": "Entrée opérationnelle structurée",
+      "role": "Parcours de transaction",
+      "summary": "Frais d'accès d'entrée et de validation non remboursables de 150 000 USD — accès structuré à la validation et à la négociation opérationnelle, pas une vente de licence."
+    }
+  },
+  "status": {
+    "evidence": {
+      "document-supported": "Appuyé par document",
+      "field-observed": "Observé sur le terrain",
+      "assay-supported": "Appuyé par analyse",
+      "preliminary-assumption": "Hypothèse préliminaire",
+      "requires-validation": "Nécessite validation",
+      "requires-legal-review": "Nécessite révision juridique",
+      "requires-engineering-review": "Nécessite révision technique",
+      "investor-visible-with-caution": "Visible investisseur avec prudence",
+      "internal-only": "Interne uniquement"
+    },
+    "number": {
+      "documented": "Documenté",
+      "preliminary-base-case": "Cas de base préliminaire",
+      "upside-case": "Cas de potentiel",
+      "indicative": "Indicatif",
+      "requires-validation": "Nécessite validation",
+      "do-not-use-publicly": "Interne — ne pas utiliser publiquement"
+    },
+    "access": {
+      "public-teaser": "Aperçu public",
+      "qualified-review": "Examen qualifié",
+      "nda-review": "Examen sous NDA",
+      "restricted-technical": "Technique restreint",
+      "internal-only": "Interne uniquement"
+    }
+  },
+  "decisionState": {
+    "go": "Feu vert",
+    "ready-for-operator-review": "Prêt pour examen",
+    "complete": "Terminé",
+    "in-progress": "En cours",
+    "hold": "En attente",
+    "redesign": "Reconception",
+    "more-data-required": "Plus de données requises",
+    "internal-only": "Interne uniquement",
+    "not-started": "Non démarré"
+  },
+  "pages": {
+    "license": {
+      "eyebrow": "Couche 01 · Actif d'ancrage",
+      "title": "Position de la licence Atlas",
+      "description": "Atlas Mining contrôle un actif cuivre sous licence dans le contexte Isseksi / Béni Mellal-Khénifra. La licence est l'ancrage juridique de tout l'écosystème — présentée comme une opportunité d'entrée contrôlée, et non comme une vente de licence."
+    },
+    "evidence": {
+      "eyebrow": "Couche 02 · Base de preuves",
+      "title": "Preuves de terrain et de laboratoire",
+      "description": "Le projet a dépassé le stade documentaire : une visite de terrain en mai 2025, des tranchées, 29 échantillons AFRILAB et des analyses cuivre sélectionnées. Ces preuves justifient une validation structurée — elles ne prouvent pas encore une ressource ou une réserve."
+    },
+    "study": {
+      "eyebrow": "Couche 03 · Cas industriel de base",
+      "title": "Actif d'étude d'orientation",
+      "description": "L'étude d'orientation préliminaire A.I.P.S fournit à Atlas un scénario de construction minière et de traitement. C'est un cas de base stratégique à améliorer et valider — pas une étude de faisabilité finale, un état de réserves ou un CAPEX bancable."
+    },
+    "system": {
+      "eyebrow": "Couche 04 · Couche de décision numérique",
+      "title": "Système de validation intelligent",
+      "description": "Le système ATLAS de ciblage intelligent du cuivre est une couche d'aide à la décision qui organise les données de licence, de terrain, d'analyse et d'étude pour décider où échantillonner, prospecter, forer — et où éviter. Il soutient la productivité et réduit le gaspillage. Il ne remplace pas les géologues, ingénieurs, laboratoires, révisions juridiques ou études de faisabilité — et il est indépendant des frais d'entrée."
+    },
+    "roadmap": {
+      "eyebrow": "Couche 05 · Parcours de validation",
+      "title": "Mise à niveau de faisabilité de 180 jours",
+      "description": "Une feuille de route en six phases qui convertit l'étude d'orientation préliminaire et les preuves disponibles en une décision commerciale structurée — le pont entre documents et hypothèses et une décision pilote ou opérationnelle."
+    },
+    "entry": {
+      "eyebrow": "Couche 06 · Parcours de transaction",
+      "title": "Entrée opérationnelle structurée",
+      "description": "L'offre commerciale d'Atlas Mining pour les opérateurs ou investisseurs qualifiés : une entrée structurée dans la validation et la négociation opérationnelle. Ce n'est pas une vente de licence."
+    },
+    "dataRoom": {
+      "eyebrow": "Divulgation contrôlée",
+      "title": "Salle de données",
+      "description": "Documents du projet organisés en douze dossiers. Chaque document porte un statut, un niveau d'accès, une couche source et une sensibilité des affirmations. Le détail technique nécessite un NDA."
+    },
+    "decisionRoom": {
+      "eyebrow": "Salle de contrôle conseil et investisseurs",
+      "title": "Salle de décision",
+      "description": "La salle de contrôle pour Atlas Mining et les parties qualifiées : prochaines décisions, dix points de décision, contrôles des risques et des affirmations, statut de la mise à niveau de faisabilité, statut de l'entrée opérationnelle et points de validation non résolus."
+    }
+  },
+  "gateway": {
+    "projectName": "Projet Cuivre ATLAS Isseksi",
+    "strategicTitle": "Un actif cuivre sous licence avec une étude d'orientation préliminaire de construction minière et de traitement",
+    "positioning": "Le Projet Cuivre ATLAS Isseksi est un actif cuivre sous licence appuyé par des preuves de terrain, des analyses de laboratoire et une étude d'orientation préliminaire de construction minière et de traitement, avec un parcours de validation numérique conçu pour convertir l'opportunité en une plateforme opérationnelle structurée.",
+    "keyMessage": "Atlas Mining contrôle un actif cuivre sous licence avec des preuves préliminaires de terrain, de laboratoire et d'ingénierie, désormais structuré pour la validation intelligente et l'entrée opérationnelle.",
+    "ctaOperatingEntry": "Voir l'entrée opérationnelle structurée",
+    "ctaRequestAccess": "Demander un accès après qualification",
+    "keyMessageTitle": "Message clé",
+    "keyNumbersTitle": "Panneau des chiffres clés",
+    "keyNumbersDesc": "Chaque chiffre porte une étiquette de maturité. Les références documentées et les estimations préliminaires sont clairement séparées.",
+    "sixLayersTitle": "Six couches stratégiques",
+    "sixLayersDesc": "L'écosystème progresse d'Actif → Preuves → Étude → Intelligence → Validation → Entrée opérationnelle.",
+    "scenariosTitle": "Cas de base · Cas de potentiel · Cas d'expansion",
+    "scenariosDesc": "Une vision forte mais maîtrisée de l'échelle : un cas de départ, une hypothèse de potentiel et un parcours d'expansion validé.",
+    "pathwayTitle": "Parcours investisseur / opérateur",
+    "pathwayDesc": "Atlas Mining conserve le contrôle de la licence et offre un accès contrôlé aux parties qualifiées.",
+    "pathwaySteps": {
+      "qualifiedReview": "Examen qualifié",
+      "entryAccess": "Accès d'entrée et de validation",
+      "feasibilityUpgrade": "Mise à niveau de faisabilité 180 jours",
+      "pilot": "Parcours d'exploitation pilote",
+      "longTerm": "Accord d'exploitation à long terme"
+    }
+  },
+  "sections": {
+    "licensePerimeter": { "title": "Périmètre de la licence" },
+    "licenseRegister": {
+      "title": "Registre d'intelligence de la licence",
+      "desc": "Chaque champ de licence porte un statut de preuve et un niveau de divulgation. Les éléments sensibles sont maintenus à des niveaux restreints."
+    },
+    "regulatory": {
+      "title": "Référence réglementaire et environnementale",
+      "desc": "L'approbation environnementale CRI/24/102 est une force stratégique — pas un substitut à la conformité opérationnelle finale."
+    },
+    "disclosureControl": {
+      "title": "Contrôle de divulgation",
+      "desc": "Les informations de licence sont partagées par niveau d'audience."
+    },
+    "fieldVisit": { "title": "Résumé de la visite de terrain" },
+    "assayHighlights": {
+      "title": "Faits saillants des analyses AFRILAB",
+      "desc": "Analyses cuivre sélectionnées à haute teneur. Ce sont des preuves d'échantillons sélectionnés — pas la teneur moyenne du projet."
+    },
+    "trenchRegister": {
+      "title": "Registre des tranchées et échantillons (aperçu)",
+      "desc": "29 échantillons soumis à AFRILAB ; registre complet sous NDA."
+    },
+    "evidenceMaturity": { "title": "Distribution de la maturité des preuves" },
+    "confidenceMatrix": {
+      "title": "Matrice de confiance des preuves",
+      "desc": "Chaque élément de preuve porte un statut de maturité et un niveau de confiance."
+    },
+    "nextActions": { "title": "Prochaines actions de validation requises" },
+    "studySummary": { "title": "Résumé de l'étude A.I.P.S" },
+    "productionConcept": { "title": "Concept de production (cas de base)" },
+    "capexFramework": { "title": "Cadre CAPEX" },
+    "processFlowsheet": {
+      "title": "Schéma de procédé (voie sulfures)",
+      "desc": "Concept de traitement par flottation issu de l'étude d'orientation."
+    },
+    "infrastructure": { "title": "Hypothèses eau, énergie et résidus" },
+    "scenarios": {
+      "title": "Cas de base · Cas de potentiel · Cas d'expansion",
+      "desc": "L'étude d'orientation est le cas de départ — pas le plafond du projet."
+    },
+    "assumptionRegister": {
+      "title": "Registre des hypothèses (aperçu)",
+      "desc": "Chaque hypothèse d'étude est suivie avec un statut de maturité et une exigence de validation."
+    },
+    "validationNeeds": { "title": "Besoins de validation" },
+    "systemModules": {
+      "title": "Modules d'aide à la décision",
+      "desc": "Une vision orientée dirigeant : ce que fait le système, en langage clair."
+    },
+    "coreModules": {
+      "title": "Modules principaux du système",
+      "desc": "Comment les données de licence, de terrain, d'analyse et d'étude sont organisées."
+    },
+    "valueMechanisms": {
+      "title": "Productivité et réduction du gaspillage",
+      "desc": "Comment la couche numérique crée de la valeur économique."
+    },
+    "governance": { "title": "Gouvernance numérique" },
+    "decisionStates": { "title": "États de décision" },
+    "phaseTimeline": {
+      "title": "Chronologie des phases sur 180 jours",
+      "desc": "Six phases convertissent documents et hypothèses en une décision commerciale structurée."
+    },
+    "entryAccess": {
+      "title": "Accès d'entrée et de validation",
+      "desc": "Ce que reçoit l'opérateur / investisseur qualifié entrant — et ce qui est explicitement exclu."
+    },
+    "entryPathway": { "title": "Parcours d'entrée" },
+    "investorBenefits": { "title": "Avantages investisseur / opérateur" },
+    "atlasBenefits": { "title": "Avantages pour Atlas" },
+    "accessLevels": {
+      "title": "Niveaux d'accès",
+      "desc": "Cinq niveaux de divulgation régissent qui voit quoi."
+    },
+    "docsByAccess": { "title": "Documents par niveau d'accès" },
+    "documentFolders": { "title": "Dossiers de documents" },
+    "accessMatrix": {
+      "title": "Matrice des niveaux d'accès",
+      "desc": "Règles de divulgation par dossier et par niveau."
+    },
+    "nextDecisions": {
+      "title": "Prochaines décisions",
+      "desc": "Les actions immédiates qui débloquent le reste du parcours."
+    },
+    "decisionGates": {
+      "title": "Points de décision",
+      "desc": "Dix points, de la confirmation de la licence à la décision d'entrée opérationnelle. Chacun montre le statut, les preuves requises, le responsable et la prochaine action."
+    },
+    "riskControls": {
+      "title": "Contrôles des risques",
+      "desc": "Risques techniques, juridiques, commerciaux, environnementaux et financiers avec leurs contrôles."
+    },
+    "claimControls": {
+      "title": "Contrôles des affirmations",
+      "desc": "Actifs sur toute la plateforme."
+    },
+    "unresolvedItems": {
+      "title": "Points de validation non résolus",
+      "desc": "Points ouverts avant un usage de qualité investisseur."
+    }
+  },
+  "license": {
+    "cardEyebrow": "Actif cuivre sous licence contrôlé par Atlas",
+    "fields": {
+      "exploitationLicense": "Licence d'exploitation",
+      "surfaceArea": "Superficie",
+      "validity": "Validité",
+      "region": "Région",
+      "environmentalApproval": "Approbation environnementale"
+    },
+    "primaryMineral": "Minéral principal : {{mineral}}",
+    "mapPlaceholder": "Carte SIG — divulgation restreinte",
+    "riskNotes": "Notes de risque de la licence",
+    "table": {
+      "field": "Champ",
+      "value": "Valeur",
+      "evidence": "Preuve",
+      "disclosure": "Divulgation",
+      "note": "Note"
+    },
+    "trenchingTitle": "Tranchées et échantillonnage"
+  },
+  "evidence": {
+    "table": {
+      "sample": "Échantillon",
+      "cu": "Cu %",
+      "report": "Rapport",
+      "confidence": "Confiance",
+      "item": "Élément de preuve",
+      "status": "Statut",
+      "use": "Usage"
+    }
+  },
+  "system": {
+    "question": "L'unique question commerciale",
+    "independenceTitle": "Indépendant des frais d'entrée",
+    "approvalFlow": "Flux d'approbation",
+    "decisionStatesIntro": "Chaque zone et décision se résout en un seul état contrôlé :"
+  },
+  "roadmap": {
+    "activities": "Activités",
+    "outputs": "Livrables",
+    "decisionGate": "Point de décision",
+    "responsibleLayer": "Couche responsable",
+    "evidenceRequired": "Preuves requises",
+    "phase": "Phase {{n}}",
+    "daysLabel": "{{days}} jours",
+    "dayGoal": "Objectif jour 180"
+  },
+  "entry": {
+    "whatProvides": "Ce que les frais fournissent",
+    "whatNot": "Ce que les frais ne sont pas",
+    "accessIncludes": "L'accès comprend",
+    "accessExcludes": "L'accès ne comprend pas",
+    "pilotConditions": "Conditions du pilote",
+    "pilotScope": "Portée du pilote",
+    "agreementElements": "Éléments de l'accord",
+    "technologyIndependence": "Indépendance technologique"
+  },
+  "dataRoom": {
+    "feasibilityStatus": "Statut de la mise à niveau de faisabilité",
+    "operatingStatus": "Statut de l'entrée opérationnelle",
+    "cols": {
+      "folder": "Dossier",
+      "public": "Public",
+      "qualified": "Qualifié",
+      "nda": "NDA",
+      "restricted": "Restreint",
+      "internal": "Interne"
+    }
+  },
+  "decision": {
+    "requiredEvidence": "Preuves requises",
+    "owner": "Responsable",
+    "nextAction": "Prochaine action",
+    "disclosureRules": "Règles de divulgation"
+  }
+}
