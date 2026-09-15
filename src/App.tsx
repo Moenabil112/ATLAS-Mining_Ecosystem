@@ -14,6 +14,7 @@ import { Roadmap180 } from "@/pages/Roadmap180";
 import { OperatingEntry } from "@/pages/OperatingEntry";
 import { DataRoom } from "@/pages/DataRoom";
 import { DecisionRoom } from "@/pages/DecisionRoom";
+import { SaudiArabia } from "@/pages/SaudiArabia";
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -29,6 +30,7 @@ export default function App() {
       <ScrollToTop />
       <Routes>
         <Route path="/" element={<Gateway />} />
+        <Route path="/saudi-arabia" element={<SaudiArabia />} />
         <Route path="/license" element={<LicensePosition />} />
         <Route path="/evidence" element={<Evidence />} />
         <Route path="/orientation-study" element={<OrientationStudy />} />
