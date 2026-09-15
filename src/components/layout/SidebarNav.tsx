@@ -5,7 +5,13 @@ import { LanguageSwitcher } from "@/components/shared/LanguageSwitcher";
 import { cn } from "@/lib/cn";
 
 export function SidebarNav() {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const language = i18n.resolvedLanguage?.startsWith("ar")
+    ? "ar"
+    : i18n.resolvedLanguage?.startsWith("fr")
+      ? "fr"
+      : "en";
+
   return (
     <aside className="sticky top-0 hidden h-screen w-64 shrink-0 flex-col border-e border-graphite-700/70 bg-graphite-900/60 lg:flex">
       <div className="flex items-center gap-3 px-5 py-5">
@@ -43,7 +49,7 @@ export function SidebarNav() {
                     isActive ? "text-copper-400" : "text-sand-300/50",
                   )}
                 />
-                <span>{t(`nav.${item.key}`)}</span>
+                <span>{item.label ? item.label[language] : t(`nav.${item.key}`)}</span>
               </>
             )}
           </NavLink>
